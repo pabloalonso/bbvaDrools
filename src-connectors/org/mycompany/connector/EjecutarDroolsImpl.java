@@ -43,8 +43,6 @@ public class EjecutarDroolsImpl extends AbstractEjecutarDroolsImpl {
 		
 		
 		//Obtaining inputPayload from execution0 output (SOI-ACH service)
-		//String inputPayload = validacionIngresos.getExecutions()[0].getOutputPayload();		
-		//Map readValue = mapper.readValue(inputPayload, Map.class);
 		Map<String, Serializable> readValue = getDatosEntrada();		
 		//Creating list for the output
 		List<Object> output = new ArrayList<>();
@@ -69,22 +67,6 @@ public class EjecutarDroolsImpl extends AbstractEjecutarDroolsImpl {
 		//Configuration of output payload for Drools
 		outPayload.put("reglas" , output);
 		setOutput(outPayload);
-		
-		//String outPayloadStr = new ObjectMapper().writeValueAsString(outPayload);		
-		//validacionIngresos.getExecutions()[1].setOutputPayload(outPayloadStr);
-		//return validacionIngresos;
-		
-		
-		
-		
-		//Get access to the connector input parameters
-		//getRegla();
-		//getDatosEntrada();
-	
-		//TODO execute your business logic here 
-	
-		//WARNING : Set the output of the connector execution. If outputs are not set, connector fails
-		//setOutput(output);
 	
 	 }
 
