@@ -1,0 +1,2521 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "7ed9a8ad-2968-416f-bd3d-7ce9d6dbbd32",
+  "name" : "NMC005",
+  "lastUpdate" : 1534255969118,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "09e32f35-6458-4f32-94c9-11edbfc7dec8",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : "titulo-seccion"
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "repeatedCollection" : {
+          "type" : "variable"
+        }
+      },
+      "reference" : "687efd36-7fbb-46f8-9e53-0518ba7bfc9f",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Carga de documentación y radicación BPM"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 2"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "4c54a6f3-a8d3-4c9b-9dfa-ef74936a273b",
+        "id" : "pbTitle"
+      } ] ]
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "CONTEXT <pre>{{context}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "ee2ae4a5-50a8-462b-9789-3bd5c374fc50",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "infoAct <pre>{{infoAct}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "0532b2a1-ce72-491d-af14-cf67eca6354e",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "infoDataRadicacion <pre>{{infoDataRadicacion}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "17bef91e-2d0f-4bb3-b910-70d18ff2f206",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "filtroDataNegocio <pre>{{filtroDataNegocio}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "f01eea5b-5fc6-49c1-a452-370480749733",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "idAltaContrato <pre>{{idAltaContrato}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "2eee2a81-98f4-4ab1-9248-3545e12c0a79",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "tramaScoringT  <pre>{{tramaScoringT}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "7a164de1-04b7-4f65-bbd7-0b4cc3f5b599",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "formContainer",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        }
+      },
+      "reference" : "8200eaa1-ac33-4281-8783-c5b313cd4d6b",
+      "id" : "pbFormContainer",
+      "container" : {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : { },
+        "reference" : "346c8ff2-99cc-4158-bccb-31a2054849d4",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "select-bbva"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Actividad cliente"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una opción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaActividadCliente"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.actividadCliente"
+            }
+          },
+          "reference" : "db6f13dd-106d-4055-9ffe-f2989c5dea96",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "select-bbva"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Tipo cliente"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una opción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaTipoCliente"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.tipoCliente"
+            }
+          },
+          "reference" : "b1d6be60-6564-4196-b002-a1cc1f762240",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Envío Correo"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "inline" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "availableValues" : {
+              "type" : "constant",
+              "value" : [ "Si", "No" ]
+            },
+            "displayedKey" : {
+              "type" : "constant"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "selectedValue" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.tieneEmail"
+            }
+          },
+          "reference" : "5b1d1eba-fd7e-4302-85ab-591f275c9493",
+          "id" : "pbRadioButtons"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "tramaParaRadicar.radicacion.tieneEmail === 'No'"
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Correo"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.email"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "email"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "step" : {
+              "type" : "constant",
+              "value" : 1
+            }
+          },
+          "reference" : "daebc668-9748-4e6f-a9e9-de92572d0417",
+          "id" : "pbInput"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Cédula Coordinador"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una opción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaCCcoordinador"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "id"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.cedulaCoordinador"
+            }
+          },
+          "reference" : "8ccdde35-f26e-41b9-bd3c-2fdc2bb7fdf3",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Nombre coordinador"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.cedulaCoordinador.nombre"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "step" : {
+              "type" : "constant",
+              "value" : 1
+            }
+          },
+          "reference" : "14f02efd-7305-4263-90ab-27088e09ba5f",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Email gerente vendedor"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.mailGestor"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "email"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "step" : {
+              "type" : "constant",
+              "value" : 1
+            }
+          },
+          "reference" : "175cdcea-2c38-4a0e-ba0a-cc072f9189ff",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "select-bbva"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Campaña"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una oppción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaCampanaOficina"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.campana"
+            }
+          },
+          "reference" : "84fcfde7-4edc-4848-ad9c-92980e13b360",
+          "id" : "pbSelect"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "No cuenta desembolso"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.cuentaDesembolso"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "step" : {
+              "type" : "constant",
+              "value" : 1
+            }
+          },
+          "reference" : "cdd94668-108f-4a98-a854-d6a4db697781",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "select-bbva"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Canal vinculación"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una opción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaCanalVinculacion"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.canalVinculacion"
+            }
+          },
+          "reference" : "038e08ea-6b31-4e85-84f6-7fbc1ab351a2",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Código oficina segmentar"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.oficina"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "step" : {
+              "type" : "constant",
+              "value" : 1
+            }
+          },
+          "reference" : "04d0548a-ea0a-436d-9b6a-d962ab54f81f",
+          "id" : "pbInput"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 9,
+            "lg" : 9
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "expression",
+              "value" : "filtroProductos.eslibranza === true"
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Atribución"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "inline" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "availableValues" : {
+              "type" : "constant",
+              "value" : [ "Con atribución", "Sin atribución" ]
+            },
+            "displayedKey" : {
+              "type" : "constant"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "selectedValue" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.atribucion"
+            }
+          },
+          "reference" : "d108e504-e659-4346-b4d6-43c08787f78f",
+          "id" : "pbRadioButtons"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "filtroProductos.eslibranza <pre>{{filtroProductos.eslibranza}}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "93a93443-6583-4a8a-95a0-b3a42551b3a1",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "35c6adb9-606f-4cc8-9c36-eb0b0c61a936",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 9,
+            "lg" : 6
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "filtroProductos.eslibranza === false"
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "3176c32e-9f74-4b09-9788-7a74388d2efb",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "select-bbva"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Segmento"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Seleccione una opción"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaSegmento"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "tramaParaRadicar.radicacion.segmento"
+              }
+            },
+            "reference" : "ab8959dd-3b0a-4913-adf6-7f71c4bf3067",
+            "id" : "pbSelect"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "select-bbva"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Convenio"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Seleccione una opción"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaConvenio"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "tramaParaRadicar.radicacion.convenio"
+              }
+            },
+            "reference" : "58334199-cf29-4346-8988-a9de494713f1",
+            "id" : "pbSelect"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "select-bbva"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Destino Libranza"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Seleccione una opción"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaDestinoLibranza"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "tramaParaRadicar.radicacion.destinoL"
+              }
+            },
+            "reference" : "989698e5-e618-42f2-adc2-616f9c7b1f62",
+            "id" : "pbSelect"
+          } ] ]
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 6
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "select-bbva"
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "filtroProductos.eslibranza === true"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Destino"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Seleccione una opción"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaDestino"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "tramaParaRadicar.radicacion.destino"
+            }
+          },
+          "reference" : "20590897-aebd-4f8e-b4d9-fd60789da540",
+          "id" : "pbSelect"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "tramaParaRadicar <pre>{{tramaParaRadicar}}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "3f0a9f4f-9fff-490b-b34d-d424f5b94f9e",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "filtroProductos <pre>{{filtroProductos }}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "bcd2d278-4e71-4fb8-8f2c-9f9d006d475b",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "repeatedCollection" : {
+              "type" : "variable",
+              "value" : "filtroProductos.libranzas"
+            }
+          },
+          "reference" : "a24622a8-9c1f-49dd-81fc-70e7910e908d",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "Digite los siguientes campos para el producto libranza {{$index +1}}"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "b5a9ae06-5c92-41bf-aca9-75eb235565ff",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "fragment",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "a172ad47-d27a-47b7-91b7-07fa8937d65a",
+            "id" : "5b471093-d897-4f12-97f6-319568ae5d83",
+            "binding" : {
+              "idSegmento" : "",
+              "parametroBD" : "parametroBD",
+              "inputListasLibranza" : "$item"
+            }
+          } ] ]
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Observaciones"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "observacionesFront"
+            }
+          },
+          "reference" : "cc2d8da5-50cc-4cea-966e-e5028c49b6a2",
+          "id" : "pbTextarea"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "files <pre>{{files}}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "0e870572-75aa-4306-8950-d9b847795c2f",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "targetUrl" : {
+              "type" : "expression",
+              "value" : "urlDocumentos.value"
+            },
+            "taskId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "accept" : {
+              "type" : "constant",
+              "value" : "png"
+            },
+            "maxSize" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "selectedFiles" : {
+              "type" : "variable",
+              "value" : "files[0]"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "CC"
+            },
+            "preloadIds" : {
+              "type" : "constant"
+            },
+            "identification" : {
+              "type" : "expression",
+              "value" : "files"
+            },
+            "readOnly" : {
+              "type" : "constant"
+            },
+            "filesQuantity" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Adjunto 1"
+            },
+            "required" : {
+              "type" : "constant"
+            },
+            "businessCaseId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "createdBy" : {
+              "type" : "constant",
+              "value" : "BonitaBPM"
+            }
+          },
+          "reference" : "723c9d3e-c1fd-44e7-9763-d6d9dbe712e6",
+          "id" : "customAdjuntos"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "targetUrl" : {
+              "type" : "expression",
+              "value" : "urlDocumentos.value"
+            },
+            "taskId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "accept" : {
+              "type" : "constant"
+            },
+            "maxSize" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "selectedFiles" : {
+              "type" : "variable",
+              "value" : "files[1]"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "CC"
+            },
+            "preloadIds" : {
+              "type" : "constant"
+            },
+            "identification" : {
+              "type" : "constant",
+              "value" : "1023895620"
+            },
+            "readOnly" : {
+              "type" : "constant"
+            },
+            "filesQuantity" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Adjunto 2"
+            },
+            "required" : {
+              "type" : "constant"
+            },
+            "businessCaseId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "createdBy" : {
+              "type" : "constant",
+              "value" : "BonitaBPM"
+            }
+          },
+          "reference" : "ad51a770-8d7f-4441-94e3-5f6df11e85a6",
+          "id" : "customAdjuntos"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "targetUrl" : {
+              "type" : "expression",
+              "value" : "urlDocumentos.value"
+            },
+            "taskId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "accept" : {
+              "type" : "constant"
+            },
+            "maxSize" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "selectedFiles" : {
+              "type" : "variable",
+              "value" : "files[2]"
+            },
+            "type" : {
+              "type" : "constant"
+            },
+            "preloadIds" : {
+              "type" : "constant"
+            },
+            "identification" : {
+              "type" : "constant"
+            },
+            "readOnly" : {
+              "type" : "constant"
+            },
+            "filesQuantity" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Adjunto 3"
+            },
+            "required" : {
+              "type" : "constant"
+            },
+            "businessCaseId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "createdBy" : {
+              "type" : "constant",
+              "value" : "BonitaBPM"
+            }
+          },
+          "reference" : "4314d69b-da4c-455d-a828-087d3099a543",
+          "id" : "customAdjuntos"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "targetUrl" : {
+              "type" : "expression",
+              "value" : "urlDocumentos.value"
+            },
+            "taskId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "accept" : {
+              "type" : "constant"
+            },
+            "maxSize" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "selectedFiles" : {
+              "type" : "variable",
+              "value" : "files[3]"
+            },
+            "type" : {
+              "type" : "constant"
+            },
+            "preloadIds" : {
+              "type" : "constant"
+            },
+            "identification" : {
+              "type" : "constant"
+            },
+            "readOnly" : {
+              "type" : "constant"
+            },
+            "filesQuantity" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Adjunto 4"
+            },
+            "required" : {
+              "type" : "constant"
+            },
+            "businessCaseId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "createdBy" : {
+              "type" : "constant",
+              "value" : "BonitaBPM"
+            }
+          },
+          "reference" : "7d8cbd6f-d501-499c-9823-b4e00a90262d",
+          "id" : "customAdjuntos"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "targetUrl" : {
+              "type" : "expression",
+              "value" : "urlDocumentos.value"
+            },
+            "taskId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "accept" : {
+              "type" : "constant"
+            },
+            "maxSize" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "selectedFiles" : {
+              "type" : "variable",
+              "value" : "files[4]"
+            },
+            "type" : {
+              "type" : "constant"
+            },
+            "preloadIds" : {
+              "type" : "constant"
+            },
+            "identification" : {
+              "type" : "constant"
+            },
+            "readOnly" : {
+              "type" : "constant"
+            },
+            "filesQuantity" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Adjunto 5"
+            },
+            "required" : {
+              "type" : "constant"
+            },
+            "businessCaseId" : {
+              "type" : "expression",
+              "value" : "taskId"
+            },
+            "createdBy" : {
+              "type" : "constant",
+              "value" : "BonitaBPM"
+            }
+          },
+          "reference" : "bae8667b-2bca-4cc9-a37c-e6f1c155f333",
+          "id" : "customAdjuntos"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "e2ad6a62-d4d3-44af-8bfe-8027b875f908",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "expression",
+              "value" : "$form.$invalid"
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Radicar"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "center"
+            },
+            "buttonStyle" : {
+              "type" : "constant",
+              "value" : "primary"
+            },
+            "action" : {
+              "type" : "constant",
+              "value" : "POST"
+            },
+            "url" : {
+              "type" : "interpolation",
+              "value" : "urlFinRadicacion"
+            },
+            "dataToSend" : {
+              "type" : "expression",
+              "value" : "formOutPut"
+            },
+            "dataFromSuccess" : {
+              "type" : "variable"
+            },
+            "dataFromError" : {
+              "type" : "variable"
+            },
+            "targetUrlOnSuccess" : {
+              "type" : "interpolation",
+              "value" : "/CRM_CNMC/cnmc_mult_web_portalbonitaweb_01#!/tareas"
+            },
+            "collectionToModify" : {
+              "type" : "variable"
+            },
+            "collectionPosition" : {
+              "type" : "constant",
+              "value" : "Last"
+            },
+            "valueToAdd" : {
+              "type" : "constant"
+            },
+            "removeItem" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "70b468a2-afdb-49af-9eee-c978ef7d49e3",
+          "id" : "pbButton"
+        } ] ]
+      }
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "contratacionProcesos <pre>{{contratacionProcesos | json}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "020725c7-a00e-4622-bef0-d6cd6e9f2524",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "URL FUNCIONA PARA EMPALME RADICACION BONITA 7 \n<pre>http://82.29.102.80:8088/CRM_CNMC/cnmc_mult_web_pub/proxy-aso/proxy-bonita/V01/API/bpm/process/7875330178275011412/instantiation </pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "e7aea1f9-145e-40fe-b401-c7fe020ac120",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "urlFinRadicacion <pre>{{urlFinRadicacion}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "6e9d3660-38bb-4e13-af22-6e96c94a4f5f",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "filtroProductos.libranzas <pre>{{filtroProductos.libranzas}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "c074a7e5-2bd8-43c6-a3e7-ccdb7123095f",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "formOutPut <pre>{{formOutPut | json}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "635f69be-888a-40f4-aa81-262367c1bbdb",
+      "id" : "pbText"
+    } ] ]
+  } ] ],
+  "assets" : [ {
+    "id" : "555be30c-4093-4f2d-88bb-75cfb167ca2f",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "8b388713-4184-4cc3-b99b-4954846e572b",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 3,
+    "external" : false
+  }, {
+    "id" : "cca81456-7570-4c4d-920c-20d2fee7c321",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "80c7f068-be31-4f1c-8d4f-3c5e04ff20f3",
+    "name" : "trycore-bbva (1).css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "urlDocumentos" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/extension/getProcessData?type=processParam&id={{contratacionProcesos[0].id}}&resource=documentParameter",
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : "{\n   \"documento1\":null,\n   \"documento2\":null,\n   \"documento3\":null,\n   \"documento4\":null,\n   \"documento5\":null\n}",
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    },
+    "proxybonita" : {
+      "type" : "expression",
+      "value" : "return $data.aso + \"proxy-bonita/V01\"; ",
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/bpm/userTask/{{taskId}}/context",
+      "exposed" : false
+    },
+    "dataProcessRadicacion" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/{{context.dataProcesoRad_ref.link}}",
+      "exposed" : false
+    },
+    "infoDataRadicacion" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/bdm/businessData/com.bbva.model.CnmcProcessData/{{idAltaContrato.value}}",
+      "exposed" : false
+    },
+    "filtroDataNegocio" : {
+      "type" : "expression",
+      "value" : "return JSON.parse($data.infoDataRadicacion.dataNegocio);",
+      "exposed" : false
+    },
+    "infoAct" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/bpm/humanTask/{{taskId}}",
+      "exposed" : false
+    },
+    "dataEntrada" : {
+      "type" : "json",
+      "value" : " { \"items\": [ { \"clave\": \"montoSolicitado\", \"valor\": \"11111111\" }, { \"clave\": \"plazoCredito\", \"valor\": 13 }, { \"clave\": \"subProducto\", \"valor\": 2538 }, { \"clave\": \"tasaPolitica\", \"valor\": \"28.90\" }, { \"clave\": \"destinoCredito\", \"valor\": \"01030\" }, { \"clave\": \"procedenciaCredito\", \"valor\": \"01\" }, { \"clave\": \"actividadProducto\", \"valor\": \"114002\" }, { \"clave\": \"camapana\", \"valor\": \"02\" }, { \"clave\": \"valorCompra\", \"valor\": \"1\" }, { \"clave\": \"porcentajeFinanciacion\", \"valor\": \"0.00\" }, { \"clave\": \"tipoDeTasa\", \"valor\": null }, { \"clave\": \"tasaFija\", \"valor\": null }, { \"clave\": \"tasaVariable\", \"valor\": null }, { \"clave\": \"tasaFormalizacion\", \"valor\": null }, { \"clave\": \"tasaRar\", \"valor\": \"28.10\" }, { \"clave\": \"portafolio\", \"valor\": \"\" }, { \"clave\": \"cuota\", \"valor\": \"\" }, { \"clave\": \"balanceDeCaja\", \"valor\": \"\" }, { \"clave\": \"nombres\", \"valor\": \"Adelfa Maria\" }, { \"clave\": \"primerApellido\", \"valor\": \"Perez\" }, { \"clave\": \"segundoApellido\", \"valor\": \"Gomez\" }, { \"clave\": \"antiguedadCliente\", \"valor\": 1 }, { \"clave\": \"tipoDocumento\", \"valor\": \"1\" }, { \"clave\": \"numeroDocumento\", \"valor\": \"000000011441277\" }, { \"clave\": \"ingresosFijos\", \"valor\": 2000000 }, { \"clave\": \"ingresosVariables\", \"valor\": 300000 }, { \"clave\": \"otrosIngresos\", \"valor\": 200000 }, { \"clave\": \"deduccionesNomina\", \"valor\": \"0\" }, { \"clave\": \"saldoMedio\", \"valor\": 1500000 }, { \"clave\": \"gastosHipotecarios\", \"valor\": \"0\" }, { \"clave\": \"gastosCuotas\", \"valor\": \"0\" }, { \"clave\": \"gastosComerciales\", \"valor\": \"0\" }, { \"clave\": \"gastosArriendo\", \"valor\": \"0\" }, { \"clave\": \"valorVivienda\", \"valor\": 150000000 }, { \"clave\": \"cuposComerciales\", \"valor\": \"0\" }, { \"clave\": \"cuposTdc\", \"valor\": \"0\" }, { \"clave\": \"cuposSobregiros\", \"valor\": \"0\" }, { \"clave\": \"totalActivos\", \"valor\": 150000000 }, { \"clave\": \"totalPasivos\", \"valor\": \"0\" }, { \"clave\": \"totalPatrimonio\", \"valor\": 150000000 }, { \"clave\": \"fechaVivienda\", \"valor\": \"2015-01-01\" }, { \"clave\": \"buro\", \"valor\": 100 }, { \"clave\": \"participantType\", \"valor\": \"T1\" }, { \"clave\": \"birthDate\", \"valor\": \"1973-06-26T00:00:00.000Z\" }, { \"clave\": \"sex\", \"valor\": \"F\" }, { \"clave\": \"nationality\", \"valor\": \"COL\" }, { \"clave\": \"maritalStatus\", \"valor\": 2 }, { \"clave\": \"studiedLevel\", \"valor\": 1 }, { \"clave\": \"personsOnCharge\", \"valor\": 4 }, { \"clave\": \"payrollDomicile\", \"valor\": false }, { \"clave\": \"economicActivity\", \"valor\": \"1C\" }, { \"clave\": \"profession\", \"valor\": \"EF\" }, { \"clave\": \"employmentStatus\", \"valor\": 1 }, { \"clave\": \"workStartDate\", \"valor\": \"2015-01-01\" }, { \"clave\": \"residentType\", \"valor\": \"P\" }, { \"clave\": \"stratum\", \"valor\": 1 }, { \"clave\": \"isCustomer\", \"valor\": true }, { \"clave\": \"tipoPaticipe\", \"valor\": \"T\" }, { \"clave\": \"resultadoScoring\", \"valor\": { \"scoringId\": \"0000870859\", \"participants\": [ { \"opinion\": [ { \"id\": \"T1 DICT.GLOBAL\", \"value\": { \"id\": \"T1 DICT.GLOBAL\", \"name\": \"DUDOSO\" } }, { \"id\": \"T1 DICT.BURO\", \"value\": { \"id\": \"T1 DICT.BURO\", \"name\": \"SIN RASTRO\" } }, { \"id\": \"T1 DICT.CAPAGO\", \"value\": { \"id\": \"T1 DICT.CAPAGO\", \"name\": \"SUFICIENTE\" } }, { \"id\": \"T1 DICT.PERFIL\", \"value\": { \"id\": \"T1 DICT.PERFIL\", \"name\": \"APROBADO\" } } ], \"creditData\": { \"cashBalanceIndividual\": { \"amount\": 1212500, \"currency\": \"COP\" } } } ], \"creditToEvaluate\": { \"rate\": [ { \"id\": \"T1 TASA.POLITIC\", \"value\": 28.9 }, { \"id\": \"T1 TASA PREFERE\", \"value\": 28.9 }, { \"id\": \"T1 TASA FORMALI\", \"value\": 28.1 } ] }, \"responseCredit\": { \"probability\": { \"id\": \"PROB.MORA\", \"value\": 0 } }, \"optimumValues\": { \"proposedTerm\": { \"id\": \"N.A\", \"name\": \"N.A\" }, \"proposedQuota\": { \"amount\": 0, \"currency\": \"COP\" }, \"isChallenger\": false }, \"isConsolidated\": false, \"relatedContract\": { \"contractId\": \"0000870859\", \"contractNumber\": \"00130158000000870859\", \"product\": { \"id\": \"CON\", \"name\": \"CONSUMO\" }, \"relationContractType\": { \"id\": \"OIND\", \"name\": \"DECLARATIV\" } } } }, { \"clave\": \"vendedor\", \"valor\": { \"fullname\": \"JHON ALFONSO VALDERRAMA\", \"identityDocument\": { \"documentType\": { \"id\": \"CC\", \"name\": \"CEDULA\" }, \"documentNumber\": \"000000015878913\", \"verificationDigit\": \"0\" }, \"type\": { \"id\": \"01\", \"name\": \"ce13731\" } } } ] }\n",
+      "exposed" : false
+    },
+    "buscarTag" : {
+      "type" : "expression",
+      "value" : "return function buscarTag(parametro){\nvar i=0;\nfor(i=0;i<$data.dataEntrada.items.length;i++){\n\tif($data.dataEntrada.items[i].clave===parametro){\n\treturn $data.dataEntrada.items[i].valor;\n}\t\n\t\n}\n\n\n};\n",
+      "exposed" : false
+    },
+    "tramaParaRadicar" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "files" : {
+      "type" : "expression",
+      "value" : "return [[],[],[],[],[]];",
+      "exposed" : false
+    },
+    "parametroBD" : {
+      "type" : "json",
+      "value" : "{\"value\": \"https://bbvabonitades.co.igrupobbva:18443/dbaccess-svc\"}",
+      "exposed" : false
+    },
+    "listaActividadCliente" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/actividadCliente?p=0&c=100&f=ID=1",
+      "exposed" : false
+    },
+    "listaTipoCliente" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/tipoCliente?p=0&c=100&f=ID=1",
+      "exposed" : false
+    },
+    "listaDestino" : {
+      "type" : "url",
+      "value" : "https://bbvabonita.co.igrupobbva:18443/dbaccess-svc/merData/destino?p=0&c=100&f=PROD={{idProduct}}",
+      "exposed" : false
+    },
+    "listaCanalVinculacion" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/canalVinculacion?&p=0&c=100",
+      "exposed" : false
+    },
+    "listaCampanaOficina" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/campana?p=0&c=100&f=PROD=1&f=ID=-1",
+      "exposed" : false
+    },
+    "formOutPut" : {
+      "type" : "expression",
+      "value" : "//------- AJUSTAR CAMPO DE ATRIBUCION EN EL PAYLOAD DE SALIDA, VALIDAR SI SE CAPTURA O NO EN EL FRONT, 0 ES IGUAL A NO 1 ES IGUAL A SI --------------//\r\n//fijas\r\nvar infoconvenioPrincipal = {\r\n\tmarca: 0,\r\n\tid_destino: 0,\r\n\tid_responsable: 0,\r\n\tid_tipo_desembolso: 0,\r\n\tcodigo_usuario: 'N/A',\r\n\tnombre: 'N/A',\r\n\tVoBo: 0,\r\n\tverificacion_contrato: 0,\r\n};\r\n\r\nvar oficina = 'N/A';\r\nvar ciudad = 'N/A';\r\nvar territorial = 'N/A';\r\nvar zona = 'N/A';\r\n\r\n//var observaciones = 'N/A';\r\n\r\nvar observaciones = \"\";\r\nif($data.observacionesFront){\r\n\tobservaciones = $data.observacionesFront;\r\n}\r\n// capturar del front\r\n//------------------------------- Campo  Atribucion NMC  ------------------------------------------//\r\nvar atribucion;\r\nif ($data.filtroProductos.eslibranza === true){\r\n\tatribucion = 0;\r\n\t$data.tramaParaRadicar.radicacion.atribucion = \"Sin atribución\";\r\n\tconsole.log(\"TTT \" + $data.tramaParaRadicar.radicacion.atribucion);\r\n}\r\nelse{\r\n\tatribucion = 1;\r\n\t\r\n}\r\n\r\n//------------------------- Actividad Cliente -------------------------------------------------------//\r\nvar nombreActCliente = $data.tramaParaRadicar.radicacion.actividadCliente.nombre;\r\nvar idActCliente = $data.tramaParaRadicar.radicacion.actividadCliente.id;\r\nvar actividadCliente = { nombre: nombreActCliente, id: idActCliente };\r\n\r\n//------------------------- Tipo Cliente ------------------------------------------------------------//\r\nvar nombreTipoCliente = $data.tramaParaRadicar.radicacion.tipoCliente.nombre;\r\nvar idnombreTipoCliente = $data.tramaParaRadicar.radicacion.tipoCliente.id;\r\nvar tipoCliente = { nombre: nombreTipoCliente, id: idnombreTipoCliente };\r\n\r\n//-------------------------- Cedula Coordinador -----------------------------------------------------//\r\nvar ccCoordinador = $data.tramaParaRadicar.radicacion.cedulaCoordinador.id;\r\nvar nombreCoordinador = $data.tramaParaRadicar.radicacion.cedulaCoordinador.nombre;\r\nvar cedulaCoordinador = {id: ccCoordinador, nombre: nombreCoordinador, regional: 'N/A'}; //VALIDAR DE DONDE SALE // SERVICIO IDM\r\nvar codigoOficina = -1;\r\nvar identificacionGestor = '0';\r\n\r\n//-------------------------- Cuenta Desembolso ------------------------------------------------------//\r\nvar cuentaDesembolso = $data.tramaParaRadicar.radicacion.cuentaDesembolso;\r\n\r\n//-------------------------- Codigo Oficina Segmentar ----------------------------------------------//\r\nvar oficinaSegmentar = $data.tramaParaRadicar.radicacion.oficina;\r\n\r\n/*$data.formInput.documento1,\r\n$data.formInput.documento2,\r\n$data.formInput.documento3,\r\n$data.formInput.documento4,\r\n$data.formInput.documento5*/\r\n\r\nvar archivos = [];\r\n/*if($data.formInput.documento1){\r\n\tarchivos.push($data.formInput.documento1);\r\n}*/\r\n\r\n\r\n//------------------------- Campaña ----------------------------------------------------------------//\r\nvar nombreCampana = $data.tramaParaRadicar.radicacion.campana.nombre;\r\nvar idCampana = $data.tramaParaRadicar.radicacion.campana.id;\r\nvar campana = { nombre: nombreCampana, id: idCampana };\r\n\r\n//------------------------- Nombre Destino ---------------------------------------------------------//\r\nvar nombreDestino = \"\";\r\nvar idDestino = \"\";\r\nvar destino = {nombre: nombreDestino, id: idDestino};\r\n\r\nif ($data.filtroProductos.eslibranza !== true){\r\n\tvar nombreDestino = $data.tramaParaRadicar.radicacion.destino.nombre;\r\n\tvar idDestino = $data.tramaParaRadicar.radicacion.destino.id;\r\n\tvar destino = { nombre: nombreDestino, id: idDestino};\r\n}\r\n\r\n//------------------------- Canal Vinculacion ------------------------------------------------------//\r\nvar nombreCanalVin = $data.tramaParaRadicar.radicacion.canalVinculacion.nombre;\r\nvar idCanalVin  = $data.tramaParaRadicar.radicacion.canalVinculacion.id;\r\n\r\n//------------------------- Email ------------------------------------------------------------------//\r\nvar correoE = \"\";\r\nif($data.tramaParaRadicar.radicacion.tieneEmail === 'Si'){\r\n\tcorreoE = $data.tramaParaRadicar.radicacion.email;\r\n}\r\nelse{\r\n\tcorreoE = \"\";\r\n}\r\n\r\n//------------------------- Email Gerente Vendedor -------------------------------------------------//\r\nvar mailGestor = $data.tramaParaRadicar.radicacion.mailGestor;\r\nvar nombreGestor = 'Santiago AndresPeña Arismendi'; //VALIDAR DE DONDE SALE \r\nvar tramaScoring = $data.tramaScoringT;\r\nvar productos = null;\r\nvar titular = {};\r\nvar participes = {};\r\nvar filUnoProductos = [];\r\n\r\n//variables a reemplazar por las de NMC\r\nvar documentos = [];\r\nvar productoPrincipal = { nombre: 'CONSUMO', id: 1, idCircuito: 1 };\r\nvar subProductoPrincipal = {\r\n\tnombre: '3714 - STANDING OFFER AGEND BPP',\r\n\tid: 3714,\r\n};\r\nvar montoPrincipal = 0;\r\nvar plazoPrincipal = 0;\r\nvar scoringPrincipal = '00000000000000000000';\r\nvar otrosProductos = [];\r\nvar identificacion = '';\r\nvar nombreApellido = '';\r\nvar avalistas = [];\r\nvar tipoDocumentoCliente = { nombre: 'Pasaporte', id: 5 };\r\nvar segmentoPrincipal ={};\r\nvar convenioPrincipal ={};\r\nvar destinoLibranza = {};\r\nvar segmentoLibranza;\r\nvar convenioLibranza; \r\nvar destinoLibranza;\r\nvar libPrincipal = false; \r\n\r\n//funcion que extrae productos, participes y titular\r\ngetProducts(tramaScoring, filUnoProductos, participes, titular);\r\n\r\n//--------------------------- Buro del titular ---------------------------------------//\r\nvar buro = 0;\r\nif(titular.value.buro){\r\n\tburo = titular.value.buro;\r\n}\r\n\r\n//datos del titular quedan en titular.value  console.log(JSON.stringify(titular.value))\r\nif(titular.value.tipoDocumento == 'CC'){\r\n    tipoDocumentoCliente = { nombre: 'Cedula', id: 1 };\r\n}\r\nif(titular.value.tipoDocumento == 'PAS'){\r\n    tipoDocumentoCliente =  { nombre: 'Pasaporte', id: 5 };\r\n}\r\nidentificacion = titular.value.numeroDocumento;\r\nnombreApellido = titular.value.nombres +' '+  titular.value.primerApellido +' '+ titular.value.segundoApellido;\r\n//console.log(\"filUnoProductos \"+ filUnoProductos);\r\n\r\n//Armado de trama de productos radicación manual\r\nvar filtroProductos = $data.filtroProductos;\r\n\r\nfor (var i = 0; i < filtroProductos.sortProductos.length; i++){\r\n\tvar it = filtroProductos.sortProductos[i];\r\n\t\t\tif(i === 0){\r\n\t\t\t\tmontoPrincipal = it.montoSolicitado;\r\n\t\t\t\tplazoPrincipal = it.plazoCredito;\r\n\t\t\t\tconsole.log(\"plazoPrincipal\" + plazoPrincipal);\r\n\t\t\t\tscoringPrincipal = it.resultadoScoring.relatedContract.contractNumber;\r\n\t\t\t\t\tif (it.nombreProducto == 'Libranza'){\r\n\t\t\t\t\t\tproductoPrincipal = { nombre: 'LIBRANZAS', id: 3, idCircuito: 3};\r\n\t\t\t\t\t\tsubProductoPrincipal = { nombre: 'Libranzas', id: 3 };\r\n\t\t\t\t\t\tsegmentoLibranza = $data.tramaParaRadicar.radicacion.segmento;\r\n\t\t\t\t\t\tconvenioLibranza = $data.tramaParaRadicar.radicacion.convenio;\r\n\t\t\t\t\t\tsegmentoPrincipal = { id: segmentoLibranza.id, nombre: segmentoLibranza.nombre};\r\n\t\t\t\t\t\tconvenioPrincipal = { id: convenioLibranza.id, nombre: convenioLibranza.nombre};\r\n\t\t\t\t\t\tinfoconvenioPrincipal = $data.tramaParaRadicar.radicacion.destinoL;\t\t\t\r\n\t\t\t\t\t}\r\n\t\t\t\t\tif (it.nombreProducto == 'Libre Inversion') {\r\n\t\t\t\t\t\tproductoPrincipal = { nombre: 'CONSUMO', id: 1, idCircuito: 1 };\r\n\t\t\t\t\t\tsubProductoPrincipal = {\r\n\t\t\t\t\t\tnombre:it.nombreSubProducto ,\r\n\t\t\t\t\t\tid:it.subProducto                \r\n\t\t\t\t\t\t};\r\n\t\t\t\t\t\tsegmentoPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t\tconvenioPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t}\r\n\t\t\t\t\tif (it.nombreProducto == 'Vehiculo') {\r\n\t\t\t\t\t\tproductoPrincipal = { nombre: 'VEHICULO', id: 5, idCircuito: 5 };\r\n\t\t\t\t\t\tsubProductoPrincipal = {\r\n\t\t\t\t\t\t\tnombre:it.nombreSubProducto ,\r\n\t\t\t\t\t\t\tid:it.subProducto \r\n\t\t\t\t\t\t};\r\n\t\t\t\t\t\tsegmentoPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t\tconvenioPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t}\r\n\t\t\t\t\tif (it.nombreProducto == 'Tarjeta') {\r\n\t\t\t\t\t\tproductoPrincipal = { nombre: 'TARJETA CREDITO', id: 4, idCircuito: 1 };\r\n\t\t\t\t\t\t//debe ser homologado ya que las tarjetas no tienen subproductos. ->  tienen binTP\r\n\t\t\t\t\t\tsubProductoPrincipal = { nombre:it.nombreTarjeta , id:it.binTP};\r\n\t\t\t\t\t\tsegmentoPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t\tconvenioPrincipal = { id: '0', nombre: 'N/A' };\r\n\t\t\t\t\t}\r\n\t\t\t}\r\n\t\t\telse{\t\t\t\r\n\t\t\t\tif (it.nombreProducto == 'Libre Inversion') {\r\n\t\t\t\t\totrosProductos.push(generateLibreInversion(it));\r\n\t\t\t\t}\r\n\t\t\t\tif (it.nombreProducto == 'Libranza') {\r\n\t\t\t\t\totrosProductos.push(generateLibranza(it , i));\r\n\t\t\t\t}\r\n\t\t\t\tif (it.nombreProducto == 'Vehiculo') {\r\n\t\t\t\t\totrosProductos.push(generateVehiculo(it));\r\n\t\t\t\t}\r\n\t\t\t\tif (it.nombreProducto == 'Tarjeta') {\r\n\t\t\t\t\totrosProductos.push(generaTarjeta(it));\r\n\t\t\t\t}\t\r\n\t\t\t}\r\n\t\t\r\n}\r\n\r\n//------------------------------------------------------ Funcion para generar libranzas ----------------------------------------------------------------//\r\nfunction generateLibranza(it , i) {\r\n\tvar tramaLibranzas = {};\r\n\tfor(var j = 0; j < $data.filtroProductos.posLibranza.length; j++){\r\n\t\tif($data.filtroProductos.posLibranza[j] === i){\r\n\t\t\ttramaLibranzas.segmento = {id: $data.filtroProductos.libranzas[j].segmento.id, nombre: $data.filtroProductos.libranzas[j].segmento.nombre};\r\n\t\t\ttramaLibranzas.convenio = {id: $data.filtroProductos.libranzas[j].convenio.id, nombre: $data.filtroProductos.libranzas[j].convenio.nombre };\r\n\t\t\ttramaLibranzas.infoConvenio = $data.filtroProductos.libranzas[j].destinoLibranza;\r\n\t\t}\r\n\t}\r\n\ttramaLibranzas.producto = { nombre: 'LIBRANZAS', id: 3, idCircuito: 3 };\r\n\ttramaLibranzas.subProducto = { nombre: 'Libranzas', id: 3 };\r\n\ttramaLibranzas.monto = it.montoSolicitado;\r\n\ttramaLibranzas.plazo = it.plazoCredito;\r\n\ttramaLibranzas.scoring = it.resultadoScoring.relatedContract.contractNumber;\r\n\ttramaLibranzas.id = i;\r\n\treturn tramaLibranzas;\r\n}\r\n\r\n\r\n//------------------------------------------------------ Funcion para generar Libre Inversion  -----------------------------------------------------------//\r\nfunction generateLibreInversion(it) {\r\n\tvar tramaLI = {};\r\n\ttramaLI.producto = { nombre: 'CONSUMO', id: 1, idCircuito: 1 };\r\n\ttramaLI.subProducto = { nombre: it.subProducto, id: it.nombreSubProducto };\r\n\ttramaLI.monto = it.montoSolicitado;\r\n\ttramaLI.plazo = it.plazoCredito;\r\n\ttramaLI.scoring = it.resultadoScoring.relatedContract.contractNumber;\r\n\ttramaLI.segmento = { id: '0', nombre: 'N/A' };\r\n\ttramaLI.convenio = { id: '0', nombre: 'N/A' };\r\n\ttramaLI.infoConvenio = {\r\n\t\tmarca: 0,\r\n\t\tid_destino: 0,\r\n\t\tid_responsable: 0,\r\n\t\tid_tipo_desembolso: 0,\r\n\t\tcodigo_usuario: 'N/A',\r\n\t\tnombre: 'N/A',\r\n\t\tVoBo: 0,\r\n\t\tverificacion_contrato: 0,\r\n\t};\r\n\treturn tramaLI;\r\n}\r\n\r\n\r\n//------------------------------------------------------ Funcion para generar Vehiculo  ----------------------------------------------------------------//\r\nfunction generateVehiculo(it) {\r\n\tvar tramaVehiculo = {};\r\n\ttramaVehiculo.producto = { nombre: 'VEHICULO', id: 5, idCircuito: 5 };\r\n\ttramaVehiculo.segmento = { id: '0', nombre: 'N/A' };\r\n\ttramaVehiculo.convenio = { id: '0', nombre: 'N/A' };\r\n\ttramaVehiculo.infoConvenio = {\r\n\t\tmarca: 0,\r\n\t\tid_destino: 0,\r\n\t\tid_responsable: 0,\r\n\t\tid_tipo_desembolso: 0,\r\n\t\tcodigo_usuario: 'N/A',\r\n\t\tnombre: 'N/A',\r\n\t\tVoBo: 0,\r\n\t\tverificacion_contrato: 0,\r\n\t};\r\n\ttramaVehiculo.subProducto = {\r\n\t\tnombre: it.subProducto,\r\n\t\tid: !it.nombreSubProducto?it.subProducto:it.nombreSubProducto,\r\n\t};\r\n\ttramaVehiculo.monto = it.montoSolicitado;\r\n\ttramaVehiculo.plazo = it.plazoCredito;\r\n\ttramaVehiculo.scoring = it.resultadoScoring.relatedContract.contractNumber;\r\n\treturn tramaVehiculo;\r\n}\r\n\r\n\r\n//------------------------------------------------------ Funcion para generar Tarjeta  -----------------------------------------------------------------//\r\nfunction generaTarjeta(it) {\r\n\tvar tramaTarjetas = {};\r\n\ttramaTarjetas.producto = { nombre: 'TARJETA CREDITO', id: 4, idCircuito: 1 };\r\n\ttramaTarjetas.segmento = { id: '0', nombre: 'N/A' };\r\n\ttramaTarjetas.convenio = { id: '0', nombre: 'N/A' };\r\n\ttramaTarjetas.infoConvenio = {\r\n\t\tmarca: 0,\r\n\t\tid_destino: 0,\r\n\t\tid_responsable: 0,\r\n\t\tid_tipo_desembolso: 0,\r\n\t\tcodigo_usuario: 'N/A',\r\n\t\tnombre: 'N/A',\r\n\t\tVoBo: 0,\r\n\t\tverificacion_contrato: 0,\r\n\t};\r\n\t//debe ser homologado ya que las tarjetas no tienen subproductos. ->  tienen binTP\r\n\ttramaTarjetas.subProducto = { nombre: it.binTP, id: it.nombreTarjeta };\r\n\ttramaTarjetas.monto = it.montoSolicitado;\r\n\ttramaTarjetas.plazo = 0;\r\n\ttramaTarjetas.scoring = it.resultadoScoring.relatedContract.contractNumber;\r\n\treturn tramaTarjetas;\r\n}\r\n\r\n//calcular\r\n\r\nconsole.log (\"AAAA\");\r\nvar productoAdicional = { nombre: 'Si', id: 1 };\r\nvar jsonBonita = {\r\n\t\tradicacionNMC: \"1\",\r\n\t\tatribucionNMC: atribucion,\r\n\t\tfuerzaVenta:{\r\n\t\t\tnombre: 'Red - oficina',\r\n\t\tid: 4\r\n\t},\r\n\tproductoPrincipal: productoPrincipal,\r\n\tsubProductoPrincipal: subProductoPrincipal,\t\r\n    montoPrincipal: montoPrincipal,\r\n\tplazoPrincipal: plazoPrincipal,\r\n\tscoringPrincipal: scoringPrincipal,\r\n\tdocumentos: { id: '0', nombre: 'N/A' },\r\n    actividadCliente: actividadCliente,\r\n\ttipoCliente: tipoCliente,\r\n\tsegmentoPrincipal: segmentoPrincipal,\r\n\tconvenioPrincipal: convenioPrincipal,\r\n\tproductoAdicional: productoAdicional,\r\n\t//------------------- Finaliza el producto Principal ------------------//\r\n\totrosProductos: otrosProductos,\r\n\tidentificacion: identificacion,\r\n\tnombreApellido: nombreApellido,\r\n\ttieneEmail: $data.tramaParaRadicar.radicacion.tieneEmail,\r\n\temail: correoE,\r\n\ttitular: \"No\", //VALIDAR VALOR DEL TAG \r\n\tavalistas: avalistas,\r\n\tcedulaCoordinador: cedulaCoordinador,\r\n\tcodigoOficina: codigoOficina,\r\n\tidentificacionGestor: identificacionGestor,\r\n\tcuentaDesembolso: cuentaDesembolso,\r\n\tcanalVinculacion: { id: idCanalVin, nombre: nombreCanalVin },\r\n\toficinaSegmentar: oficinaSegmentar,\r\n\toficinaSegmentacion: \"N/A\", //VALIDAR FUENTE DEL TAG\r\n\tcampana: campana,\r\n\tobservacion: observaciones,\r\n\tarchivos: archivos,\r\n\toficina: oficina,\r\n\tciudad: ciudad,\r\n    territorial: territorial,\r\n\tzona: zona,\r\n\tinfoconvenioPrincipal: infoconvenioPrincipal,\r\n\tdestino: destino,\r\n\ttipoDocumentoCliente: tipoDocumentoCliente,\r\n\tmailGestor: mailGestor,\r\n\tnombreGestor: nombreGestor,\r\n\t//------------- VALIDAR FUENTE DE ESTOS TAGS -----------------//\r\n\tinfoScoring:{\r\n\t\tscoringSugerido:{\"id\":\"1\",\"nombre\":\"Si\"},               \r\n\t\ttieneAtribucion:{\"id\":\"10\",\"nombre\":\"N/A\"},\r\n\t\tgrupoRiesgos:{\"id\":\"1\",\"nombre\":\"1\"},\r\n\t\tclienteBBVA:{\"id\":\"1\",\"nombre\":\"Si\"},\r\n\t\ttasaEsfuerzo:\"900\",\r\n\t\tburo:\"900\",\r\n\t\tdomiciliaNomina:{\"id\":\"1\",\"nombre\":\"Si\"},\r\n\t\ttipoIngreso:{\"id\":\"1\",\"nombre\":\"Ingresos Fijos\"},\r\n\t\tsituacionLaboral:{\"id\":\"1\",\"nombre\":\"Asalariado Fijo\"}\r\n\t\t}\r\n};\r\n\r\n\r\n//------------------------- Funcion para sacar info de productos, participes y titulares -------------------------//\r\nfunction getProducts(tramaScoring, filUnoProductos, participes, titular) {\r\n\tfor (var i = 0; i < tramaScoring.items.length; i++) {\r\n\t\tif (tramaScoring.items[i].clave == 'productos') {\r\n\t\t\tproductos = JSON.parse(tramaScoring.items[i].valor);\r\n\t\t\tfor (var j = 0; j < productos.length; j++) {\r\n\t\t\t\tvar itemsProductos = productos[j].items;\r\n\t\t\t\tvar elementk = {};\r\n\t\t\t\tfor (var k = 0; k < itemsProductos.length; k++) {\r\n\t\t\t\t\telementk[itemsProductos[k].clave] = itemsProductos[k].valor;\r\n\t\t\t\t}\r\n\t\t\t\tfilUnoProductos.push(elementk);\r\n\t\t\t}\r\n\t\t}\r\n\t\t\r\n\t\tif (tramaScoring.items[i].clave == 'titular') {\r\n\t\t  var itemsTitular= JSON.parse(tramaScoring.items[i].valor).items;\r\n\t\t\t\tvar elementk = {};\r\n\t\t\t\tfor (var s = 0; s < itemsTitular.length; s++) {\r\n\t\t\t\t\telementk[itemsTitular[s].clave] = itemsTitular[s].valor;\r\n\t\t\t\t}\r\n\t\t  \r\n\t\t\ttitular.value = elementk;\r\n\t\t}\r\n\r\n\t\tif (tramaScoring.items[i].clave == 'participes') {\r\n\t\t\tparticipes.value = tramaScoring.items[i].valor;\r\n\t\t}\r\n\t}\r\n}\r\n\r\n\r\n//console.log(JSON.stringify({'radicacion' : jsonBonita}));\r\nvar rtn = {'radicacion' : jsonBonita};\r\nreturn rtn;",
+      "exposed" : false
+    },
+    "observacionesFront" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "idProduct" : {
+      "type" : "expression",
+      "value" : "var nombreProductoP = $data.filtroProductos.nombre;\nvar id;\nif(nombreProductoP === 'Libre Inversion'){\n    id = 1;\n}\nif(nombreProductoP === 'Vehiculo'){\n    id = 5;\n}\nif(nombreProductoP === 'Tarjeta'){\n    id = 4;\n}\n\nreturn id;",
+      "exposed" : false
+    },
+    "tramaScoringT" : {
+      "type" : "expression",
+      "value" : "//----------- Pruebas ambiente banco -------------//\r\nreturn $data.filtroDataNegocio;\r\n\r\n\r\n//----------- Pruebas ambiente local -------------//\r\n/*var tramaScoring = {\r\n\titems: [\r\n\t\t{\r\n\t\t\tclave: 'titular',\r\n\t\t\tvalor:\r\n\t\t\t\t'{\"items\":[{\"clave\":\"balanceDeCaja\",\"valor\":\"\"},{\"clave\":\"nombres\",\"valor\":\"HECTOR ROGER\"},{\"clave\":\"primerApellido\",\"valor\":\"SAAVEDRA\"},{\"clave\":\"segundoApellido\",\"valor\":\"ALCARAZ\"},{\"clave\":\"antiguedadCliente\",\"valor\":\"0 meses\"},{\"clave\":\"tipoDocumento\",\"valor\":\"CC\"},{\"clave\":\"numeroDocumento\",\"valor\":\"80080036\"},{\"clave\":\"ingresosFijos\",\"valor\":\"15000000\"},{\"clave\":\"ingresosVariables\",\"valor\":\"5000000\"},{\"clave\":\"otrosIngresos\",\"valor\":\"5000000\"},{\"clave\":\"deduccionesNomina\",\"valor\":\"100000\"},{\"clave\":\"saldoMedio\",\"valor\":\"0\"},{\"clave\":\"gastosHipotecarios\",\"valor\":\"0\"},{\"clave\":\"gastosCuotas\",\"valor\":\"3430000\"},{\"clave\":\"gastosComerciales\",\"valor\":\"\"},{\"clave\":\"gastosArriendo\",\"valor\":\"0\"},{\"clave\":\"valorVivienda\",\"valor\":\"500000000\"},{\"clave\":\"cuposComerciales\",\"valor\":\"0\"},{\"clave\":\"cuposTdc\",\"valor\":\"0\"},{\"clave\":\"cuposSobregiros\",\"valor\":\"0\"},{\"clave\":\"totalActivos\",\"valor\":\"700000000\"},{\"clave\":\"totalPasivos\",\"valor\":\"0\"},{\"clave\":\"totalPatrimonio\",\"valor\":\"700000000\"},{\"clave\":\"fechaVivienda\",\"valor\":\"Mon Jan 29 2018 19:00:00 GMT-0500\"},{\"clave\":\"buro\",\"valor\":\"903\"},{\"clave\":\"segmento\",\"valor\":\"NATURAL RESIDENTE\"},{\"clave\":\"participantType\",\"valor\":\"Titular\"},{\"clave\":\"birthDate\",\"valor\":\"1954-12-19T00:00:00.0-0600\"},{\"clave\":\"sex\",\"valor\":\"M\"},{\"clave\":\"nationality\",\"valor\":\"COL\"},{\"clave\":\"maritalStatus\",\"valor\":\"7\"},{\"clave\":\"studiedLevel\",\"valor\":\"7\"},{\"clave\":\"personsOnCharge\",\"valor\":\"3\"},{\"clave\":\"payrollDomicile\",\"valor\":\"NO\"},{\"clave\":\"economicActivity\",\"valor\":\"1C\"},{\"clave\":\"profession\",\"valor\":\"EE\"},{\"clave\":\"employmentStatus\",\"valor\":\"1\"},{\"clave\":\"workStartDate\",\"valor\":\"Sat Jan 27 2018 19:00:00 GMT-0500\"},{\"clave\":\"residentType\",\"valor\":\"P\"},{\"clave\":\"stratum\",\"valor\":\"2\"},{\"clave\":\"isCustomer\",\"valor\":\"NO\"},{\"clave\":\"tipoPaticipe\",\"valor\":\"\"},{\"clave\":\"gastosOtrosCreditos\",\"valor\":\"0\"},{\"clave\":\"gastosManutencion\",\"valor\":\"0\"},{\"clave\":\"saldosBancos\",\"valor\":\"0\"},{\"clave\":\"valorVehiculo\",\"valor\":\"0\"},{\"clave\":\"otrosActivos\",\"valor\":\"0\"},{\"clave\":\"bancos\",\"valor\":\"0\"},{\"clave\":\"otrasObligaciones\",\"valor\":\"0\"},{\"clave\":\"creditosConsumo\",\"valor\":\"0\"},{\"clave\":\"conNombres\",\"valor\":\"\"},{\"clave\":\"conPrimerApellido\",\"valor\":\"\"},{\"clave\":\"conSegundoApellido\",\"valor\":\"\"},{\"clave\":\"conTipoDocumento\",\"valor\":\"\"},{\"clave\":\"fechaExpedicionDocumento\",\"valor\":\"1972-12-20\"},{\"clave\":\"vendedor\",\"valor\":{\"tipoDocumento\":\"\",\"numeroDocumento\":\"\",\"nombresApellidos\":\"\"}}]}',\r\n\t\t},\r\n\t\t{\r\n\t\t\tclave: 'productos',\r\n\t\t\tvalor:\r\n\t\t\t\t'[{\"items\":[{\"clave\":\"nombreProducto\",\"valor\":\"Libre Inversion\"},{\"clave\":\"montoSolicitado\",\"valor\":\"10000000\"},{\"clave\":\"resultadoScoring\",\"valor\":{\"scoringId\":\"0000007347\",\"participants\":[{\"opinion\":[{\"id\":\"T1 DICT.GLOBAL\",\"value\":{\"id\":\"T1 DICT.GLOBAL\",\"name\":\"RECHAZAR\"}},{\"id\":\"T1 DICT.BURO\",\"value\":{\"id\":\"T1 DICT.BURO\",\"name\":\"PDTE CIFIN\"}},{\"id\":\"T1 DICT.CAPAGO\",\"value\":{\"id\":\"T1 DICT.CAPAGO\",\"name\":\"SUFICIENTE\"}},{\"id\":\"T1 DICT.PERFIL\",\"value\":{\"id\":\"T1 DICT.PERFIL\",\"name\":\"RECHAZAR\"}}],\"creditData\":{\"cashBalanceIndividual\":{\"amount\":11700000,\"currency\":\"COP\"}}}],\"creditToEvaluate\":{\"rate\":[{\"id\":\"T1 TASA.POLITIC\",\"value\":21.7},{\"id\":\"T1 TASA PREFERE\",\"value\":21.7},{\"id\":\"T1 TASA FORMALI\",\"value\":21.7}]},\"responseCredit\":{\"probability\":{\"id\":\"PROB.MORA\",\"value\":0}},\"optimumValues\":{\"proposedTerm\":{\"id\":\"N.A\",\"name\":\"N.A\"},\"proposedQuota\":{\"amount\":0,\"currency\":\"COP\"},\"isChallenger\":false},\"isConsolidated\":false,\"relatedContract\":{\"contractId\":\"0000007347\",\"contractNumber\":\"00130158000000007347\",\"product\":{\"id\":\"CON\",\"name\":\"CONSUMO\"},\"relationContractType\":{\"id\":\"OIND\",\"name\":\"DECLARATIV\"}}}},{\"clave\":\"cuota\",\"valor\":\"\"},{\"clave\":\"plazoCredito\",\"valor\":\"40\"},{\"clave\":\"subProducto\",\"valor\":\"3261\"},{\"clave\":\"nombreSubProducto\",\"valor\":\"HERMES CONSUMO LIBRE INVERSIÓN\"},{\"clave\":\"tasaPolitica\",\"valor\":\"21.70\"},{\"clave\":\"destinoCredito\",\"valor\":\"01010\"},{\"clave\":\"procedenciaCredito\",\"valor\":\"01\"},{\"clave\":\"actividadProducto\",\"valor\":\"111006\"},{\"clave\":\"campana\",\"valor\":\"01\"},{\"clave\":\"valorCompra\",\"valor\":\"10000000\"},{\"clave\":\"tipoDeTasa\",\"valor\":\"fija\"},{\"clave\":\"tasaFija\",\"valor\":\"\"},{\"clave\":\"tasaVariable\",\"valor\":\"\"},{\"clave\":\"tasaFormalizacion\",\"valor\":\"21\"},{\"clave\":\"tasaRar\",\"valor\":\"18.40\"},{\"clave\":\"portafolio\",\"valor\":\"NO\"},{\"clave\":\"altaContrato\",\"valor\":\"\"}],\"$$hashKey\":\"object:869\"},{\"items\":[{\"clave\":\"nombreProducto\",\"valor\":\"Libranza\"},{\"clave\":\"montoSolicitado\",\"valor\":\"15000000\"},{\"clave\":\"resultadoScoring\",\"valor\":{\"scoringId\":\"0000047966\",\"participants\":[{\"opinion\":[{\"id\":\"T1 DICT.GLOBAL\",\"value\":{\"id\":\"T1 DICT.GLOBAL\",\"name\":\"RECHAZAR\"}},{\"id\":\"T1 DICT.BURO\",\"value\":{\"id\":\"T1 DICT.BURO\",\"name\":\"PDTE CIFIN\"}},{\"id\":\"T1 DICT.CAPAGO\",\"value\":{\"id\":\"T1 DICT.CAPAGO\",\"name\":\"SUFICIENTE\"}},{\"id\":\"T1 DICT.PERFIL\",\"value\":{\"id\":\"T1 DICT.PERFIL\",\"name\":\"DUDOSO\"}}],\"creditData\":{\"cashBalanceIndividual\":{\"amount\":11700000,\"currency\":\"COP\"}}}],\"creditToEvaluate\":{\"rate\":[{\"id\":\"T1 TASA.POLITIC\",\"value\":14},{\"id\":\"T1 TASA PREFERE\",\"value\":14},{\"id\":\"T1 TASA FORMALI\",\"value\":0}]},\"responseCredit\":{\"probability\":{\"id\":\"PROB.MORA\",\"value\":0}},\"optimumValues\":{\"proposedTerm\":{\"id\":\"N.A\",\"name\":\"N.A\"},\"proposedQuota\":{\"amount\":0,\"currency\":\"COP\"},\"isChallenger\":false},\"isConsolidated\":false,\"relatedContract\":{\"contractId\":\"0000047966\",\"contractNumber\":\"00130073000000047966\",\"product\":{\"id\":\"CON\",\"name\":\"CONSUMO\"},\"relationContractType\":{\"id\":\"OIND\",\"name\":\"DECLARATIV\"}}}},{\"clave\":\"cuota\",\"valor\":\"\"},{\"clave\":\"plazoCredito\",\"valor\":\"58\"},{\"clave\":\"subProducto\",\"valor\":\"1249\"},{\"clave\":\"nombreSubProducto\",\"valor\":\"LIBRSECEDUCACIO \"},{\"clave\":\"tasaPolitica\",\"valor\":\"14.00\"},{\"clave\":\"destinoCredito\",\"valor\":\"01010\"},{\"clave\":\"procedenciaCredito\",\"valor\":\"01\"},{\"clave\":\"actividadProducto\",\"valor\":\"111006\"},{\"clave\":\"campana\",\"valor\":\"01\"},{\"clave\":\"valorCompra\",\"valor\":\"15000000\"},{\"clave\":\"tipoDeTasa\",\"valor\":\"fija\"},{\"clave\":\"tasaFija\",\"valor\":\"\"},{\"clave\":\"tasaVariable\",\"valor\":\"\"},{\"clave\":\"tasaFormalizacion\",\"valor\":\"\"},{\"clave\":\"tasaRar\",\"valor\":\"\"},{\"clave\":\"portafolio\",\"valor\":\"NO\"},{\"clave\":\"deduccionLeyOtrosIng\",\"valor\":\"1\"},{\"clave\":\"otrasDeduccionCapDcto\",\"valor\":\"1\"},{\"clave\":\"deduccionLeyCapDcto\",\"valor\":\"1\"},{\"clave\":\"otrosIngresosFijos\",\"valor\":\"0\"},{\"clave\":\"ingresosCapDcto\",\"valor\":\"1\"},{\"clave\":\"convenio\",\"valor\":\"ACI01\"},{\"clave\":\"nitEmpresa\",\"valor\":\"860059851-6\"},{\"clave\":\"altaContrato\",\"valor\":\"\"},{\"clave\":\"consecutivo\",\"valor\":1}],\"$$hashKey\":\"object:1040\"},{\"items\":[{\"clave\":\"nombreProducto\",\"valor\":\"Vehiculo\"},{\"clave\":\"montoSolicitado\",\"valor\":\"10000000\"},{\"clave\":\"resultadoScoring\",\"valor\":{\"scoringId\":\"0000007348\",\"participants\":[{\"opinion\":[{\"id\":\"T1 DICT.GLOBAL\",\"value\":{\"id\":\"T1 DICT.GLOBAL\",\"name\":\"RECHAZAR\"}},{\"id\":\"T1 DICT.BURO\",\"value\":{\"id\":\"T1 DICT.BURO\",\"name\":\"PDTE CIFIN\"}},{\"id\":\"T1 DICT.CAPAGO\",\"value\":{\"id\":\"T1 DICT.CAPAGO\",\"name\":\"SUFICIENTE\"}},{\"id\":\"T1 DICT.PERFIL\",\"value\":{\"id\":\"T1 DICT.PERFIL\",\"name\":\"DUDOSO\"}}],\"creditData\":{\"cashBalanceIndividual\":{\"amount\":11700000,\"currency\":\"COP\"}}}],\"creditToEvaluate\":{\"rate\":[{\"id\":\"T1 TASA.POLITIC\",\"value\":22},{\"id\":\"T1 TASA PREFERE\",\"value\":22},{\"id\":\"T1 TASA FORMALI\",\"value\":18.48}]},\"responseCredit\":{\"probability\":{\"id\":\"PROB.MORA\",\"value\":0}},\"optimumValues\":{\"proposedTerm\":{\"id\":\"N.A\",\"name\":\"N.A\"},\"proposedQuota\":{\"amount\":0,\"currency\":\"COP\"},\"isChallenger\":false},\"isConsolidated\":false,\"relatedContract\":{\"contractId\":\"0000007348\",\"contractNumber\":\"00130158000000007348\",\"product\":{\"id\":\"CON\",\"name\":\"CONSUMO\"},\"relationContractType\":{\"id\":\"OIND\",\"name\":\"DECLARATIV\"}}}},{\"clave\":\"cuota\",\"valor\":\"\"},{\"clave\":\"plazoCredito\",\"valor\":\"57\"},{\"clave\":\"subProducto\",\"valor\":\"1307\"},{\"clave\":\"tasaPolitica\",\"valor\":\"22.00\"},{\"clave\":\"destinoCredito\",\"valor\":\"\"},{\"clave\":\"procedenciaCredito\",\"valor\":\"\"},{\"clave\":\"actividadProducto\",\"valor\":\"\"},{\"clave\":\"campana\",\"valor\":\"01\"},{\"clave\":\"valorCompra\",\"valor\":\"10000000\"},{\"clave\":\"porcentajeFinanciacion\",\"valor\":\"100.00\"},{\"clave\":\"tipoDeTasa\",\"valor\":\"fija\"},{\"clave\":\"tasaFija\",\"valor\":\"\"},{\"clave\":\"tasaVariable\",\"valor\":\"\"},{\"clave\":\"tasaFormalizacion\",\"valor\":\"21\"},{\"clave\":\"tasaRar\",\"valor\":\"18.48\"},{\"clave\":\"portafolio\",\"valor\":\"No\"},{\"clave\":\"altaContrato\",\"valor\":\"\"},{\"clave\":\"participes\",\"valor\":\"{ \\\\\"items\\\\\" : [{ \\\\\"tipoParticipe\\\\\":\\\\\"Titular\\\\\" , \\\\\"numeroDocumento\\\\\":\\\\\"0000012254441\\\\\" },{ \\\\\"tipoParticipe\\\\\":\\\\\"Avalista\\\\\" , \\\\\"numeroDocumento\\\\\":\\\\\"052222222222\\\\\"  } ]}\"}],\"$$hashKey\":\"object:1257\"},{\"items\":[{\"clave\":\"nombreProducto\",\"valor\":\"Tarjeta\"},{\"clave\":\"montoSolicitado\",\"valor\":\"4000000\"},{\"clave\":\"resultadoScoring\",\"valor\":{\"scoringId\":\"0000047967\",\"participants\":[{\"opinion\":[{\"id\":\"T1 DICT.GLOBAL\",\"value\":{\"id\":\"T1 DICT.GLOBAL\",\"name\":\"RECHAZAR\"}},{\"id\":\"T1 DICT.BURO\",\"value\":{\"id\":\"T1 DICT.BURO\",\"name\":\"SIN DESCRIPCION\"}},{\"id\":\"T1 DICT.PERFIL\",\"value\":{\"id\":\"T1 DICT.PERFIL\",\"name\":\"APROBADO\"}}],\"creditData\":{\"cashBalanceIndividual\":{\"amount\":9575000,\"currency\":\"COP\"}}}],\"creditToEvaluate\":{},\"responseCredit\":{\"probability\":{\"id\":\"PROB.MORA\",\"value\":10.25}},\"optimumValues\":{\"proposedQuota\":{\"amount\":0,\"currency\":\"COP\"},\"isChallenger\":false},\"isConsolidated\":false,\"relatedContract\":{\"contractId\":\"0000047967\",\"contractNumber\":\"00130073000000047967\",\"product\":{\"id\":\"MEP\",\"name\":\"TARJETA\"},\"relationContractType\":{\"id\":\"OGL2\",\"name\":\"DECLARATIV\"}}}},{\"clave\":\"cuota\",\"valor\":\"\"},{\"clave\":\"binTP\",\"valor\":\"B0\"},{\"clave\":\"diaDePago\",\"valor\":\"15\"},{\"clave\":\"nombreTarjeta\",\"valor\":\"VISA CLASICA MIXTA\"},{\"clave\":\"limiteSugerido\",\"valor\":\"\"},{\"clave\":\"calificacionOtorgamiento\",\"valor\":1},{\"clave\":\"campana\",\"valor\":\"01\"},{\"clave\":\"numeroLifeMiles\",\"valor\":\"\"},{\"clave\":\"altaContrato\",\"valor\":\"\"}]}]',\r\n\t\t},\r\n\t\t{ clave: 'participes', valor: '[]' },\r\n\t],\r\n};\r\nreturn tramaScoring;*/",
+      "exposed" : false
+    },
+    "listaSegmento" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/segmento?p=0&c=100",
+      "exposed" : false
+    },
+    "listaConvenio" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/convenio?p=0&c=1000&f=SEG={{tramaParaRadicar.radicacion.segmento.id}}",
+      "exposed" : false
+    },
+    "listaDestinoLibranza" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/destinoLibranzas?p=0&c=100&f=SEG={{tramaParaRadicar.radicacion.segmento.id}}&f=CON={{tramaParaRadicar.radicacion.convenio.id}}",
+      "exposed" : false
+    },
+    "filtroProductos" : {
+      "type" : "expression",
+      "value" : "var tramaScoring = $data.tramaScoringT;\r\nvar productos = null;\r\nvar titular = {};\r\nvar participes = {};\r\nvar filUnoProductos = [];\r\nvar productoP = {};\r\nvar libranzas = 0;\r\nvar posL = [];\r\nvar lib = [];\r\nvar index = 0;\r\nvar filUnoProductos = [];\r\n\r\n//----------- Funcion para sacar los productos de la trama de scoring -------------//\r\ngetProducts(filUnoProductos);\r\n\r\n\r\n//---- Script para dejar la libranza en la primera posicion de la solicitud de productos -----//\r\nvar aux = null; \r\nfor (var i = 0; i < filUnoProductos.length; i++){\r\n\t\tif(i === 0 && filUnoProductos[i].nombreProducto == 'Libranza' ){\t\t\t\r\n\t\t\tbreak;\r\n\t\t}else{\r\n\t\t\tif(filUnoProductos[i].nombreProducto == 'Libranza'){\t\r\n\t\t\t\taux = filUnoProductos[0];\r\n\t\t\t\tfilUnoProductos[0] = filUnoProductos[i];\r\n\t\t\t\tfilUnoProductos[i] = aux; \r\n\t\t\t}\r\n\t\t}\r\n}\r\n\r\n//return filUnoProductos;\r\n\r\n\r\n//-------------- Script para contar libranzas e identificar su posicion  -----------------//\r\nfor (var j = 0; j < filUnoProductos.length; j++){\r\n\tif(j===0 && filUnoProductos[j].nombreProducto === 'Libranza'){}\r\n\telse if (filUnoProductos[j].nombreProducto === 'Libranza') {\r\n\t\tlibranzas++;\r\n\t\tposL.push(j);\r\n\t\tproductoP.numLibranzas = libranzas; \r\n\t\tproductoP.posLibranza = posL;   \t\r\n\t}\r\n}\r\n\r\n//------------------- Script para determinar producto principal ------------------//\r\nif (filUnoProductos[0].nombreProducto === 'Libranza'){\r\n    productoP.nombre = filUnoProductos[0].nombreProducto;\r\n    productoP.eslibranza = true;\r\n}\r\nelse if (filUnoProductos[0].nombreProducto === 'Libre Inversion' || filUnoProductos[0].nombreProducto === 'Vehiculo' || filUnoProductos[0].nombreProducto === 'Tarjeta'){\r\n    productoP.nombre = filUnoProductos[0].nombreProducto;\r\n    productoP.eslibranza = false;\r\n}\r\n\r\n\r\nvar rtn;\r\nif(productoP.numLibranzas > 0){\r\n    rtn = new Array (productoP.numLibranzas);\r\n}\r\nelse{\r\n    rtn = new Array (0);\r\n}\r\n\r\nproductoP.libranzas = rtn;\r\nproductoP.sortProductos = filUnoProductos;\r\n\r\nreturn productoP; \r\n\r\n\r\n\r\n//----------- Funcion para sacar los productos de la trama de scoring ---------------//\r\nfunction getProducts(filUnoProductos) {\r\n\tfor (var i = 0; i < tramaScoring.items.length; i++) {\r\n\t\tif (tramaScoring.items[i].clave == 'productos') {\r\n\t\t\tproductos = JSON.parse(tramaScoring.items[i].valor);\r\n\t\t\tfor (var j = 0; j < productos.length; j++) {\r\n\t\t\t\tvar itemsProductos = productos[j].items;\r\n\t\t\t\tvar elementk = {};\r\n\t\t\t\tfor (var k = 0; k < itemsProductos.length; k++) {\r\n\t\t\t\t\telementk[itemsProductos[k].clave] = itemsProductos[k].valor;\r\n\t\t\t\t}\r\n\t\t\t\tfilUnoProductos.push(elementk);\r\n\t\t\t}\r\n\t\t}\r\n    }\r\n}\r\n",
+      "exposed" : false
+    },
+    "inputListasLibranza" : {
+      "type" : "json",
+      "value" : "[]",
+      "exposed" : false
+    },
+    "getLista" : {
+      "type" : "expression",
+      "value" : "\nvar listaConvenios=[];\n\n\tfor(var i=0; i<$data.listaConvenioII.length; i++)\n\t{\n\t    alert('entradaGetLista')\n\t        var req = new XMLHttpRequest();\n             req.open('GET', $data.listaConvenioII[i],false);\n            req.send(null);\n            \n            \talert(JSON.parse(req.responseText).name)\n\n        \tif(req.status == 200) {\n        \t\tvar jsonRes = JSON.parse(req.responseText);\n        \t\t\n        \talert()\n        \t\t\n        \t} else {\n        \t\talert(\"Error recuperando el rol: \" + rol.role_id);\t\t\n        \t}  \n\t}\n\n\t\n      \n\t\n\n\n\n\n\n\n",
+      "exposed" : false
+    },
+    "listaCCcoordinador" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/coordinador?p=0&c=100&f=ID={{idFuerzaVenta}}",
+      "exposed" : false
+    },
+    "idFuerzaVenta" : {
+      "type" : "expression",
+      "value" : "//-------------------- Listar CC coordinadores segun la FV ------------//\nvar fuerzaVenta = \"Csf-Segmento\"; //SACAR LA FUERZA DE VENTA DEL SERVICIO DE IDM\nif(fuerzaVenta === \"Csf-Segmento\"){\n    return 1;\n}\nelse if(fuerzaVenta === \"Gestor - Movil\"){\n    return 3;\n}",
+      "exposed" : false
+    },
+    "testArchivos" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "contratacionProcesos" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/bpm/process?p=0&c=1&o=deploymentDate%20DESC&f=displayName=ContratacionPN",
+      "exposed" : false
+    },
+    "urlFinRadicacion" : {
+      "type" : "expression",
+      "value" : "//------- VALIDAR SI DEBE LLEVAR EL USUARIO AL FINAL O NO --------------//\n//--------------------------------------------------------- Url para radicar en bonita manual --------------------------------------------//\nvar proxybonita = $data.proxybonita;\nvar processId = $data.contratacionProcesos[0].id;\nvar url = proxybonita+\"/API/bpm/process/\"+processId+\"/instantiation\";\nreturn url;",
+      "exposed" : false
+    },
+    "idRadicacion" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/extension/getProcessData?type=processVar&id={{infoAct.parentCaseId}}&resource=idRadicacion",
+      "exposed" : false
+    },
+    "aso" : {
+      "type" : "expression",
+      "value" : "//local\nreturn \"http://82.29.102.80:8088/CRM_CNMC/cnmc_mult_web_pub/proxy-aso/\";\n//ambiente banco \n//return \"/CRM_CNMC/cnmc_mult_web_portalbonitaweb_01/proxy-aso/\";",
+      "exposed" : false
+    },
+    "idAltaContrato" : {
+      "type" : "url",
+      "value" : "{{proxybonita}}/API/extension/getProcessData?type=processVar&id={{infoAct.parentCaseId}}&resource=altaContrato",
+      "exposed" : false
+    }
+  },
+  "uuid" : "7ed9a8ad-2968-416f-bd3d-7ce9d6dbbd32",
+  "type" : "form"
+}

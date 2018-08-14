@@ -1,0 +1,714 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.2.19",
+  "id" : "7ce28523-8c2c-42ef-9691-46102a2ec913",
+  "name" : "FragProductoSubProducto",
+  "lastUpdate" : 1534255973903,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "ba37cb1e-562b-474d-b176-763a5c56f084",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "2319b6db-449b-4ea7-8612-091eff0145d8",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "8204feef-c0a7-47f5-9fe7-813a648559f0",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 2,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Producto"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "productoFinal"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.producto"
+            }
+          },
+          "reference" : "be16da5e-e6fb-4590-b48a-fffc31866fdb",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Sub Producto"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaSubProducto"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.subProducto"
+            }
+          },
+          "reference" : "9a66f6b6-2b29-473e-a859-081e8d49af8b",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "monto"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Monto"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant",
+              "value" : 99999
+            },
+            "maxlength" : {
+              "type" : "constant",
+              "value" : 15
+            },
+            "minlength" : {
+              "type" : "constant"
+            },
+            "readonly" : {
+              "type" : "constant"
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.monto"
+            },
+            "placeholder" : {
+              "type" : "constant"
+            },
+            "symbol" : {
+              "type" : "constant",
+              "value" : "$"
+            }
+          },
+          "reference" : "b58cd396-7ea1-4fce-9f1e-5d7aa28209a1",
+          "id" : "customCurrency"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 1,
+            "lg" : 1
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "esTarjetaCredito"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "plazo"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Plazo"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "maxlength" : {
+              "type" : "constant",
+              "value" : 3
+            },
+            "minlength" : {
+              "type" : "constant",
+              "value" : 1
+            },
+            "pattern" : {
+              "type" : "constant",
+              "value" : "[0-9]"
+            },
+            "readonly" : {
+              "type" : "constant"
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.plazo"
+            },
+            "placeholder" : {
+              "type" : "constant",
+              "value" : "meses"
+            }
+          },
+          "reference" : "4a009788-bfe4-4f80-822a-f597b41b6de0",
+          "id" : "customInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "!esAtibucion"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "scoring"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Scoring"
+            },
+            "disabled" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "maxlength" : {
+              "type" : "constant",
+              "value" : 20
+            },
+            "minlength" : {
+              "type" : "constant",
+              "value" : 20
+            },
+            "pattern" : {
+              "type" : "constant",
+              "value" : "[0-9]"
+            },
+            "readonly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.scoring"
+            },
+            "placeholder" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "1691959b-824a-405f-83b5-801c807d65ef",
+          "id" : "customInput"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "!esLibranza"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Segmento"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaSegmento"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.segmento"
+            }
+          },
+          "reference" : "ad44518a-b19f-4c25-bb5c-3881f8ffba4e",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "!esLibranza"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Convenio"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaConvenio"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.convenio"
+            }
+          },
+          "reference" : "1f0c96e4-18a0-4f66-8acf-1759489fb3e6",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "!esLibranza"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Destino"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaDestinoLibranzas"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "subProducto.infoConvenio"
+            }
+          },
+          "reference" : "8510db2e-4832-40e1-9b20-d0c49dfe290c",
+          "id" : "pbSelect"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "<pre>fuerzaVenta:{{fuerzaVenta|json}}\nlistaProducto: {{listaProducto}}\n</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "c854311c-be6f-4d3d-97e2-a54312178ee4",
+          "id" : "pbText"
+        } ] ]
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "subProducto" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : true
+    },
+    "listaProducto" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/productoPrincipalAdicional?p=0&c=100",
+      "exposed" : false
+    },
+    "listaSubProducto" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/subProducto?p=0&c=100&f=PROD={{subProducto.producto.id}}&f=FV={{fuerzaVenta.radicacion.fuerzaVenta.id}}&f=ID=1",
+      "exposed" : false
+    },
+    "obtenerIdUsuario" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "idUsuario" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "obtenerUserName" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "esAtibucion" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "esTarjetaCredito" : {
+      "type" : "expression",
+      "value" : "return $data.subProducto.producto.id === 2 || $data.subProducto.producto.id === 4 || \n        $data.subProducto.producto.id === 38 || $data.subProducto.producto.id === 39;",
+      "exposed" : false
+    },
+    "observador" : {
+      "type" : "expression",
+      "value" : "try{\n    if ($data.subProducto.producto.id === 4||$data.subProducto.producto.id === 2){\n        $data.subProducto.plazo = 0;\n    }\n}catch(Err){}\n\ntry{\n    if (!$data.esAtibucion){\n        $data.subProducto.scoring = \"N/A\";\n    }\n}catch(Err){}\n\ntry{\n    if ($data.subProducto.producto.id !== 3){\n        $data.subProducto.segmento= {id : 0,\n                                  nombre : \"N/A\"};\n        $data.subProducto.convenio= {id : 0,\n                                  nombre : \"N/A\"};\n        $data.subProducto.infoConvenio= {\n\t\t\t\t\t\t\t\t\t\t\t\t\t  marca: 0,\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_destino: 0,\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_responsable: 0,\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_tipo_desembolso: 0,\n\t\t\t\t\t\t\t\t\t\t\t\t\t  codigo_usuario: \"N/A\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t  nombre: \"N/A\",\n\t\t\t\t\t\t\t\t\t\t\t\t\t  VoBo: 0,\n\t\t\t\t\t\t\t\t\t\t\t\t\t  verificacion_contrato: 0\n\t\t\t\t\t\t\t\t\t\t\t\t\t} \n        \n    }\n}catch(Err){}",
+      "exposed" : false
+    },
+    "fuerzaVenta" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "esLibaranza" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "parametroBD" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "esLibranza" : {
+      "type" : "expression",
+      "value" : "return $data.subProducto.producto.idCircuito === 3;",
+      "exposed" : false
+    },
+    "listaSegmento" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/segmento?p=0&c=100",
+      "exposed" : false
+    },
+    "listaConvenio" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/convenio?p=0&c=800&f=SEG={{subProducto.segmento.id}}",
+      "exposed" : false
+    },
+    "prueba" : {
+      "type" : "json",
+      "value" : "[{\"nombre\":\"PRE - APROBADO CONSUMO\",\"id\":6},{\"nombre\":\"PRE - APROBADO CUPO ROTATIVO\",\"id\":38},{\"nombre\":\"PRE - APROBADO TARJETA DE CREDITO\",\"id\":39}]",
+      "exposed" : false
+    },
+    "esPreaprobadoP" : {
+      "type" : "expression",
+      "value" : "return $data.fuerzaVenta.radicacion.productoPrincipal.idCircuito === 6;",
+      "exposed" : false
+    },
+    "productoFinal" : {
+      "type" : "expression",
+      "value" : "if(!($data.esPreaprobadoP)){\n    return $data.listaProducto;\n}\nreturn $data.listaProductoPreapro;",
+      "exposed" : false
+    },
+    "listaProductoPreapro" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/productoPrincipalPre?p=0&c=100",
+      "exposed" : false
+    },
+    "listaDestinoLibranzas" : {
+      "type" : "url",
+      "value" : "{{parametroBD}}/merData/destinoLibranzas?p=0&c=100&f=SEG={{subProducto.segmento.id}}&f=CON={{subProducto.convenio.id}}",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

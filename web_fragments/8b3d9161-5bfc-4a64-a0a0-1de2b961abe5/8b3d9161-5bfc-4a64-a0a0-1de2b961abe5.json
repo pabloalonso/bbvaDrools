@@ -1,0 +1,956 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.2.19",
+  "id" : "8b3d9161-5bfc-4a64-a0a0-1de2b961abe5",
+  "name" : "FragInformacionComercial",
+  "lastUpdate" : 1534255973952,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "eca97c1e-61ec-44e0-9489-ca7169015a98",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "03af7703-d93e-41da-ba49-b98bf292d489",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "746a1cc4-8bb9-4743-933d-0023939f1dd5",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "esFuerzaVenta"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "4cd35092-dcd2-4c93-b3fe-34417a3c9b88",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 4,
+            "lg" : 4
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Cédula Coordinador / Proveedor"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaCoordinador"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "id"
+            },
+            "returnedKey" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "comercial.radicacion.cedulaCoordinador"
+            }
+          },
+          "reference" : "f3aba158-5aa9-4cff-b282-09f00c0930ed",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 5,
+            "lg" : 5
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Nombre Coordinador"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "comercial.radicacion.cedulaCoordinador.nombre"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "72f1754a-783e-45d9-a936-788af45e68da",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Regional"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "comercial.radicacion.cedulaCoordinador.regional"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "c0d6838e-2bb8-4f4f-80ce-f46c545be8de",
+          "id" : "pbInput"
+        } ] ]
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!esFuerzaVenta"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "474aa6e4-7b73-4089-a446-65074e8d4645",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 6
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "codigoOficina"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Código Oficina"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant",
+              "value" : 0
+            },
+            "maxlength" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "minlength" : {
+              "type" : "constant"
+            },
+            "pattern" : {
+              "type" : "constant",
+              "value" : "[0-9]"
+            },
+            "readonly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "comercial.radicacion.codigoOficina"
+            },
+            "placeholder" : {
+              "type" : "constant",
+              "value" : "4 digitos"
+            }
+          },
+          "reference" : "a437c689-fe7b-4847-b04d-439c2c2511a1",
+          "id" : "customInput"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Nombre Oficina"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "listaOficinaCiudadTerrirtorial[0].nombreO"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "155a97cc-823e-4a26-a3ba-c19d13b1bd79",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Ciudad"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "listaOficinaCiudadTerrirtorial[0].nombreC"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "834d3bb2-59e5-4cbf-8b23-38aee21ef96c",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Territorial"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "listaOficinaCiudadTerrirtorial[0].nombreT"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "e5b82deb-ad00-4197-bec5-3991edd69fe3",
+          "id" : "pbInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "minLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "maxLength" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "readOnly" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Zona"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "listaOficinaCiudadTerrirtorial[0].nombreZ"
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "max" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "cf397585-2e2a-4f7e-9f66-00ced924a1aa",
+          "id" : "pbInput"
+        } ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "name" : {
+            "type" : "constant",
+            "value" : "identificacion"
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "No. de identificación"
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "maxlength" : {
+            "type" : "constant",
+            "value" : 10
+          },
+          "minlength" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "pattern" : {
+            "type" : "constant",
+            "value" : "[0-9]"
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "comercial.radicacion.identificacionGestor"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "6e0c3810-b26f-4db6-83da-6cd5e9fb64f4",
+        "id" : "customInput"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 5,
+          "lg" : 5
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Gerente Gestor / Vendedor Comer"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "nombreGestor"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "3bbca364-b2d2-4ed9-a48f-3e1257e856f3",
+        "id" : "pbInput"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 3,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Email"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "{{consultaGerenteGestor.mail}}"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "comercial.radicacion.mailGestor"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "231f2953-0f4f-49a9-ae15-c96323dad0a1",
+        "id" : "pbInput"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "validator"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{validadorGerenteGestor}}"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 5"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "b937c7b7-3d76-4b6e-a558-40cf15d88837",
+        "id" : "pbTitle"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "comercial" : {
+      "type" : "json",
+      "value" : "{\"cedulaCoordinador\": {\r\n      \"id\": \"\",\r\n      \"nombre\": \"\",\r\n      \"regional\": \"\"\r\n    },\r\n    \"codigoOficina\": \"\",\r\n    \"identificacionGestor\": \"\"}",
+      "exposed" : true
+    },
+    "listaCoordinador" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "esFuerzaVenta" : {
+      "type" : "expression",
+      "value" : "return $data.comercial.radicacion.fuerzaVenta.id === 4;",
+      "exposed" : false
+    },
+    "observador" : {
+      "type" : "expression",
+      "value" : "/*try{\nif($data.listaCoordinador.length === 0){\n    $data.comercial.radicacion.cedulaCoordinador = \"\";\n}\n}catch(Err){}*/\n\ntry{\nif($data.comercial.radicacion.fuerzaVenta.id !== 4){\n    $data.comercial.radicacion.codigoOficina = \"\";\n}\n}catch(Err){}",
+      "exposed" : false
+    },
+    "listaOficinaCiudadTerrirtorial" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "consultaGerenteGestor" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "nombreGestor" : {
+      "type" : "expression",
+      "value" : "return $data.consultaGerenteGestor.nombre + \" \" + $data.consultaGerenteGestor.apellido;",
+      "exposed" : false
+    },
+    "validadorGerenteGestor" : {
+      "type" : "expression",
+      "value" : "if ($data.consultaGerenteGestor.nombre === \"\" || $data.consultaGerenteGestor.mail === \"\" || $data.consultaGerenteGestor.mail === null){\n    return \"EL gerente gestor no existe ó falta el correo del gestor\";\n}\nreturn \"\";",
+      "exposed" : false
+    },
+    "pasarVAlores" : {
+      "type" : "expression",
+      "value" : "$data.comercial.radicacion.mailGestor=$data.consultaGerenteGestor['mail'];\r\n$data.comercial.radicacion.nombreGestor=$data.consultaGerenteGestor['nombre']+\"\"+$data.consultaGerenteGestor['apellido'];",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

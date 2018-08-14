@@ -1,0 +1,211 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "11120686-ae4b-4c05-b3cd-c324cf11973d",
+  "name" : "AdjuntosProf",
+  "lastUpdate" : 1534255973597,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "8494b8be-c732-4b28-b564-1312ebfb8617",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 6,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<br><br>\n<b>{{$item}}</b>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "30b835e0-8ddf-4976-a74f-b6d7b2200b09",
+      "id" : "pbText"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 6,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "targetUrl" : {
+          "type" : "expression",
+          "value" : "parametro"
+        },
+        "taskId" : {
+          "type" : "expression",
+          "value" : "taskId"
+        },
+        "accept" : {
+          "type" : "constant"
+        },
+        "maxSize" : {
+          "type" : "constant",
+          "value" : 20
+        },
+        "selectedFiles" : {
+          "type" : "variable",
+          "value" : "registroTabla.idArchivo"
+        },
+        "type" : {
+          "type" : "constant",
+          "value" : "ArchivoAdjunto"
+        },
+        "preloadIds" : {
+          "type" : "constant"
+        },
+        "identification" : {
+          "type" : "expression",
+          "value" : "registroTabla.idArchivo"
+        },
+        "readOnly" : {
+          "type" : "constant"
+        },
+        "filesQuantity" : {
+          "type" : "constant",
+          "value" : 1
+        },
+        "label" : {
+          "type" : "constant",
+          "value" : "Subir Documento:"
+        },
+        "required" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "businessCaseId" : {
+          "type" : "expression",
+          "value" : "taskId"
+        },
+        "createdBy" : {
+          "type" : "constant",
+          "value" : "Javeriana"
+        }
+      },
+      "reference" : "28f6816a-4dc9-4030-b3c7-59807b2f750a",
+      "id" : "customAdjuntos"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<pre>registroTabla{{registroTabla}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "10253868-267a-43ee-9d79-836291158fd2",
+      "id" : "pbText"
+    } ] ]
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "taskId" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "parametro" : {
+      "type" : "constant",
+      "value" : "https://localhost:18443/document-svc",
+      "exposed" : false
+    },
+    "files" : {
+      "type" : "expression",
+      "value" : "return [[]];",
+      "exposed" : false
+    },
+    "llenarDocs" : {
+      "type" : "expression",
+      "value" : "/*$data.registroDocumentos = {\"nombreArchivo\": $data.registroTabla.nombreDoc,\n        \"Archivo\": $data.files[0]\n};*/ ",
+      "exposed" : false
+    },
+    "registroTabla" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "obs" : {
+      "type" : "expression",
+      "value" : "$data.registroTabla.nombreDoc=$data.nombre",
+      "exposed" : false
+    },
+    "nombre" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "requerido" : {
+      "type" : "expression",
+      "value" : "var cadena = $data.registroTabla.nombreDoc;\r\n\r\nif(cadena.indexOf(' *') !== -1){\r\n$data.registroTabla.requerido =  1;\r\n}else{\r\n    $data.registroTabla.requerido =  0;\r\n}",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

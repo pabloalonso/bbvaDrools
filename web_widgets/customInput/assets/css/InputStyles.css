@@ -1,0 +1,25 @@
+div.custom-input-container > label.has-errors {
+	color: #CA0606;
+}
+
+div.custom-input-container > label.control-label > span.required {
+	color: #CA0606;
+}
+
+div.custom-input-container > input.has-errors {
+	border: 1px solid #CA0606;
+} 
+
+div.custom-input-container > ul.input-errors-list {
+	margin-top: 5px;
+	list-style: inside;
+	padding: 5px;
+	border: 1px solid #CA0606;
+	background-color: #FDB3B3;
+	border-radius: 3px;
+}
+
+div.custom-input-container > ul.input-errors-list > li {
+	color: #CA0606;
+	font-size: 12px;
+}

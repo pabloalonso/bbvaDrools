@@ -1,0 +1,525 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.2.19",
+  "id" : "967971a5-1ad0-4dbd-b505-96547b4f5a4a",
+  "name" : "TrazaCasos",
+  "lastUpdate" : 1534255970253,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "b7ed368a-4c4e-4beb-a997-0ea2a0ada779",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "2b663755-a1d3-48cf-9a87-444a9c6eec86",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "backgroundTitlle"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Visualización de Casos"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 3"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          }
+        },
+        "reference" : "eecffc31-c658-4dba-a758-3db988f34b8f",
+        "id" : "pbTitle"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "6c426581-28d4-4933-9df9-88c97258bf2e",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 3,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Número de Caso"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "casoNegocio.caso"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "number"
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "abad7bb8-69cb-4cc6-a742-b3a3160b6dd4",
+        "id" : "pbInput"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "7e95a2e0-1faa-471b-8ec2-ad49eb3bdcc4",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "bg-primary"
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!Ocultos"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<h4>Trazabilidad</h4>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "9e0a5b94-7898-4822-84dd-46aa96aa6bdd",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "jsonArray" : {
+            "type" : "expression",
+            "value" : "datosJson"
+          },
+          "titleKey" : {
+            "type" : "constant",
+            "value" : "nombreActividad"
+          },
+          "subtitleKey" : {
+            "type" : "constant"
+          },
+          "dateKey" : {
+            "type" : "constant"
+          },
+          "dataKey" : {
+            "type" : "constant",
+            "value" : "data"
+          },
+          "dbaccessURL" : {
+            "type" : "constant",
+            "value" : "parametroBD"
+          },
+          "attributesToHide" : {
+            "type" : "constant",
+            "value" : [ "Id", "id", "ID" ]
+          }
+        },
+        "reference" : "797e007e-28f0-466e-a536-ea17e1434aa1",
+        "id" : "customTrazabilidad"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!Ocultos"
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "2f8f8ca9-f04f-48c2-ba63-ac883064daf5",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "text-primary"
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!Ocultos"
+          },
+          "targetUrl" : {
+            "type" : "expression",
+            "value" : "parametroAd.value"
+          },
+          "taskId" : {
+            "type" : "constant"
+          },
+          "accept" : {
+            "type" : "constant"
+          },
+          "maxSize" : {
+            "type" : "constant"
+          },
+          "selectedFiles" : {
+            "type" : "variable"
+          },
+          "type" : {
+            "type" : "constant"
+          },
+          "preloadIds" : {
+            "type" : "expression",
+            "value" : "idArchivoPrecarga"
+          },
+          "identification" : {
+            "type" : "constant"
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "filesQuantity" : {
+            "type" : "constant",
+            "value" : 100
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "PRECARGA ADJUNTOS"
+          },
+          "required" : {
+            "type" : "constant"
+          },
+          "businessCaseId" : {
+            "type" : "constant",
+            "value" : "casoNegocio.caso"
+          },
+          "createdBy" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "db06b7cc-8f92-4b45-aa28-492d4ccc356c",
+        "id" : "customAdjuntos"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "{{Ocultos}}"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "0eb1008a-e1ef-49ba-b772-235f0967952d",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>parametroBD{{parametroBD|json}}</pre>\n<pre>descargaDocumentoPorCaso{{descargaDocumentoPorCaso|json}}</pre>\n<pre>parametroAd{{parametroAd|json}}</pre>\n<pre>idArchivoPrecarga{{idArchivoPrecarga|json}}</pre>\n<pre>idActividad{{idActividadga|json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "e9bca271-4a7c-489d-b689-7ef62764a904",
+        "id" : "pbText"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ {
+    "id" : "3f38f0ac-ee5e-4e7c-847a-e24a68cb63c0",
+    "name" : "styleRadicacion.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  }, {
+    "id" : "a184519a-ac80-4d60-9e94-e6ffea874033",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "36f6d261-a376-4e90-ac4a-1e873c8ac391",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "9b83e0da-7be9-4f09-ac5f-2fa17192551d",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 3,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "casoNegocio" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "datosJson" : {
+      "type" : "url",
+      "value" : "{{parametroBDM.value}}/businessData/com.trycore.bbva.dbaccess.bdm.sabanas.SabanaIndustrializacion/findByQuery/getTrazaSabanaIndustrializacion?f=numeroCaso={{casoNegocio.caso}}&p=0&c=1000",
+      "exposed" : false
+    },
+    "parametroBD" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{idActividad}}&resource=dbaccessURL",
+      "exposed" : false
+    },
+    "descargaDocumentoPorCaso" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/getDocumnetBusinessCase?p=0&c=100&f=businessCase={{casoNegocio.caso}}",
+      "exposed" : false
+    },
+    "parametroAd" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{idActividad}}&resource=documentParameter",
+      "exposed" : false
+    },
+    "idArchivoPrecarga" : {
+      "type" : "expression",
+      "value" : "var idsArchivos = [];\n\nfor(var i = 0; i < $data.descargaDocumentoPorCaso.length; i++) {\n    idsArchivos.push($data.descargaDocumentoPorCaso[i].id);   \n}\n\nreturn idsArchivos;",
+      "exposed" : false
+    },
+    "Ocultos" : {
+      "type" : "expression",
+      "value" : "return $data.idArchivoPrecarga !== \"\";",
+      "exposed" : false
+    },
+    "parametroBDM" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{idActividad}}&resource=dbaccessBDM",
+      "exposed" : false
+    },
+    "versionProceso" : {
+      "type" : "url",
+      "value" : "../API/bpm/process?name=ContratacionPN&s=2.1.8",
+      "exposed" : false
+    },
+    "idActividad" : {
+      "type" : "expression",
+      "value" : "return $data.versionProceso[0].id;",
+      "exposed" : false
+    }
+  },
+  "uuid" : "967971a5-1ad0-4dbd-b505-96547b4f5a4a",
+  "type" : "page"
+}

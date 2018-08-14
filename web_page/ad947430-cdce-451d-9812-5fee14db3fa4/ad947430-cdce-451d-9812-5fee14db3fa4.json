@@ -1,0 +1,99 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "ad947430-cdce-451d-9812-5fee14db3fa4",
+  "name" : "Scoring",
+  "lastUpdate" : 1534255971307,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "disabled" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "label" : {
+        "type" : "interpolation",
+        "value" : "Calcular II"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "center"
+      },
+      "buttonStyle" : {
+        "type" : "constant",
+        "value" : "primary"
+      },
+      "action" : {
+        "type" : "constant",
+        "value" : "Submit task"
+      },
+      "url" : {
+        "type" : "interpolation"
+      },
+      "dataToSend" : {
+        "type" : "constant"
+      },
+      "dataFromSuccess" : {
+        "type" : "variable"
+      },
+      "dataFromError" : {
+        "type" : "variable"
+      },
+      "targetUrlOnSuccess" : {
+        "type" : "interpolation"
+      },
+      "collectionToModify" : {
+        "type" : "variable"
+      },
+      "collectionPosition" : {
+        "type" : "constant",
+        "value" : "Last"
+      },
+      "valueToAdd" : {
+        "type" : "constant"
+      },
+      "removeItem" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "bafc72cd-c822-4ce6-a97a-82596fb24707",
+    "id" : "customButtonScoringII"
+  } ] ],
+  "assets" : [ {
+    "id" : "3ca679ef-b645-433e-aa96-15d8a113e88d",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "7ce37aa3-6371-47f5-b189-4c418cb3b8bf",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "8d3b69d1-ffd9-4ddf-9663-672b4a5c71ce",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : { },
+  "uuid" : "ad947430-cdce-451d-9812-5fee14db3fa4",
+  "type" : "form"
+}

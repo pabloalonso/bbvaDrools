@@ -1,0 +1,108 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "a3d300a5-d9e5-4b4a-a243-938b03713e12",
+  "name" : "pollingForm",
+  "lastUpdate" : 1534255970839,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 6
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "taskId" : {
+        "type" : "constant",
+        "value" : "1"
+      },
+      "flowName" : {
+        "type" : "constant",
+        "value" : "SCORINGII"
+      },
+      "flowVersion" : {
+        "type" : "constant",
+        "value" : "1.0"
+      },
+      "processId" : {
+        "type" : "constant",
+        "value" : "1"
+      },
+      "baseUrl" : {
+        "type" : "constant",
+        "value" : "http://localhost:9091"
+      },
+      "output" : {
+        "type" : "variable",
+        "value" : "datosLlamada"
+      },
+      "label" : {
+        "type" : "constant",
+        "value" : "Llamar a servicios"
+      },
+      "pollingInterval" : {
+        "type" : "constant",
+        "value" : "5000"
+      }
+    },
+    "reference" : "2de31c3b-404e-4558-857b-2b99d0047807",
+    "id" : "customWidgetPolling"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "{{datosLlamada}}"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
+      }
+    },
+    "reference" : "5d02cd99-cd6f-44f4-a49a-cc5db187085e",
+    "id" : "pbText"
+  } ] ],
+  "assets" : [ {
+    "id" : "4dfd1f24-212a-4cf6-8b02-817b7fd1a234",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  }, {
+    "id" : "b252253b-b281-4898-8ba5-4706b2194e46",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "datosLlamada" : {
+      "type" : "constant",
+      "exposed" : false
+    }
+  },
+  "uuid" : "a3d300a5-d9e5-4b4a-a243-938b03713e12",
+  "type" : "form"
+}

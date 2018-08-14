@@ -1,0 +1,374 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.2.19",
+  "id" : "d3c00850-ea77-4e33-9dcc-b539cb89de27",
+  "name" : "FragAvalista",
+  "lastUpdate" : 1534255973979,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "49067570-e5fc-4a0a-bf88-f21e80a0a71d",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "952d8875-3c83-41af-970e-692e0718dc75",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "493698c3-9cb7-4a9d-802b-7790fcf23746",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Tipo Documento"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaTipoDocumento"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "avalista.tipoDocumento"
+            }
+          },
+          "reference" : "c81378b1-fc53-4e9a-bfe3-8dbd5505f96f",
+          "id" : "pbSelect"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "identificacionAvalista"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "No. de Identificación"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "maxlength" : {
+              "type" : "constant",
+              "value" : 10
+            },
+            "minlength" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "pattern" : {
+              "type" : "constant",
+              "value" : "[0-9]"
+            },
+            "readonly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "avalista.numeroIdentificacion"
+            },
+            "placeholder" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "d49c774c-acf6-49d3-a95a-0b4ac5377c3b",
+          "id" : "customInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "type" : {
+              "type" : "constant",
+              "value" : "text"
+            },
+            "name" : {
+              "type" : "constant",
+              "value" : "nombresApellidosAvalista"
+            },
+            "label" : {
+              "type" : "constant",
+              "value" : "Nombres y Apellidos"
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "max" : {
+              "type" : "constant"
+            },
+            "min" : {
+              "type" : "constant"
+            },
+            "maxlength" : {
+              "type" : "constant"
+            },
+            "minlength" : {
+              "type" : "constant"
+            },
+            "pattern" : {
+              "type" : "constant",
+              "value" : "[^0-9{}*-/+¡¿?'\\)(&%:_;,^$#\"!|°¬^`~¨<>=]"
+            },
+            "readonly" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "avalista.nombreApellido"
+            },
+            "placeholder" : {
+              "type" : "constant"
+            }
+          },
+          "reference" : "83303137-39b3-4bf1-af73-2d2487c20894",
+          "id" : "customInput"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 3
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "labelHidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Tipo Cliente"
+            },
+            "labelPosition" : {
+              "type" : "constant",
+              "value" : "top"
+            },
+            "labelWidth" : {
+              "type" : "constant",
+              "value" : 4
+            },
+            "placeholder" : {
+              "type" : "interpolation",
+              "value" : "Select an option"
+            },
+            "availableValues" : {
+              "type" : "expression",
+              "value" : "listaTipoCliente"
+            },
+            "displayedKey" : {
+              "type" : "constant",
+              "value" : "nombre"
+            },
+            "returnedKey" : {
+              "type" : "constant"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "avalista.tipoCliente"
+            }
+          },
+          "reference" : "f7df584b-ea4e-4509-97bc-cd0c8fffd2bb",
+          "id" : "pbSelect"
+        } ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>avalista:{{avalista|json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "dba85ac0-4dae-40d5-9512-a056800e56ec",
+        "id" : "pbText"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "avalista" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : true
+    },
+    "listaTipoCliente" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "listaTipoDocumento" : {
+      "type" : "constant",
+      "exposed" : true
+    }
+  },
+  "type" : "fragment"
+}

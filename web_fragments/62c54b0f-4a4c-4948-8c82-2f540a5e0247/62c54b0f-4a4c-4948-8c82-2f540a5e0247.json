@@ -1,0 +1,536 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "62c54b0f-4a4c-4948-8c82-2f540a5e0247",
+  "name" : "precargaSolicitud",
+  "lastUpdate" : 1534255973763,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "9c7d6d83-282a-4ec7-b314-ce34f34c62a2",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "headers" : {
+          "type" : "constant",
+          "value" : [ "Tipo de identificación", "No. de identificación", "Nombres y apellidos", "Extranjero", "Cargo", "Vinculación nueva", "Correo electrónico", "Departamento", "Programa" ]
+        },
+        "type" : {
+          "type" : "constant",
+          "value" : "Variable"
+        },
+        "apiUrl" : {
+          "type" : "constant",
+          "value" : "../API/"
+        },
+        "params" : {
+          "type" : "constant"
+        },
+        "content" : {
+          "type" : "expression",
+          "value" : "precargaDatos"
+        },
+        "columnsKey" : {
+          "type" : "constant",
+          "value" : [ "tipoIdentificacion", "numeroIdentificacion", "primernombre +\" \"+segundonombre +\" \"+primerapellido +\" \"+segundoapellido", "extranjero", "cargo", "tipoVinculacion", "correoElectronico", "departamento", "programa" ]
+        },
+        "sortColumns" : {
+          "type" : "constant"
+        },
+        "selectedRow" : {
+          "type" : "variable"
+        },
+        "defaultPageSize" : {
+          "type" : "constant",
+          "value" : 5
+        },
+        "filter" : {
+          "type" : "constant"
+        },
+        "actions" : {
+          "type" : "variable",
+          "value" : "tableActionsDeudor"
+        },
+        "isEmpty" : {
+          "type" : "variable"
+        },
+        "highlightedRows" : {
+          "type" : "constant"
+        },
+        "highlightedRowsProperty" : {
+          "type" : "constant"
+        },
+        "defaultSortColumn" : {
+          "type" : "constant"
+        },
+        "defaultSortOrder" : {
+          "type" : "constant",
+          "value" : "ASC"
+        },
+        "pageSizes" : {
+          "type" : "constant",
+          "value" : [ "2", "5", "10", "20", "50" ]
+        },
+        "actionsTitle" : {
+          "type" : "constant",
+          "value" : "Acciones"
+        }
+      },
+      "reference" : "096b72ff-0642-4371-8701-982c29ffc442",
+      "id" : "customTablaParticipes"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<pre> precargaDatos{{precargaDatos|json}}</pre>\n<pre> ConsultaTipoId{{ConsultaTipoId[0].id|json}}</pre>\n<pre> precargaDatosAdicionales  {{precargaDatosAdicionales|json}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "d411f542-376b-4a18-8ed3-d9baeef078f4",
+      "id" : "pbText"
+    } ] ]
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : ""
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
+      }
+    },
+    "reference" : "d441f15e-432f-4a0a-909f-611e7c43a419",
+    "id" : "pbText"
+  } ], [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : "Modal-overlay"
+      },
+      "hidden" : {
+        "type" : "expression",
+        "value" : "hideFragments.value"
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "e1d318d6-ff5b-46c4-889b-0a11ebd24ba6",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : "Modal-contentForm"
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "repeatedCollection" : {
+          "type" : "variable"
+        }
+      },
+      "reference" : "9cefabd7-8799-43eb-ae4d-158b6bec23e0",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "Detalles Solicitud"
+          },
+          "level" : {
+            "type" : "constant",
+            "value" : "Level 4"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          }
+        },
+        "reference" : "04fc07c2-ef12-4765-8282-1045ff8f134e",
+        "id" : "pbTitle"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 6,
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "X"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "right"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "danger"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "Add to collection"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "collectionPosition" : {
+            "type" : "constant",
+            "value" : "Last"
+          },
+          "valueToAdd" : {
+            "type" : "constant"
+          },
+          "showModal" : {
+            "type" : "variable",
+            "value" : "hideFragments.value"
+          },
+          "secondAction" : {
+            "type" : "constant"
+          }
+        },
+        "reference" : "9a4f5dea-6548-412e-ab2e-0e34f6acd680",
+        "id" : "customButtonFragPersonas"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [ "Lugar de nacimiento", "Fecha de nacimiento", "Sexo", "Estado Civil", "Último nivel de estudio" ]
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Variable"
+          },
+          "apiUrl" : {
+            "type" : "constant",
+            "value" : "../API/"
+          },
+          "params" : {
+            "type" : "constant"
+          },
+          "content" : {
+            "type" : "expression",
+            "value" : "precargaDatosAdicionales"
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [ "lugarNacimiento", "nacimiento", "sexo", "estadoCivil", "nivelEstudio", "detalle" ]
+          },
+          "sortColumns" : {
+            "type" : "constant"
+          },
+          "selectedRow" : {
+            "type" : "variable"
+          },
+          "defaultPageSize" : {
+            "type" : "constant",
+            "value" : 5
+          },
+          "filter" : {
+            "type" : "constant"
+          },
+          "actions" : {
+            "type" : "variable"
+          },
+          "isEmpty" : {
+            "type" : "variable"
+          },
+          "highlightedRows" : {
+            "type" : "constant"
+          },
+          "highlightedRowsProperty" : {
+            "type" : "constant"
+          },
+          "defaultSortColumn" : {
+            "type" : "constant"
+          },
+          "defaultSortOrder" : {
+            "type" : "constant",
+            "value" : "ASC"
+          },
+          "pageSizes" : {
+            "type" : "constant",
+            "value" : [ "2", "5", "10", "20", "50" ]
+          },
+          "actionsTitle" : {
+            "type" : "constant",
+            "value" : "Acciones"
+          }
+        },
+        "reference" : "0fe9da69-6480-4651-962c-c860c0948583",
+        "id" : "customTablaParticipes"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "headers" : {
+            "type" : "constant",
+            "value" : [ "País origen", "Departamento", "Dirección", "Teléfono", "Celular" ]
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "Variable"
+          },
+          "apiUrl" : {
+            "type" : "constant",
+            "value" : "../API/"
+          },
+          "params" : {
+            "type" : "constant"
+          },
+          "content" : {
+            "type" : "expression",
+            "value" : "precargaDatosAdicionales"
+          },
+          "columnsKey" : {
+            "type" : "constant",
+            "value" : [ "pais", "departamentoDireccion", "direccion", "celular", "telefono" ]
+          },
+          "sortColumns" : {
+            "type" : "constant"
+          },
+          "selectedRow" : {
+            "type" : "variable"
+          },
+          "defaultPageSize" : {
+            "type" : "constant",
+            "value" : 5
+          },
+          "filter" : {
+            "type" : "constant"
+          },
+          "actions" : {
+            "type" : "variable"
+          },
+          "isEmpty" : {
+            "type" : "variable"
+          },
+          "highlightedRows" : {
+            "type" : "constant"
+          },
+          "highlightedRowsProperty" : {
+            "type" : "constant"
+          },
+          "defaultSortColumn" : {
+            "type" : "constant"
+          },
+          "defaultSortOrder" : {
+            "type" : "constant",
+            "value" : "ASC"
+          },
+          "pageSizes" : {
+            "type" : "constant",
+            "value" : [ "2", "5", "10", "20", "50" ]
+          },
+          "actionsTitle" : {
+            "type" : "constant",
+            "value" : "Acciones"
+          }
+        },
+        "reference" : "9b9f088f-7558-40b6-a5df-f57442976a80",
+        "id" : "customTablaParticipes"
+      } ] ]
+    } ] ]
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "formInput" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "precargaDatos" : {
+      "type" : "expression",
+      "value" : "var res=[]; \nvar form = {};\n\nform.fechaSolicitud = $data.formInput.notificaciones.fechaSolicitud;\nfor(var i=0; i <= $data.ConsultaTipoId.length;i++){\n    console.log($data.ConsultaTipoId[i].id);\n    if($data.ConsultaTipoId[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoIdentificacion = $data.ConsultaTipoId[i].nombre;\n        break;\n    }\n}\nform.tipoVinculacion = $data.formInput.notificaciones.tipoVinculacion;\nfor(var i=0; i <= $data.consultaVinculacion.length;i++){\n    if($data.consultaVinculacion[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoVinculacion = $data.consultaVinculacion[i].nombre;\n        break;\n    }\n}\nform.numeroIdentificacion = $data.formInput.notificaciones.numeroIdentificacion;\nform.primernombre = $data.formInput.notificaciones.primernombre;\nform.segundonombre = $data.formInput.notificaciones.segundonombre;\nform.primerapellido = $data.formInput.notificaciones.primerapellido;\nform.segundoapellido = $data.formInput.notificaciones.segundoapellido;\nform.correoElectronico = $data.formInput.notificaciones.correoElectronico;\nform.programa = $data.formInput.notificaciones.programa;\nform.cargo = $data.formInput.notificaciones.cargo;\nform.departamento = $data.formInput.notificaciones.departamento;\nform.fechaExamen = $data.formInput.notificaciones.fechaExamen;\nform.resultado = $data.formInput.notificaciones.resultado;\nform.observacion = $data.formInput.notificaciones.observacion;\nform.extranjero = $data.formInput.notificaciones.extranjero;\n\nform.departamentoDireccion = $data.formInput.notificaciones.departamentoDireccion;\nform.pais = $data.formInput.notificaciones.pais;\nform.lugarNacimiento = $data.formInput.notificaciones.lugarNacimiento;\nform.nacimiento = $data.formInput.notificaciones.nacimiento;\nform.direccion = $data.formInput.notificaciones.direccion;\nform.celular = $data.formInput.notificaciones.celular;\nform.telefono = $data.formInput.notificaciones.telefono;\nform.sexo = $data.formInput.notificaciones.sexo;\nform.estadoCivil = $data.formInput.notificaciones.estadoCivil;\n\nform.nivelEstudio = $data.formInput.notificaciones.nivelEstudio;\n\nvar fecha1=form.fechaSolicitud;\n\n\nfecha1 =fecha1.split(\"T\",1);\n\nif(form.fechaExamen){\nvar parts =form.fechaExamen.toISOString(); //.split(\"T\",1);\nvar fecha2 = parts.split(\"T\",1);\nform.fechaExamen = fecha2[0];\n\n}\nform.fechaSolicitud = fecha1[0];\n\nres.push(form);\n\nreturn res;",
+      "exposed" : false
+    },
+    "ConsultaTipoId" : {
+      "type" : "json",
+      "value" : "[\r\n    {\r\n        \"id\":1,\r\n        \"nombre\":\"Cédula\",\r\n        \"Codigo\":\"CC\"\r\n    },\r\n    {\r\n        \"id\":2,\r\n        \"nombre\":\"Cedula de Extranjería\",\r\n        \"Codigo\":\"CE\"\r\n    },\r\n\t{\r\n        \"id\":3,\r\n        \"nombre\":\"Libreta Militar\",\r\n        \"Codigo\":\"LM\"\r\n    },\r\n\t{\r\n        \"id\":4,\r\n        \"nombre\":\"NIT\",\r\n        \"Codigo\":\"NIT\"\r\n    },\r\n\t{\r\n        \"id\":5,\r\n        \"nombre\":\"Nro Único de Identific Persona\",\r\n        \"Codigo\":\"NUIP\"\r\n    },\r\n    {\r\n        \"id\":6,\r\n        \"nombre\":\"Pasaporte\",\r\n        \"Codigo\":\"PA\"\r\n    },\r\n\t{\r\n        \"id\":7,\r\n        \"nombre\":\"Sin Especificar\",\r\n        \"Codigo\":\"SE\"\r\n    },\r\n\t{\r\n        \"id\":8,\r\n        \"nombre\":\"Tarjeta de Identidad\",\r\n        \"Codigo\":\"TI\"\r\n    }\r\n\t\r\n]\r\n        \r\n",
+      "exposed" : false
+    },
+    "consultaVinculacion" : {
+      "type" : "json",
+      "value" : "[\n    {\n        \"id\":1,\n        \"nombre\":\"Si\"\n    },\n    {\n        \"id\":2,\n        \"nombre\":\"No\"\n    }\n]",
+      "exposed" : false
+    },
+    "tableActionsDeudor" : {
+      "type" : "expression",
+      "value" : "return [\r\n    {\r\n    \t\"name\": \"Datos Adicionales\",\r\n    \t\"glyphicon\": \"btn btn-info glyphicon glyphicon-search\",\r\n    \t\"tag\": \"\",\r\n    \t\"disabled\": false,\r\n    \t\"handler\": function(row) {\r\n    \t    //$data.selecSolicitante = row;\r\n    \t    $data.hideFragments = !$data.hideFragments;\r\n    \t}\r\n    }\r\n];",
+      "exposed" : false
+    },
+    "hideFragments" : {
+      "type" : "json",
+      "value" : "{ \"value\": true }",
+      "exposed" : false
+    },
+    "precargaDatosAdicionales" : {
+      "type" : "expression",
+      "value" : "var res=[]; \nvar form = {};\n\n\nform.departamentoDireccion = $data.DatosAdicionales.departamentoDireccion;\nform.pais = $data.DatosAdicionales.pais;\nform.lugarNacimiento = $data.DatosAdicionales.lugarNacimiento;\nform.nacimiento = $data.DatosAdicionales.nacimiento;\nform.direccion = $data.DatosAdicionales.direccion;\nform.celular = $data.DatosAdicionales.celular;\nform.telefono = $data.DatosAdicionales.telefono;\nform.sexo = $data.DatosAdicionales.sexo;\nform.estadoCivil = $data.DatosAdicionales.estadoCivil;\n\nform.nivelEstudio = $data.DatosAdicionales.nivelEstudio;\n\nvar fecha1=form.nacimiento;\n\nfecha1 =fecha1.split(\"T\",1);\nform.nacimiento = fecha1[0];\n\n\n\nres.push(form);\n\nreturn res;",
+      "exposed" : false
+    },
+    "datosServicio" : {
+      "type" : "json",
+      "value" : "[\n    {\n    \"sexo\": \"Masculino\",\n    \"estadoCivil\": \"Divorciado\",\n    \"nivelEstudio\": \"B - Primaria\",\n    \"departamentoDireccion\": \"ATLANTICO\",\n    \"pais\": \"PITCAIRN ISLANDS\",\n    \"lugarNacimiento\": \"GUINEA ECUATORIAL\",\n    \"nacimiento\": \"1991-12-29T00:00:00.000Z\",\n    \"direccion\": \"Diagonal\",\n    \"celular\": 20298827827,\n    \"telefono\": 123456789\n    }\n]",
+      "exposed" : false
+    },
+    "consultaServicio" : {
+      "type" : "json",
+      "value" : "    {\n    \"sexo\": \"Masculino\",\n    \"estadoCivil\": \"Divorciado\",\n    \"nivelEstudio\": \"B - Primaria\",\n    \"departamentoDireccion\": \"ATLANTICO\",\n    \"pais\": \"PITCAIRN ISLANDS\",\n    \"lugarNacimiento\": \"GUINEA ECUATORIAL\",\n    \"nacimiento\": \"1991-12-29T00:00:00.000Z\",\n    \"direccion\": \"Diagonal\",\n    \"celular\": 20298827827,\n    \"telefono\": 123456789\n    }",
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : "../API/bdm/businessData/com.javeriana.model.PChoraCatedra/{{codigoActividad.id}}",
+      "exposed" : false
+    },
+    "codigoActividad" : {
+      "type" : "expression",
+      "value" : "var actividad = $data.idActividad;\nvar codigo = 0;\nfor(var i=0;i<actividad.value.length;i++){\n    if(actividad.value[i].nombre === \"Enviar documentos de vinculación\"){\n        codigo = actividad.value[i];\n    }\n}    \nreturn codigo;",
+      "exposed" : false
+    },
+    "idActividad" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "DataEnvioDoc" : {
+      "type" : "expression",
+      "value" : "var dataNegocio = JSON.parse($data.context.dataNegocio);\n//var dataNegocio = JSON.parse($data.tramaTest.dataNegocio);\n\n\n\n/*for (var key in dataNegocio) {\n    if (dataNegocio.hasOwnProperty(key)) {\n        dataNegocio[key] = JSON.parse(dataNegocio[key]);\n    }\n}*/\n\nreturn dataNegocio;",
+      "exposed" : false
+    },
+    "DatosAdicionales" : {
+      "type" : "expression",
+      "value" : "if($data.codigoActividad===0){\n    return $data.consultaServicio;\n}else{\n    return $data.DataEnvioDoc.notificaciones;\n}",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

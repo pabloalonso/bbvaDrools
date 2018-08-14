@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<implementation:connectorImplementation xmlns:implementation="http://www.bonitasoft.org/ns/connector/implementation/6.0">
+  <implementationId>EjecutarDrools-impl</implementationId>
+  <implementationVersion>1.0.0</implementationVersion>
+  <definitionId>EjecutarDrools</definitionId>
+  <definitionVersion>1.0.0</definitionVersion>
+  <implementationClassname>org.mycompany.connector.EjecutarDroolsImpl</implementationClassname>
+  <description></description>
+  <jarDependencies>
+    <jarDependency>validacionIngresos.jar</jarDependency>
+  </jarDependencies>
+</implementation:connectorImplementation>

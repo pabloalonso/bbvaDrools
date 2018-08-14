@@ -1,0 +1,413 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "2236c620-37fd-434e-a05f-0efdb4fd968b",
+  "name" : "PrecargadeArchivos",
+  "lastUpdate" : 1534255973695,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "24a9c8c1-d665-45c9-9c65-8778de9c52cd",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<pre>documento{{documento|json}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "c5721aad-c043-42dc-bd9e-109fb3462c86",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 5,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "{{documento.nombreDoc}}"
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 5"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        }
+      },
+      "reference" : "344b436b-e0f9-46ba-9b2b-8b724c37d9a3",
+      "id" : "pbTitle"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 7,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "targetUrl" : {
+          "type" : "expression",
+          "value" : "parametro"
+        },
+        "taskId" : {
+          "type" : "constant"
+        },
+        "accept" : {
+          "type" : "constant"
+        },
+        "maxSize" : {
+          "type" : "constant"
+        },
+        "selectedFiles" : {
+          "type" : "variable"
+        },
+        "type" : {
+          "type" : "constant"
+        },
+        "preloadIds" : {
+          "type" : "expression",
+          "value" : "documento.idArchivo"
+        },
+        "identification" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "readOnly" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "filesQuantity" : {
+          "type" : "constant",
+          "value" : 2
+        },
+        "label" : {
+          "type" : "constant"
+        },
+        "required" : {
+          "type" : "constant"
+        },
+        "businessCaseId" : {
+          "type" : "constant"
+        },
+        "createdBy" : {
+          "type" : "constant",
+          "value" : ""
+        }
+      },
+      "reference" : "0228888b-0665-43de-91e3-8c8a75d21bc9",
+      "id" : "customAdjuntos"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : ""
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "52552126-8350-429a-b583-e42628a8c181",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 3,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "disabled" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "required" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Estado"
+        },
+        "labelPosition" : {
+          "type" : "constant",
+          "value" : "top"
+        },
+        "labelWidth" : {
+          "type" : "constant",
+          "value" : 4
+        },
+        "placeholder" : {
+          "type" : "interpolation",
+          "value" : "Select an option"
+        },
+        "availableValues" : {
+          "type" : "expression",
+          "value" : "ConsultaEstadoDoc"
+        },
+        "displayedKey" : {
+          "type" : "constant",
+          "value" : "nombre"
+        },
+        "returnedKey" : {
+          "type" : "constant",
+          "value" : "id"
+        },
+        "value" : {
+          "type" : "variable",
+          "value" : "documento.estadoDocumento"
+        }
+      },
+      "reference" : "604ac37e-ecd7-4561-8fa9-4af52a960cf3",
+      "id" : "pbSelect"
+    }, {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 9,
+        "lg" : 6
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "readOnly" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "required" : {
+          "type" : "expression",
+          "value" : "mostrareq"
+        },
+        "minLength" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "maxLength" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "label" : {
+          "type" : "interpolation",
+          "value" : "Observaciones de la documentación"
+        },
+        "labelPosition" : {
+          "type" : "constant",
+          "value" : "top"
+        },
+        "labelWidth" : {
+          "type" : "constant",
+          "value" : 4
+        },
+        "value" : {
+          "type" : "variable",
+          "value" : "documento.observacion"
+        }
+      },
+      "reference" : "1f95e49e-1bdd-4327-9de6-5db79a71f3d9",
+      "id" : "pbTextarea"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<pre>requerido {{requerido}}</pre>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "bb0533cd-8815-4f57-bf89-426212c84e24",
+      "id" : "pbText"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "_________________________________________________________________________________________________________________________________________________"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "1f54a007-3a68-4f26-96ea-bf0421d959a2",
+      "id" : "pbText"
+    } ] ]
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "documento" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "parametro" : {
+      "type" : "constant",
+      "value" : "https://localhost:18443/document-svc",
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "ConsultaEstadoDoc" : {
+      "type" : "json",
+      "value" : "[\n    {\n        \"id\":1,\n        \"nombre\": \"Correcto\"\n    },\n    {\n        \"id\":2,\n        \"nombre\": \"Incorrecto\"\n    }\n]",
+      "exposed" : false
+    },
+    "requerido" : {
+      "type" : "expression",
+      "value" : "var cadena = $data.documento.nombreDoc;\r\n\r\nif(cadena.indexOf(' *') !== -1){\r\n$data.documento.requerido =  1;\r\n}else{\r\n    $data.documento.requerido =  0;\r\n}",
+      "exposed" : false
+    },
+    "mostrareq" : {
+      "type" : "expression",
+      "value" : "if($data.documento.estadoDocumento ===1){\n    return false;\n}else{\n    return true;\n}",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

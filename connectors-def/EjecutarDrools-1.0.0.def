@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<definition:ConnectorDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:definition="http://www.bonitasoft.org/ns/connector/definition/6.1">
+  <id>EjecutarDrools</id>
+  <version>1.0.0</version>
+  <category id="Drools"/>
+  <input name="regla" type="java.lang.String"/>
+  <input name="datosEntrada" type="java.util.Map"/>
+  <output name="output" type="java.util.Map"/>
+  <page id="ConfigConnector">
+    <widget xsi:type="definition:Text" id="regla" inputName="regla"/>
+    <widget xsi:type="definition:Text" id="Datos" inputName="datosEntrada"/>
+  </page>
+</definition:ConnectorDefinition>

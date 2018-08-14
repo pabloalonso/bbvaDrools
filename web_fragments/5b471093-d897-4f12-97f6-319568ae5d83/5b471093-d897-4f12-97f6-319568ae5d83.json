@@ -1,0 +1,264 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "5b471093-d897-4f12-97f6-319568ae5d83",
+  "name" : "fragmentoOtrosProductosConvenio",
+  "lastUpdate" : 1534255973723,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "a022e7a6-6033-48fc-a6d8-b220a931d40c",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "ad4108a8-ad65-456e-a496-f8e2bdd4ad15",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "select-bbva"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Segmento"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "Seleccione una opción"
+          },
+          "availableValues" : {
+            "type" : "expression",
+            "value" : "listaSegmento"
+          },
+          "displayedKey" : {
+            "type" : "constant",
+            "value" : "nombre"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "inputListasLibranza.segmento"
+          }
+        },
+        "reference" : "61988671-6fae-4ac8-a742-12e1ed748f62",
+        "id" : "pbSelect"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "select-bbva"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Convenio"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "Seleccione una opción"
+          },
+          "availableValues" : {
+            "type" : "expression",
+            "value" : "listaConvenioII"
+          },
+          "displayedKey" : {
+            "type" : "constant",
+            "value" : "nombre"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "inputListasLibranza.convenio"
+          }
+        },
+        "reference" : "27b98c6a-a30f-47a3-8a50-db05c738e9aa",
+        "id" : "pbSelect"
+      }, {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 3
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "select-bbva"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "disabled" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "label" : {
+            "type" : "interpolation",
+            "value" : "Destino Libranza"
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 4
+          },
+          "placeholder" : {
+            "type" : "interpolation",
+            "value" : "Select an option"
+          },
+          "availableValues" : {
+            "type" : "expression",
+            "value" : "listaDestinoLibranzaII"
+          },
+          "displayedKey" : {
+            "type" : "constant",
+            "value" : "nombre"
+          },
+          "returnedKey" : {
+            "type" : "constant"
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "inputListasLibranza.destinoLibranza"
+          }
+        },
+        "reference" : "1c154ec6-ab01-4b46-9410-38b881fcba44",
+        "id" : "pbSelect"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "idSegmento" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "parametroBD" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "listaConvenioII" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/convenio?p=0&c=1000&f=SEG={{inputListasLibranza.segmento.id}}",
+      "exposed" : false
+    },
+    "listaSegmento" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/segmento?p=0&c=100",
+      "exposed" : false
+    },
+    "listas" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "inputListasLibranza" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "listaDestinoLibranzaII" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/destinoLibranzas?p=0&c=100&f=SEG={{inputListasLibranza.segmento.id}}&f=CON={{inputListasLibranza.convenio.id}}",
+      "exposed" : false
+    }
+  },
+  "type" : "fragment"
+}

@@ -1,0 +1,43 @@
+.linea-tiempo-bar {
+	margin-top: 20px;
+	background-color: #D5E2EE;
+	height: 3px;
+	margin-left: 5%;
+    width: 88%;
+	padding: 0;
+}
+
+.linea-tiempo-bar > .active-bar {
+	background-color: #7ab32c;
+    width: 0%;
+    height: 3px;
+    margin-top: -10px;
+}
+
+.linea-tiempo-bar > ol > li {
+	left: 0%;
+    position: absolute;
+    background-color: #D5E2EE;
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px;
+    top: -8px;
+}
+
+.linea-tiempo-bar > ol > li.active {
+	background-color: #7ab32c;
+}
+	
+.linea-tiempo-bar > ol > li > div {
+    color: #D5E2EE;
+    font-weight: bold;
+    font-size: 10px;
+    margin-top: 20px;
+    white-space: nowrap;
+    float: left;
+}
+
+.linea-tiempo-bar > ol > li > div.active {
+	color: #7ab32c;
+}

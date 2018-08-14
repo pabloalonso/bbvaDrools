@@ -1,0 +1,30 @@
+.table-striped>tbody>tr:nth-child(odd)>td {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+th.ng-scope {
+    background-color: #072146;
+    color: white;
+    text-align: center;
+}
+
+h4.text-left {
+    color: #004481;
+    border-bottom: 1px solid #8da8c1;
+    padding-bottom: 16px;
+}
+
+td.ng-binding.ng-scope {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+
+.table-responsive {
+    overflow-x: hidden !important;
+}

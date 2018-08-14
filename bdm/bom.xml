@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<businessObjectModel modelVersion="1.0" productVersion="7.4.3">
+    <businessObjects>
+        <businessObject qualifiedName="com.bbva.model.AutomaticProcessExecution">
+            <fields>
+                <field type="LONG" length="255" name="automaticProcessIdentifier" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="automaticProcessName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="operation" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="inputPayload" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="endpoint" nullable="true" collection="false"/>
+                <field type="TEXT" length="255" name="outputPayload" nullable="true" collection="false"/>
+                <field type="INTEGER" length="255" name="responseCode" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+                <field type="STRING" length="500" name="description" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="dateStart" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="dateEnd" nullable="true" collection="false"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries/>
+            <indexes/>
+        </businessObject>
+        <businessObject qualifiedName="com.bbva.model.AutomaticProcessTask">
+            <fields>
+                <field type="STRING" length="255" name="process" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="processId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="task" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="taskId" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="flowName" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="status" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="startDate" nullable="true" collection="false"/>
+                <field type="LONG" length="255" name="endDate" nullable="true" collection="false"/>
+                <field type="STRING" length="255" name="userName" nullable="true" collection="false"/>
+                <relationField type="AGGREGATION" reference="com.bbva.model.AutomaticProcessExecution" fetchType="EAGER" name="executions" nullable="true" collection="true"/>
+            </fields>
+            <uniqueConstraints/>
+            <queries>
+                <query name="findByStatusAndTaskId" content="SELECT a &#xA;FROM AutomaticProcessTask a &#xA;WHERE  a.taskId = :taskId&#xA;AND a.flowName = :flowName&#xA;AND a.status = :status&#xA;ORDER BY a.startDate DESC" returnType="java.util.List">
+                    <queryParameters>
+                        <queryParameter name="taskId" className="java.lang.Long"/>
+                        <queryParameter name="flowName" className="java.lang.String"/>
+                        <queryParameter name="status" className="java.lang.String"/>
+                    </queryParameters>
+                </query>
+            </queries>
+            <indexes/>
+        </businessObject>
+    </businessObjects>
+</businessObjectModel>

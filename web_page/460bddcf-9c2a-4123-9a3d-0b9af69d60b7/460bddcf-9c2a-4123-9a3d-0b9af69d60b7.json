@@ -1,0 +1,752 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "460bddcf-9c2a-4123-9a3d-0b9af69d60b7",
+  "name" : "Validacion",
+  "lastUpdate" : 1534255966938,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : { },
+    "reference" : "0d19f54f-36fd-4b44-86f2-22310416f60e",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "md" : 12,
+        "sm" : 12,
+        "xs" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "readonly" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "level" : {
+          "type" : "constant",
+          "value" : "Level 1"
+        },
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "widgetId" : {
+          "type" : "constant",
+          "value" : "pbTitle"
+        },
+        "isDisplayed" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "label" : {
+          "type" : "constant"
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "{{ task.displayName }}"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "class" : {
+          "type" : "constant",
+          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TitleWidget"
+        },
+        "dimension" : {
+          "type" : "constant",
+          "value" : 12
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        }
+      },
+      "reference" : "c50e5abf-934a-4665-a776-321ef9644745",
+      "id" : "pbTitle"
+    } ], [ {
+      "type" : "component",
+      "dimension" : {
+        "md" : 12,
+        "sm" : 12,
+        "xs" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "labelHidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "readonly" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "widgetId" : {
+          "type" : "constant",
+          "value" : "pbText"
+        },
+        "isDisplayed" : {
+          "type" : "constant",
+          "value" : true
+        },
+        "label" : {
+          "type" : "constant"
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "{{ task.displayDescription }}"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "class" : {
+          "type" : "constant",
+          "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.TextWidget"
+        },
+        "dimension" : {
+          "type" : "constant",
+          "value" : 12
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "dd0200e6-8411-433d-9bce-4ee48e159308",
+      "id" : "pbText"
+    } ] ]
+  } ], [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "e0a68758-4147-45ba-8eab-36652e7ac6df",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "9e97c57a-75da-495d-ae70-6ceb0ad6c389",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "md" : 12,
+          "sm" : 12,
+          "xs" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbInput"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelWidth" : {
+            "type" : "constant",
+            "value" : 1
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "Id"
+          },
+          "type" : {
+            "type" : "constant",
+            "value" : "text"
+          },
+          "required" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "labelPosition" : {
+            "type" : "constant",
+            "value" : "top"
+          },
+          "placeholder" : {
+            "type" : "constant"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.InputWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "value" : {
+            "type" : "variable",
+            "value" : "formInput.id"
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "minLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "maxLength" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "readOnly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "min" : {
+            "type" : "constant"
+          },
+          "max" : {
+            "type" : "constant"
+          },
+          "step" : {
+            "type" : "constant",
+            "value" : 1
+          }
+        },
+        "reference" : "5b86dfb7-f199-4841-a836-a145ae18fef1",
+        "id" : "pbInput"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>processDefinition: {{processDefinition | json }}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "f4ebacac-6ccd-4677-8c75-600b722149b1",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>processDefinition: {{processDefinition2 | json }}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "f19ef053-2127-41ea-acef-c5369c8f42a3",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>User Name{{userID.user_name | json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "020aad54-1695-4a88-8418-caf0f9a401df",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "taskId" : {
+            "type" : "expression",
+            "value" : "taskId"
+          },
+          "flowName" : {
+            "type" : "constant",
+            "value" : "VALIDACION_INGRESOS"
+          },
+          "flowVersion" : {
+            "type" : "constant",
+            "value" : "1.0"
+          },
+          "processId" : {
+            "type" : "expression",
+            "value" : "processDefinition2[0].id"
+          },
+          "baseUrl" : {
+            "type" : "expression",
+            "value" : "host"
+          },
+          "output" : {
+            "type" : "variable",
+            "value" : "pollingOutput2"
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "Validación de ingresos"
+          },
+          "pollingInterval" : {
+            "type" : "constant",
+            "value" : "500"
+          },
+          "dataToSend" : {
+            "type" : "variable",
+            "value" : "payloadIngresos"
+          }
+        },
+        "reference" : "fae5a439-ca3b-476b-8886-407db389af49",
+        "id" : "customWidgetPolling"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>Output Payload {{outputIngresos| json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "e0c4b9b2-4318-4bf3-b389-86efa255f7ed",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 4,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "taskId" : {
+            "type" : "expression",
+            "value" : "taskId"
+          },
+          "flowName" : {
+            "type" : "constant",
+            "value" : "DECISION_CREDITO"
+          },
+          "flowVersion" : {
+            "type" : "constant",
+            "value" : "1.0"
+          },
+          "processId" : {
+            "type" : "expression",
+            "value" : "processDefinition[0].id"
+          },
+          "baseUrl" : {
+            "type" : "expression",
+            "value" : "host"
+          },
+          "output" : {
+            "type" : "variable",
+            "value" : "pollingOutput"
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "Decisión crédito"
+          },
+          "pollingInterval" : {
+            "type" : "constant",
+            "value" : "500"
+          },
+          "dataToSend" : {
+            "type" : "variable",
+            "value" : "payloadDecision"
+          }
+        },
+        "reference" : "a38ae0cc-7d54-4c18-ab07-ea47ba19837e",
+        "id" : "customWidgetPolling"
+      }, {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 8,
+          "lg" : 4
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "90859245-d2dd-45c9-9c8a-c87f122d8215",
+        "id" : "pbContainer",
+        "rows" : [ [ ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>Output Payload {{outputPay| json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "44b75d02-8bee-415f-8f4b-1f094f67f786",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "md" : 12,
+          "sm" : 12,
+          "xs" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "removeItem" : {
+            "type" : "variable"
+          },
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "widgetId" : {
+            "type" : "constant",
+            "value" : "pbButton"
+          },
+          "buttonStyle" : {
+            "type" : "constant",
+            "value" : "primary"
+          },
+          "isDisplayed" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "label" : {
+            "type" : "constant",
+            "value" : "Enviar"
+          },
+          "dataToSend" : {
+            "type" : "expression",
+            "value" : "formOutput"
+          },
+          "labelHidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "readonly" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "collectionPosition" : {
+            "type" : "constant"
+          },
+          "targetUrlOnSuccess" : {
+            "type" : "interpolation",
+            "value" : "/bonita"
+          },
+          "action" : {
+            "type" : "constant",
+            "value" : "Submit task"
+          },
+          "collectionToModify" : {
+            "type" : "variable"
+          },
+          "valueToAdd" : {
+            "type" : "expression"
+          },
+          "disabled" : {
+            "type" : "expression",
+            "value" : "$form.$invalid"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "center"
+          },
+          "class" : {
+            "type" : "constant",
+            "value" : "org.bonitasoft.web.designer.experimental.parametrizedWidget.ButtonWidget"
+          },
+          "dimension" : {
+            "type" : "constant",
+            "value" : 12
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "url" : {
+            "type" : "interpolation"
+          },
+          "dataFromSuccess" : {
+            "type" : "variable"
+          },
+          "dataFromError" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "bfb444f7-8d83-4cd8-ae20-8f0d41350bc8",
+        "id" : "pbButton"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ {
+    "id" : "e539dd78-98b8-400f-a840-f7c651c097af",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "cc927901-2aaf-4911-a0c4-417245d1e9ba",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  }, {
+    "id" : "449eb72d-d1ce-4623-ba17-0413f3971ecd",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "task" : {
+      "type" : "url",
+      "value" : "/bonita/API/bpm/userTask/{{taskId}}",
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : "{\r\n  \"id\" : \"\"\r\n}",
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : "return {\n\t'id': $data.formInput.id\n};",
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : "/bonita/API/bpm/userTask/{{taskId}}/context",
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    },
+    "host" : {
+      "type" : "constant",
+      "value" : "http://localhost:18080",
+      "exposed" : false
+    },
+    "pollingOutput" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "resumenDatos" : {
+      "type" : "expression",
+      "value" : "return JSON.parse($data.pollingOutput.executions[0].outputPayload).data.identityDocument;",
+      "exposed" : false
+    },
+    "payloadIngresos" : {
+      "type" : "expression",
+      "value" : "var peticionPost =\n{\n\tcontrato: {\n\t\ttaskId: $data.taskId,\n\t\tuserName: $data.userID.user_name,\n\t\tcliente: {\n\t\t    documentType: \"CC\",\n\t\t    documentNumber: \"1018498328\",\n\t\t    firstName: \"GUILLERMO\",\n\t\t    lastName: \"RAMIREZ\",\n\t\t    secondLastName: \"DUENAS\"\n\t\t},\n\t\tconyuge: {\n\t\t    documentType: \"CC\",\n\t\t    documentNumber: \"1018498328\",\n\t\t}\n\t}\n};\n\nreturn peticionPost;\n\n",
+      "exposed" : false
+    },
+    "userID" : {
+      "type" : "url",
+      "value" : "../API/system/session/unusedid",
+      "exposed" : false
+    },
+    "processDefinition" : {
+      "type" : "url",
+      "value" : "../API/bpm/process?p=0&c=50&f=name=DECISION_CREDITO&o=deploymentDate DESC",
+      "exposed" : false
+    },
+    "outputPay" : {
+      "type" : "expression",
+      "value" : "var map = {};\nmap.execution0 = JSON.parse($data.pollingOutput.executions[0].outputPayload);\nmap.execution1 = JSON.parse($data.pollingOutput.executions[1].outputPayload);\nmap.execution2 = JSON.parse($data.pollingOutput.executions[2].outputPayload);\nmap.execution3 = JSON.parse($data.pollingOutput.executions[3].outputPayload);\nmap.execution4 = JSON.parse($data.pollingOutput.executions[4].outputPayload);\nmap.execution5 = JSON.parse($data.pollingOutput.executions[5].outputPayload);\nmap.execution6 = JSON.parse($data.pollingOutput.executions[6].outputPayload);\nmap.execution7 = JSON.parse($data.pollingOutput.executions[7].outputPayload);\n\nreturn map;",
+      "exposed" : false
+    },
+    "payloadDecision" : {
+      "type" : "expression",
+      "value" : "var peticionPost =\n{\n\tcontrato: {\n\t\ttaskId: $data.taskId,\n\t\tuserName: $data.userID.user_name,\n\t\tcliente: {\n\t\t    documentType: \"CC\",\n\t\t    documentNumber: \"1018498328\",\n\t\t    firstName: \"GUILLERMO\",\n\t\t    lastName: \"RAMIREZ\",\n\t\t    secondLastName: \"DUENAS\"\n\t\t},\n\t\tconyuge: {\n\t\t    documentType: \"CC\",\n\t\t    documentNumber: \"1018498328\",\n\t\t}\n\t}\n};\n\nreturn peticionPost;",
+      "exposed" : false
+    },
+    "processDefinition2" : {
+      "type" : "url",
+      "value" : "../API/bpm/process?p=0&c=50&f=name=VALIDACION_INGRESOS&o=deploymentDate DESC",
+      "exposed" : false
+    },
+    "pollingOutput2" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "outputIngresos" : {
+      "type" : "expression",
+      "value" : "var map = {};\nmap.execution0 = JSON.parse($data.pollingOutput2.executions[0].outputPayload);\nmap.execution1 = JSON.parse($data.pollingOutput2.executions[1].outputPayload);\nreturn map;",
+      "exposed" : false
+    }
+  },
+  "uuid" : "460bddcf-9c2a-4123-9a3d-0b9af69d60b7",
+  "type" : "form"
+}

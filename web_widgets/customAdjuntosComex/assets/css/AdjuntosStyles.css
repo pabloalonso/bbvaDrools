@@ -1,0 +1,96 @@
+.files-container > .input-group > .attach-green {
+	color: #fff;
+    background-color: #5cb85c;
+    border-color: #4cae4c;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-green:hover {
+    color: #fff;
+    background-color: #449d44;
+    border-color: #398439;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-blue {
+	color: #fff;
+    background-color: #337ab7;
+    border-color: #2e6da4;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-blue:hover {
+    color: #fff;
+    background-color: #286090;
+    border-color: #204d74;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-red { 
+	color: #fff;
+    background-color: #d9534f;
+    border-color: #d43f3a;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-red:hover {
+	color: #fff;
+    background-color: #c9302c;
+    border-color: #ac2925;
+	cursor: pointer;
+}	
+
+.files-container > .input-group > .attach-yellow {
+	color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+	cursor: pointer;
+}
+
+.files-container > .input-group > .attach-yellow:hover {
+	color: #fff;
+    background-color: #ec971f;
+    border-color: #d58512;
+	cursor: pointer;
+}
+
+.files-container > .global-actions {
+	padding: 10px;
+}
+
+.files-container > .files-list {	
+	border: 1px solid #ccc;	
+}
+    
+.files-container > .files-list > .file-item  {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.files-container > .files-list > .file-item:last-child {
+	border: none;
+}
+
+.files-container > .files-list > .file-item  > .detail > .description > .name {
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.files-container > .files-list > .file-item  > .detail > .description > .autor {
+	font-size: 12px;
+}
+
+.files-container > .files-list > .file-item  > .detail > .description > .size {
+	font-size: 12px;
+}
+
+.files-container > .files-list > .file-item  > .progress {
+	margin-bottom: 0px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+
+.files-container > .files-list > .file-item  > .progress > div {
+	background-color: #3577B9;
+	color: #fff;
+}

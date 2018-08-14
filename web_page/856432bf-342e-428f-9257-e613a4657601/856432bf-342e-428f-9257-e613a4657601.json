@@ -1,0 +1,241 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "856432bf-342e-428f-9257-e613a4657601",
+  "name" : "adjuntosDemo",
+  "lastUpdate" : 1534255969642,
+  "rows" : [ [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "targetUrl" : {
+        "type" : "constant",
+        "value" : "https://bbvabonitades.co.igrupobbva:18443/document-svc"
+      },
+      "taskId" : {
+        "type" : "constant",
+        "value" : "5"
+      },
+      "accept" : {
+        "type" : "constant"
+      },
+      "maxSize" : {
+        "type" : "constant",
+        "value" : 10
+      },
+      "selectedFiles" : {
+        "type" : "variable",
+        "value" : "archivos"
+      },
+      "type" : {
+        "type" : "constant",
+        "value" : "pymes"
+      },
+      "preloadIds" : {
+        "type" : "expression",
+        "value" : ""
+      },
+      "createdBy" : {
+        "type" : "constant",
+        "value" : "Jherson"
+      },
+      "readOnly" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "filesQuantity" : {
+        "type" : "constant",
+        "value" : 10
+      },
+      "label" : {
+        "type" : "constant",
+        "value" : "Ficheros comex"
+      },
+      "hasErrors" : {
+        "type" : "variable",
+        "value" : "errores"
+      }
+    },
+    "reference" : "c0476803-f61b-49e7-bb4e-d187541c1ec8",
+    "id" : "customAdjuntosV2"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "<pre>{{archivos | json }}</pre>"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
+      }
+    },
+    "reference" : "3e5493c1-f80c-48e4-a12c-de0fb23a6e2e",
+    "id" : "pbText"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "Precarga de adjuntos"
+      },
+      "level" : {
+        "type" : "constant",
+        "value" : "Level 2"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      }
+    },
+    "reference" : "d4e387fa-2fbc-4635-806c-cead7a43f128",
+    "id" : "pbTitle"
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "targetUrl" : {
+        "type" : "constant",
+        "value" : "https://bbvabonitades.co.igrupobbva:18443/document-svc"
+      },
+      "taskId" : {
+        "type" : "constant",
+        "value" : "12"
+      },
+      "accept" : {
+        "type" : "constant"
+      },
+      "maxSize" : {
+        "type" : "constant"
+      },
+      "selectedFiles" : {
+        "type" : "variable",
+        "value" : ""
+      },
+      "type" : {
+        "type" : "constant"
+      },
+      "preloadIds" : {
+        "type" : "expression",
+        "value" : "archivosPrecargados"
+      },
+      "createdBy" : {
+        "type" : "constant",
+        "value" : "jherson"
+      },
+      "readOnly" : {
+        "type" : "constant",
+        "value" : true
+      },
+      "filesQuantity" : {
+        "type" : "constant",
+        "value" : 10
+      },
+      "label" : {
+        "type" : "constant",
+        "value" : "Archivos precargados solo lectura"
+      },
+      "hasErrors" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "63ef9696-aa72-4d33-a081-916d79341cda",
+    "id" : "customAdjuntosV2"
+  } ] ],
+  "assets" : [ {
+    "id" : "8ee40231-505c-4c9b-afa4-bfd23f0654e1",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  }, {
+    "id" : "e590d6c7-b1b3-439d-86a9-dea4f923a68b",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "d0e3ebff-5796-4960-b710-92f74f38de86",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "archivos" : {
+      "type" : "json",
+      "value" : "[]",
+      "exposed" : false
+    },
+    "errores" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "archivosPrecargados" : {
+      "type" : "json",
+      "value" : "[\n  10464,\n  10465,\n  10466\n]",
+      "exposed" : false
+    }
+  },
+  "uuid" : "856432bf-342e-428f-9257-e613a4657601",
+  "type" : "form"
+}

@@ -1,0 +1,2502 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "44314c63-8c35-4be6-90dd-9aa56f854893",
+  "name" : "AsignacionCargaAcademicaContratacionPosGrados",
+  "lastUpdate" : 1534255966716,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      }
+    },
+    "reference" : "4cf80a0c-dfd6-4d4b-a2b7-aec25230d717",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "ce724c3f-2bbf-43f5-9a37-a65b16daa531",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "notificar.mostrar===false"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "e089dd16-7cf9-4d70-bc99-cf3bf4703c1d",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "titulo-h2"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Asignación de carga académica"
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 2"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "center"
+            }
+          },
+          "reference" : "f296994d-18c5-4a07-a5fe-0181ab96d64f",
+          "id" : "pbTitle"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Profesores hora cátedra posgrado"
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 3"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "center"
+            }
+          },
+          "reference" : "aa3c2bd2-3abb-4764-99e4-4d9f16772b4d",
+          "id" : "pbTitle"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "."
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "f5dbf44e-38f8-4a58-98d1-ae2feb64a93e",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "<pre>formInput{{formInput|json}}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "52a9fffa-d989-4203-8488-6a1aaac688b7",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 10,
+            "lg" : 10
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Datos del solicitante de la vinculación"
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 4"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            }
+          },
+          "reference" : "714262ca-6884-4608-ac96-10db2774a277",
+          "id" : "pbTitle"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 2,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Ocultar / Mostrar"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "datosNotificante.mostrar"
+            }
+          },
+          "reference" : "21498333-3be0-4292-b9d3-7f51c5034663",
+          "id" : "pbCheckbox"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "c8e9835a-a09e-4fed-a76d-9f87364a5319",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "fragment",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "datosNotificante.mostrar===false"
+            }
+          },
+          "reference" : "19a14bea-6cec-422c-89f3-853443cbce8d",
+          "id" : "e35f68e0-9ac4-44bc-a598-a93c1e81768b",
+          "binding" : {
+            "solicitante" : "formInput"
+          }
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "96d30811-ce73-44aa-88cf-cfa2bff6b486",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 10,
+            "lg" : 10
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Profesor a vincular"
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 4"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            }
+          },
+          "reference" : "d34958b9-e157-4087-91f3-4bce3d7987c1",
+          "id" : "pbTitle"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 2,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Ocultar / Mostrar"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "datosNotificado.mostrar"
+            }
+          },
+          "reference" : "b0df2dc5-ce4b-48ac-a727-b870ff0a0f61",
+          "id" : "pbCheckbox"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "93a73b1e-3b42-448c-b0c2-68268fa29b4b",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : true
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "<pre>idActividad {{idActividad}}</pre>"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "07256358-aa6b-4156-b5b6-33fd570719e9",
+          "id" : "pbText"
+        } ], [ ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "datosNotificado.mostrar===false"
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "613fff6f-ea24-4de1-bb2e-d65ebd078b53",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "fragment",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "3e31f59d-95b6-4068-b38e-b3b46c727015",
+            "id" : "62c54b0f-4a4c-4948-8c82-2f540a5e0247",
+            "binding" : {
+              "formInput" : "formInput",
+              "idActividad" : "idActividad"
+            }
+          } ] ]
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "c1128e9e-0504-46dd-867a-95d851346581",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 10,
+            "lg" : 10
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "Carga académica"
+            },
+            "level" : {
+              "type" : "constant",
+              "value" : "Level 4"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            }
+          },
+          "reference" : "77ff4123-96f2-4c78-aae9-cceba3d822d6",
+          "id" : "pbTitle"
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 2,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "disabled" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "required" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "label" : {
+              "type" : "interpolation",
+              "value" : "Ocultar / Mostrar"
+            },
+            "value" : {
+              "type" : "variable",
+              "value" : "mostrarCarga.mostrar"
+            }
+          },
+          "reference" : "500171d1-b133-4fe2-a53d-2d7958c580be",
+          "id" : "pbCheckbox"
+        } ], [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : "¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯¯"
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "9c985754-8b70-45cf-9f12-b13e6f334ed8",
+          "id" : "pbText"
+        } ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "mostrarCarga.mostrar===false"
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "b017205f-0851-443c-a154-f812654ce585",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "<pre>cargaAcademica{{cargaAcademica|json}}</pre>"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "924508ca-da31-4d5d-b438-a6534bd9b79b",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Buscador"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "cargaAcademica"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "clase"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "buscador"
+              }
+            },
+            "reference" : "ef6144da-c9fb-4f0a-934d-8bf5c1cf4e53",
+            "id" : "pbAutocomplete"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "92170598-c02d-48f3-81d8-0a29c2fb99e1",
+            "id" : "pbText"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "29f79f06-3811-4f29-ba6e-4f9dd5ff6bd4",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "headers" : {
+                "type" : "constant",
+                "value" : [ "Asignatura", "Grupo", "Fecha inicial", "Fecha final", "Horas totales", "Tarifa", "Valor total" ]
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "Variable"
+              },
+              "apiUrl" : {
+                "type" : "constant",
+                "value" : "../API/"
+              },
+              "params" : {
+                "type" : "constant"
+              },
+              "content" : {
+                "type" : "expression",
+                "value" : "cargaAcademica"
+              },
+              "columnsKey" : {
+                "type" : "constant",
+                "value" : [ "clase", "grupo", "fechaInicio", "fechaFinal", "horasTotales", "tarifa", "valorTotalshow" ]
+              },
+              "sortColumns" : {
+                "type" : "constant"
+              },
+              "selectedRow" : {
+                "type" : "variable",
+                "value" : "seleccionaClase"
+              },
+              "defaultPageSize" : {
+                "type" : "constant",
+                "value" : 5
+              },
+              "filter" : {
+                "type" : "expression",
+                "value" : "buscador"
+              },
+              "actions" : {
+                "type" : "variable"
+              },
+              "isEmpty" : {
+                "type" : "variable"
+              },
+              "highlightedRows" : {
+                "type" : "constant"
+              },
+              "highlightedRowsProperty" : {
+                "type" : "constant"
+              },
+              "defaultSortColumn" : {
+                "type" : "constant"
+              },
+              "defaultSortOrder" : {
+                "type" : "constant",
+                "value" : "ASC"
+              },
+              "pageSizes" : {
+                "type" : "constant",
+                "value" : [ "2", "5", "10", "20", "50" ]
+              },
+              "actionsTitle" : {
+                "type" : "constant",
+                "value" : "Acciones"
+              }
+            },
+            "reference" : "940cba30-4f35-403f-8fa0-6639cbb4eb62",
+            "id" : "customTablaParticipes"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "headers" : {
+                "type" : "constant",
+                "value" : [ "Asignatura", "Grupo", "Fecha inicial", "Fecha final", "Horas totales", "Tarifa", "Valor total" ]
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "Variable"
+              },
+              "apiUrl" : {
+                "type" : "constant",
+                "value" : "../API/"
+              },
+              "params" : {
+                "type" : "constant"
+              },
+              "content" : {
+                "type" : "expression",
+                "value" : "cargaAcademica"
+              },
+              "columnsKey" : {
+                "type" : "constant",
+                "value" : [ "clase", "grupo", "fechaInicio", "fechaFinal", "horasTotales", "tarifa", "valorTotalshow" ]
+              },
+              "sortColumns" : {
+                "type" : "constant"
+              },
+              "selectedRow" : {
+                "type" : "variable",
+                "value" : "seleccionaClase"
+              },
+              "pageSize" : {
+                "type" : "constant",
+                "value" : 10
+              },
+              "filter" : {
+                "type" : "expression",
+                "value" : "buscador"
+              }
+            },
+            "reference" : "8f0df4a7-540e-4a4a-bd18-d6f26caf6bce",
+            "id" : "pbDataTable"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "469e15a0-fd67-4b4d-bde1-5f5eb441349a",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Agregar asignatura"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "buttonStyle" : {
+                "type" : "constant",
+                "value" : "info"
+              },
+              "ocultar" : {
+                "type" : "variable",
+                "value" : "mostrarAsignatura.mostrar"
+              },
+              "ocultarContainer" : {
+                "type" : "variable"
+              },
+              "ocultarTitulos" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "722d56c8-0876-4aed-ac60-ee219faabbda",
+            "id" : "customButtonTsec2"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 5,
+              "lg" : 5
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Total horas:"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 10
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "totalHoras"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "step" : {
+                "type" : "constant",
+                "value" : -2
+              }
+            },
+            "reference" : "d9cab902-d765-48b1-8d87-525d946f5ec9",
+            "id" : "pbInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Valor total:"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 6
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "valorTotal.mostrar"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "step" : {
+                "type" : "constant",
+                "value" : 1
+              }
+            },
+            "reference" : "2c09c67c-a24f-4b56-812f-98d2b9dafb0b",
+            "id" : "pbInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "<pre>cargaAcademica {{cargaAcademica|json}}</pre>\n<pre>precargaCargaA{{precargaCargaA|json}}</pre>\n<pre>returnCargaAcademica{{returnCargaAcademica|json}}</pre>\n\n<pre>seleccionaClase{{seleccionaClase|json}}</pre>"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "b27048ba-cd72-40fb-b7a2-e3fc4e4b4549",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "mostrarAsignatura.mostrar===false"
+              },
+              "repeatedCollection" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "f918046d-92bb-4e77-b90e-624cc7954f94",
+            "id" : "pbContainer",
+            "rows" : [ [ {
+              "type" : "formContainer",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "446d570f-1a42-4e56-95ff-65feea82a4a7",
+              "id" : "pbFormContainer",
+              "container" : {
+                "type" : "container",
+                "dimension" : {
+                  "xs" : 12
+                },
+                "propertyValues" : { },
+                "reference" : "c0692df0-d095-4765-884f-3fbe507c428c",
+                "id" : "pbContainer",
+                "rows" : [ [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 8,
+                    "lg" : 8
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Asignatura"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "left"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 4
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation",
+                      "value" : "Select an option"
+                    },
+                    "availableValues" : {
+                      "type" : "constant",
+                      "value" : [ "Organizaciones y Gestión Administrativa", "Cambio y Desarrollo Organizacional", "Gestión Humana por Competencias", "Responsabilidad Social Empresarial", "Gestión del Conocimiento", "Cultura y Clima Organizacional", "Derecho Laboral y Compensación" ]
+                    },
+                    "displayedKey" : {
+                      "type" : "constant"
+                    },
+                    "returnedKey" : {
+                      "type" : "constant"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "nuevaAsignatura.clase"
+                    }
+                  },
+                  "reference" : "246d0d47-e524-4f30-85fc-a6454a0c08fa",
+                  "id" : "pbSelect"
+                }, {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 4,
+                    "lg" : 4
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Grupo"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "left"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 6
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation",
+                      "value" : "Select an option"
+                    },
+                    "availableValues" : {
+                      "type" : "constant",
+                      "value" : [ "1", "2" ]
+                    },
+                    "displayedKey" : {
+                      "type" : "constant"
+                    },
+                    "returnedKey" : {
+                      "type" : "constant"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "nuevaAsignatura.grupo"
+                    }
+                  },
+                  "reference" : "b82bae9c-15b3-4466-98de-0cdbd4cfecef",
+                  "id" : "pbSelect"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 6
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "expression",
+                      "value" : "$form.$invalid"
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Guardar"
+                    },
+                    "alignment" : {
+                      "type" : "constant",
+                      "value" : "right"
+                    },
+                    "buttonStyle" : {
+                      "type" : "constant",
+                      "value" : "info"
+                    },
+                    "action" : {
+                      "type" : "constant",
+                      "value" : "Add to collection"
+                    },
+                    "url" : {
+                      "type" : "interpolation"
+                    },
+                    "dataToSend" : {
+                      "type" : "constant"
+                    },
+                    "dataFromSuccess" : {
+                      "type" : "variable"
+                    },
+                    "dataFromError" : {
+                      "type" : "variable"
+                    },
+                    "targetUrlOnSuccess" : {
+                      "type" : "interpolation"
+                    },
+                    "collectionToModify" : {
+                      "type" : "variable",
+                      "value" : "agregarAsignatura()"
+                    },
+                    "collectionPosition" : {
+                      "type" : "constant",
+                      "value" : "Last"
+                    },
+                    "valueToAdd" : {
+                      "type" : "constant"
+                    },
+                    "removeItem" : {
+                      "type" : "variable"
+                    }
+                  },
+                  "reference" : "afb583ae-ac3d-4563-9746-edc073fe427b",
+                  "id" : "pbButton"
+                } ] ]
+              }
+            } ] ]
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "9acee9f1-be21-46e7-bcac-c44e2182b726",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!seleccionaClase"
+              },
+              "repeatedCollection" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "f1c9b427-6257-490c-ba2c-c2605cca464c",
+            "id" : "pbContainer",
+            "rows" : [ [ {
+              "type" : "formContainer",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "87c26d4d-5dd4-4018-9170-dcfce4cd6563",
+              "id" : "pbFormContainer",
+              "container" : {
+                "type" : "container",
+                "dimension" : {
+                  "xs" : 12
+                },
+                "propertyValues" : { },
+                "reference" : "0b644900-38a6-48ca-be5d-f1b763207532",
+                "id" : "pbContainer",
+                "rows" : [ [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 4,
+                    "lg" : 4
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "readOnly" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Fecha inicial"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "top"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 4
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation",
+                      "value" : "Enter a date (mm/dd/yyyy)"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "fechaInicial"
+                    },
+                    "dateFormat" : {
+                      "type" : "constant",
+                      "value" : "MM/dd/yyyy"
+                    },
+                    "showToday" : {
+                      "type" : "constant",
+                      "value" : false
+                    }
+                  },
+                  "reference" : "9f2ea6d5-f10d-4f42-8b6c-233ff926476f",
+                  "id" : "pbDatePicker"
+                }, {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 4,
+                    "lg" : 4
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "readOnly" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Fecha final"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "top"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 4
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation",
+                      "value" : "Enter a date (mm/dd/yyyy)"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "fechaFinal"
+                    },
+                    "dateFormat" : {
+                      "type" : "constant",
+                      "value" : "MM/dd/yyyy"
+                    },
+                    "showToday" : {
+                      "type" : "constant",
+                      "value" : false
+                    }
+                  },
+                  "reference" : "164f8c67-b442-4cdb-9a5f-8580a468b1b2",
+                  "id" : "pbDatePicker"
+                }, {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 4,
+                    "lg" : 4
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "minLength" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "maxLength" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "readOnly" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Horas totales"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "top"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 4
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "horasTotales"
+                    },
+                    "type" : {
+                      "type" : "constant",
+                      "value" : "number"
+                    },
+                    "min" : {
+                      "type" : "constant",
+                      "value" : 1
+                    },
+                    "max" : {
+                      "type" : "expression",
+                      "value" : "maximoHoras"
+                    },
+                    "step" : {
+                      "type" : "constant",
+                      "value" : 1
+                    }
+                  },
+                  "reference" : "cec3ca1b-714d-4a30-b80c-12a4fec8eb81",
+                  "id" : "pbInput"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 4,
+                    "lg" : 4
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "required" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "labelHidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Tarifa"
+                    },
+                    "labelPosition" : {
+                      "type" : "constant",
+                      "value" : "top"
+                    },
+                    "labelWidth" : {
+                      "type" : "constant",
+                      "value" : 4
+                    },
+                    "placeholder" : {
+                      "type" : "interpolation",
+                      "value" : "Select an option"
+                    },
+                    "availableValues" : {
+                      "type" : "constant",
+                      "value" : [ "Cali - $82.000", "Fuera de Cali - $103.000" ]
+                    },
+                    "displayedKey" : {
+                      "type" : "constant"
+                    },
+                    "returnedKey" : {
+                      "type" : "constant"
+                    },
+                    "value" : {
+                      "type" : "variable",
+                      "value" : "tarifa"
+                    }
+                  },
+                  "reference" : "0f61fbbd-ed5c-45c8-aa54-73349336b9b1",
+                  "id" : "pbSelect"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "disabled" : {
+                      "type" : "expression",
+                      "value" : "$form.$invalid"
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Guardar"
+                    },
+                    "alignment" : {
+                      "type" : "constant",
+                      "value" : "center"
+                    },
+                    "buttonStyle" : {
+                      "type" : "constant",
+                      "value" : "info"
+                    },
+                    "action" : {
+                      "type" : "constant",
+                      "value" : "Add to collection"
+                    },
+                    "url" : {
+                      "type" : "interpolation"
+                    },
+                    "dataToSend" : {
+                      "type" : "constant"
+                    },
+                    "dataFromSuccess" : {
+                      "type" : "variable"
+                    },
+                    "dataFromError" : {
+                      "type" : "variable"
+                    },
+                    "targetUrlOnSuccess" : {
+                      "type" : "interpolation"
+                    },
+                    "collectionToModify" : {
+                      "type" : "variable",
+                      "value" : "agregaResultado()"
+                    },
+                    "collectionPosition" : {
+                      "type" : "constant",
+                      "value" : "Last"
+                    },
+                    "valueToAdd" : {
+                      "type" : "constant"
+                    },
+                    "removeItem" : {
+                      "type" : "variable"
+                    }
+                  },
+                  "reference" : "83926b92-7742-4224-a7f4-13fbaa8ce06b",
+                  "id" : "pbButton"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "expression",
+                      "value" : "hayDatos"
+                    },
+                    "disabled" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "label" : {
+                      "type" : "interpolation",
+                      "value" : "Limpiar Datos"
+                    },
+                    "alignment" : {
+                      "type" : "constant",
+                      "value" : "center"
+                    },
+                    "buttonStyle" : {
+                      "type" : "constant",
+                      "value" : "warning"
+                    },
+                    "action" : {
+                      "type" : "constant",
+                      "value" : "Add to collection"
+                    },
+                    "url" : {
+                      "type" : "interpolation"
+                    },
+                    "dataToSend" : {
+                      "type" : "constant"
+                    },
+                    "dataFromSuccess" : {
+                      "type" : "variable"
+                    },
+                    "dataFromError" : {
+                      "type" : "variable"
+                    },
+                    "targetUrlOnSuccess" : {
+                      "type" : "interpolation"
+                    },
+                    "collectionToModify" : {
+                      "type" : "variable",
+                      "value" : "QuitarClase()"
+                    },
+                    "collectionPosition" : {
+                      "type" : "constant",
+                      "value" : "Last"
+                    },
+                    "valueToAdd" : {
+                      "type" : "constant"
+                    },
+                    "removeItem" : {
+                      "type" : "variable",
+                      "value" : "seleccionaClase"
+                    }
+                  },
+                  "reference" : "bdced8f4-727b-4eb2-b750-df7f0c21be4b",
+                  "id" : "pbButton"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : false
+                    },
+                    "text" : {
+                      "type" : "interpolation",
+                      "value" : "____________________________________________________________________________________________________"
+                    },
+                    "alignment" : {
+                      "type" : "constant",
+                      "value" : "left"
+                    },
+                    "allowHTML" : {
+                      "type" : "constant",
+                      "value" : true
+                    }
+                  },
+                  "reference" : "bb2aaaf5-78df-4e79-8a9b-81f354c8bfc9",
+                  "id" : "pbText"
+                } ], [ {
+                  "type" : "component",
+                  "dimension" : {
+                    "xs" : 12,
+                    "sm" : 12,
+                    "md" : 12,
+                    "lg" : 12
+                  },
+                  "propertyValues" : {
+                    "cssClasses" : {
+                      "type" : "constant",
+                      "value" : ""
+                    },
+                    "hidden" : {
+                      "type" : "constant",
+                      "value" : true
+                    },
+                    "text" : {
+                      "type" : "interpolation",
+                      "value" : "<pre>fechaInicial{{fechaInicial}}</pre>\n<pre>fechaFinal{{fechaFinal}}</pre>"
+                    },
+                    "alignment" : {
+                      "type" : "constant",
+                      "value" : "left"
+                    },
+                    "allowHTML" : {
+                      "type" : "constant",
+                      "value" : true
+                    }
+                  },
+                  "reference" : "65fcc816-9558-4fa9-8491-76d2739672c3",
+                  "id" : "pbText"
+                } ] ]
+              }
+            } ] ]
+          } ] ]
+        } ], [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : "totalHoras===0"
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "af0f3173-f964-408d-8bd8-bd0ab0058148",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "formContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "0b152d01-8dab-4bcb-8984-2aa5f58b3a9c",
+            "id" : "pbFormContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "7ba2eb52-d406-4069-90ea-a4eec2bfceb1",
+              "id" : "pbContainer",
+              "rows" : [ [ {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 6
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "disabled" : {
+                    "type" : "expression",
+                    "value" : "$form.$invalid"
+                  },
+                  "label" : {
+                    "type" : "interpolation",
+                    "value" : "Continuar"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  },
+                  "buttonStyle" : {
+                    "type" : "constant",
+                    "value" : "primary"
+                  },
+                  "action" : {
+                    "type" : "constant",
+                    "value" : "Submit task"
+                  },
+                  "url" : {
+                    "type" : "interpolation"
+                  },
+                  "dataToSend" : {
+                    "type" : "expression",
+                    "value" : "formOutput"
+                  },
+                  "dataFromSuccess" : {
+                    "type" : "variable"
+                  },
+                  "dataFromError" : {
+                    "type" : "variable"
+                  },
+                  "targetUrlOnSuccess" : {
+                    "type" : "interpolation"
+                  },
+                  "collectionToModify" : {
+                    "type" : "variable"
+                  },
+                  "collectionPosition" : {
+                    "type" : "constant",
+                    "value" : "Last"
+                  },
+                  "valueToAdd" : {
+                    "type" : "constant"
+                  },
+                  "removeItem" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "7cc43cc5-e722-4e8b-b482-cfdc21b42571",
+                "id" : "pbButton"
+              } ] ]
+            }
+          } ] ]
+        } ] ]
+      } ] ]
+    }
+  } ], [ {
+    "type" : "component",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : true
+      },
+      "text" : {
+        "type" : "interpolation",
+        "value" : "formOutput<pre>{{formOutput| json}}</pre>"
+      },
+      "alignment" : {
+        "type" : "constant",
+        "value" : "left"
+      },
+      "allowHTML" : {
+        "type" : "constant",
+        "value" : true
+      }
+    },
+    "reference" : "833ad112-288a-41cd-83a8-ee97802e3c7f",
+    "id" : "pbText"
+  } ] ],
+  "assets" : [ {
+    "id" : "1a99676e-3cd7-43fe-adeb-4103266d6f13",
+    "name" : "javeriana (1).css",
+    "type" : "css",
+    "order" : 2,
+    "external" : false
+  }, {
+    "id" : "bf6a564f-e018-4e4b-b25e-f8b18f8b89cf",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "41ed831f-369e-41b5-b2a2-cdc90c14cf0a",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 3,
+    "external" : false
+  }, {
+    "id" : "9b7abce8-e8c2-472f-b7bc-2ecf3d91dfc9",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 4,
+    "external" : false
+  }, {
+    "id" : "48b6e978-5f0e-4a46-8fa9-6c8e47b4d4a3",
+    "name" : "css-pop.css",
+    "type" : "css",
+    "order" : 1,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "datosNotificante" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":false}",
+      "exposed" : false
+    },
+    "datosNotificado" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":true}",
+      "exposed" : false
+    },
+    "mostrarCampos" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":false}",
+      "exposed" : false
+    },
+    "totalNotificaciones" : {
+      "type" : "json",
+      "value" : "[]",
+      "exposed" : false
+    },
+    "notificaciones" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "notificacionSeleccionada" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "agregarNotificacion" : {
+      "type" : "expression",
+      "value" : "return function agregarNotificacion()\n{\n    $data.notificaciones.departamento = $data.encabezado.departamento;\n    $data.notificaciones.cargo  =\"Profesor de posgrados\";\n    $data.totalNotificaciones.push($data.notificaciones);\n    $data.notificaciones=\"\";\n    $data.notificacionSeleccionada=\"\";\n    $data.mostrarCampos.mostrar=false;\n};",
+      "exposed" : false
+    },
+    "encabezado" : {
+      "type" : "json",
+      "value" : "{\n\"nombreNotificante\":\"Manuel Garcia\",\n\"cargoNotificante\":\"Director de Humanidades\",\n\"departamento\":\"Facultad de Humanidades\",\n\"correoNotificaciones\":\"manuel.garcia@javerianacali.edu.co\",\n\"correoImpresiones\":\"secretaria.humanidades@javerianacali.edu.co\"\n}",
+      "exposed" : false
+    },
+    "notificar" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":true}",
+      "exposed" : false
+    },
+    "formOutput" : {
+      "type" : "expression",
+      "value" : "//var solicitud = $data.formInput;\nvar carga =$data.cargaAcademicaSeleccionada;\nvar totalcarga=$data.totalHoras;\nvar tarifa =$data.tarifa;\nvar valorTotal =$data.valorTotal.total;\nvar res ={};\n\nres.nombreNotificante=$data.formInput.nombreNotificante;\nres.cargoNotificante=$data.formInput.cargoNotificante;\nres.correoNotificaciones=$data.formInput.correoNotificaciones;\nres.correoImpresiones=$data.formInput.correoImpresiones;\nres.notificaciones=$data.formInput.notificaciones;\nres.cargaAcademica=carga;\nres.cargatotal=totalcarga;\nres.valorTotal=valorTotal;\n\nvar salida1 = {};\nsalida1.resultado=res;\n\nreturn salida1;\n",
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "expression",
+      "value" : "var dataNegocio = JSON.parse($data.context.dataNegocio);\n//var dataNegocio = JSON.parse($data.tramaTest.dataNegocio);\n\n\n\n/*for (var key in dataNegocio) {\n    if (dataNegocio.hasOwnProperty(key)) {\n        dataNegocio[key] = JSON.parse(dataNegocio[key]);\n    }\n}*/\n\nreturn dataNegocio;",
+      "exposed" : false
+    },
+    "resultadoExamen" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "observacionesResultados" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "agregaResultado" : {
+      "type" : "expression",
+      "value" : "\n\nreturn function agregaResultado()\n{\n    var fecha = new Date();\n    fecha = fecha.setDate(fecha.getDate() - 1);\n    if($data.fechaInicial<=$data.fechaFinal && $data.fechaInicial>=fecha && $data.maximoDiasContrato===true)\n         {\n         var parts =$data.fechaInicial.toISOString(); \n         var fechaini = parts.split(\"T\",1);\n         $data.seleccionaClase.fechaInicio =fechaini[0];\n         parts =$data.fechaFinal.toISOString(); \n         var fechafin = parts.split(\"T\",1);\n         $data.seleccionaClase.fechaFinal =fechafin[0];\n         $data.seleccionaClase.fechaInicioReal =$data.fechaInicial;\n         $data.seleccionaClase.fechaFinalReal =$data.fechaFinal;\n         $data.seleccionaClase.horasTotales =$data.horasTotales;\n         $data.seleccionaClase.tarifa =$data.tarifa;\n         if($data.seleccionaClase.tarifa===\"Cali - $82.000\")\n         {\n          $data.seleccionaClase.valorTotal = $data.horasTotales*82000\n          $data.seleccionaClase.valorTotalshow =  \"$\" + (new Intl.NumberFormat(\"de-DE\").format($data.horasTotales*82000));\n             \n         } else{\n             $data.seleccionaClase.valorTotal=$data.horasTotales*103000;\n             $data.seleccionaClase.valorTotalshow =  \"$\" + (new Intl.NumberFormat(\"de-DE\").format($data.horasTotales*103000));\n         }\n             $data.fechaInicial =\"\";\n             $data.fechaFinal =\"\";\n             $data.horasTotales =\"\"; \n             $data.tarifa =\"\"; \n             $data.seleccionaClase=\"\";\n         \n         } \n         else{\n             alert(\"La fecha inicial debe ser menor a la fecha final y superior o igual a la fecha actual, además, el rango de fechas entre asignaturas no puede superar 25 días\");\n         }\n\n};",
+      "exposed" : false
+    },
+    "validEstado" : {
+      "type" : "expression",
+      "value" : "var bandera = false;\nvar tabla = $data.cargaAcademica;\nvar est     = $data.cargaAcademica.length;\nvar control = 0;\n\nfor (var i = 0; i < est; i++){\n   if(tabla[i].horasTotales !== \"\"){\n       control ++;\n   }\n}\nif(control === est){bandera = true}\nreturn bandera;",
+      "exposed" : false
+    },
+    "estadoDocumentacion" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "observacionesDocumentacion" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "chectodos" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":false}",
+      "exposed" : false
+    },
+    "listaDocumentos" : {
+      "type" : "expression",
+      "value" : "var rtn = [];\nrtn.push(\"Formato de Hoja de vida RGGTH-004\");\nrtn.push(\"Fotocopia Cédula de Ciudadania\");\nrtn.push(\"Fotocopia Cédula de Extranjería, Pasaporte vigente y Visa de trabajo\");\nrtn.push(\"Carta de apertura o certificación de cuenta de nómina\");\nrtn.push(\"Certificado actualizado de afiliación a EPS\");\nrtn.push(\"Certificado actualizado de afiliación AFP\");\nrtn.push(\"1 foto 3 x 4 \");\nrtn.push(\"2 fotocopias de la cédula de ciudadanía al 150%\");\nrtn.push(\"Fotocopia Tarjeta Profesional (Obligatorio Ingenieros/Contadores)\");\nrtn.push(\"Fotocopia de los certificados de estudio o diplomas\");\nrtn.push(\"Fotocopia de cursos formales no conducentes a titulo \");\nrtn.push(\"Certificados de experiencia laboral\");\nrtn.push(\"Fotocopias de producción intelectual\");\nrtn.push(\"Certificados de experiencia docente\");\nreturn rtn;",
+      "exposed" : false
+    },
+    "docAgregar" : {
+      "type" : "json",
+      "value" : "{\"docAgregar\":\"\"}",
+      "exposed" : false
+    },
+    "registroTabla" : {
+      "type" : "expression",
+      "value" : "var a = $data.docAgregar.length;\nvar tam = $data.listaDocumentos.length;\nvar opcion = $data.chectodos.mostrar;\nvar rtn = [];\nvar bandera = false;\n\nif(opcion === true){\n    for(var k = 0; k < tam; k++){\n      rtn.push({\"nombreDoc\": $data.listaDocumentos[k],\n                \"estadoDocumento\":\"\",\n                \"fechaVerificacion\":\"\",\n      });    \n      bandera = true;\n    }\n}\nif(bandera === false){\n  for (var i = 0; i < a; i++){\n      rtn.push({\"nombreDoc\": $data.docAgregar[i],\n                \"estadoDocumento\":\"\",\n                \"fechaVerificacion\":\"\",\n                });\n   }    \n}\n\nreturn rtn;",
+      "exposed" : false
+    },
+    "validaDocumentacion" : {
+      "type" : "expression",
+      "value" : "var tabla = $data.tablaDocumentacion;\nvar tam = $data.tablaDocumentacion.length;\nvar bandera = false;\nvar rtn = [];\nvar ready = $data.validEstado;\nvar control = 0;\n\nif(ready === true){\n    for(var i = 0; i < tam; i++){\n        if(tabla[i].estadoDocumento !== \"Incorrecto\"){\n       control ++;\n        }\n    }\n\nif(control === tam){bandera = true}\n\n    if(bandera === true){\n        rtn.push(\"Finalizar Verificación Documental\");\n    }\n    else{\n        rtn.push(\"Devolver\"); \n    }\n}\n\n\n\n\nreturn rtn;",
+      "exposed" : false
+    },
+    "documentos" : {
+      "type" : "expression",
+      "value" : "var rtn=[];\nvar totalNotificaciones = $data.formInput.notificaciones;\n\n            rtn=totalNotificaciones;\n\nreturn rtn;",
+      "exposed" : false
+    },
+    "tablaDocumentacion" : {
+      "type" : "json",
+      "value" : "[\r\n          {\r\n            \"nombreDoc\": \"Formato de Hoja de vida RGGTH-004\",\r\n            \"estadoDocumento\": \"\"\r\n          },\r\n          {\r\n            \"nombreDoc\": \"Fotocopia Cédula de Ciudadania\",\r\n            \"estadoDocumento\": \"\"\r\n          },\r\n          {\r\n            \"nombreDoc\": \"Fotocopia Cédula de Extranjería, Pasaporte vigente y Visa de trabajo\",\r\n            \"estadoDocumento\": \"\"\r\n          },\r\n          {\r\n            \"nombreDoc\": \"Carta de apertura o certificación de cuenta de nómina\",\r\n            \"estadoDocumento\": \"\"\r\n          },\r\n          {\r\n            \"nombreDoc\": \"Certificado actualizado de afiliación a EPS\",\r\n            \"estadoDocumento\": \"\"\r\n          },\r\n          {\r\n            \"nombreDoc\": \"Certificado actualizado de afiliación AFP\",\r\n            \"estadoDocumento\": \"\"\r\n          }\r\n      ]",
+      "exposed" : false
+    },
+    "seleccionarDocumento" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "devoluciones" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "resultadoEtapa" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "cargaAcademica" : {
+      "type" : "expression",
+      "value" : "var lista=[];\r\nfor(var t=0;t<$data.precargaCargaA.length ; t++){\r\n    lista[t] = $data.precargaCargaA[t]\r\n}\r\n\r\nreturn lista;\r\n\r\n\r\n/*function removeDuplicates(originalArray, prop) {\r\n    \r\n     var newArray = [];\r\n     var lookupObject  = {};\r\n\r\n     for(var i in originalArray) {\r\n        lookupObject[originalArray[i][prop]] = originalArray[i];\r\n     }\r\n\r\n     for(i in lookupObject) {\r\n         newArray.push(lookupObject[i]);\r\n     }\r\n      return newArray;\r\n }*/",
+      "exposed" : false
+    },
+    "seleccionaClase" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "fechaInicial" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "fechaFinal" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "horasTotales" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "totalHoras" : {
+      "type" : "expression",
+      "value" : "var tam = $data.cargaAcademica.length;\nvar tabla = $data.cargaAcademica;\nvar total = 0;\nfor(var i = 0; i < tam; i++){\n    if(tabla[i].horasTotales>0){\n    total = total + tabla[i].horasTotales}\n}\nreturn total;",
+      "exposed" : false
+    },
+    "tarifa" : {
+      "type" : "constant",
+      "value" : "",
+      "exposed" : false
+    },
+    "cargaAcademicaSeleccionada" : {
+      "type" : "expression",
+      "value" : "var rtn=[];\nvar carga = $data.cargaAcademica;\n\nfor (var i = 0; i < carga.length; i ++){\n       if(carga[i].horasTotales>0){\n         rtn.push(carga[i]);    \n       }\n}\nreturn rtn;",
+      "exposed" : false
+    },
+    "valorTotal" : {
+      "type" : "expression",
+      "value" : "var tam = $data.cargaAcademica.length;\nvar tabla = $data.cargaAcademica;\nvar total = 0;\nfor(var i = 0; i < tam; i++){\n    if(tabla[i].valorTotal>0){\n    total = total + tabla[i].valorTotal}\n}\nvar mostrar =\"$\" + (new Intl.NumberFormat(\"de-DE\").format(total));\nreturn {\n        \"total\":total,\n        \"mostrar\": mostrar\n        };",
+      "exposed" : false
+    },
+    "fechaMayor" : {
+      "type" : "expression",
+      "value" : "var fechaMayor = new Date();\nfor(var i =0; i < $data.cargaAcademica.length; i++){\n  for(var j = 1; j < $data.cargaAcademica.length - 1; j++){\n    if($data.cargaAcademica[i].fechaFinal!==\"\" && $data.cargaAcademica[j].fechaFinal!==\"\"){\n        console.log(\"EJECUTANDO SCRIPT\");\n        if(fechaMayor < $data.cargaAcademica[j].fechaFinalReal){\n            fechaMayor = $data.cargaAcademica[j].fechaFinalReal;\n        }\n    }\n  }     \n}\nreturn fechaMayor;",
+      "exposed" : false
+    },
+    "maximoDiasContrato" : {
+      "type" : "expression",
+      "value" : "var fechaIngreso    =$data.fechaInicial;\nvar maximo          =$data.maximoDias;\nvar bandera = true;\n\nif(fechaIngreso>=new Date()){\nif(maximo>25)\n{\nbandera = false;\n}\n}\nreturn bandera;",
+      "exposed" : false
+    },
+    "buscador" : {
+      "type" : "constant",
+      "exposed" : false
+    },
+    "mostrarCarga" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":true}",
+      "exposed" : false
+    },
+    "maximoHoras" : {
+      "type" : "expression",
+      "value" : " var aFecha1 = $data.fechaInicial.toLocaleDateString().split('/');\n var aFecha2 = $data.fechaFinal.toLocaleDateString().split('/');\n var fFecha1 = Date.UTC(aFecha1[2],aFecha1[1]-1,aFecha1[0]);\n var fFecha2 = Date.UTC(aFecha2[2],aFecha2[1]-1,aFecha2[0]);\n var dif = fFecha2 - fFecha1;\n var dias = Math.floor(dif / (1000 * 60 * 60 * 24));\n \n \n return (dias+1)*8;",
+      "exposed" : false
+    },
+    "maximoDias" : {
+      "type" : "expression",
+      "value" : " var aFecha1 = $data.fechaMayor.toLocaleDateString().split('/');\n var aFecha2 = $data.fechaInicial.toLocaleDateString().split('/');\n var fFecha1 = Date.UTC(aFecha1[2],aFecha1[1]-1,aFecha1[0]);\n var fFecha2 = Date.UTC(aFecha2[2],aFecha2[1]-1,aFecha2[0]);\n var dif = fFecha2 - fFecha1;\n var dias = Math.floor(dif / (1000 * 60 * 60 * 24));\n \n \n return dias;",
+      "exposed" : false
+    },
+    "mostrarAsignatura" : {
+      "type" : "json",
+      "value" : "{\"mostrar\":false}",
+      "exposed" : false
+    },
+    "nuevaAsignatura" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "agregarAsignatura" : {
+      "type" : "expression",
+      "value" : "return function agregarAsignatura()\n{\n    $data.returnCargaAcademica.push($data.nuevaAsignatura);\n    $data.nuevaAsignatura={};\n    $data.mostrarAsignatura.mostrar=false;\n};",
+      "exposed" : false
+    },
+    "precargaDtos" : {
+      "type" : "expression",
+      "value" : "var res=[]; \nvar form = {};\n\nform.fechaSolicitud = $data.formInput.notificaciones.fechaSolicitud;\nfor(var i=0; i <= $data.ConsultaTipoId.length;i++){\n    if($data.ConsultaTipoId[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoIdentificacion = $data.ConsultaTipoId[i].nombre;\n        break;\n    }\n}\nform.tipoVinculacion = $data.formInput.notificaciones.tipoVinculacion;\nfor(var i=0; i <= $data.consultaVinculacion.length;i++){\n    if($data.consultaVinculacion[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoVinculacion = $data.consultaVinculacion[i].nombre;\n        break;\n    }\n}\nform.numeroIdentificacion = $data.formInput.notificaciones.numeroIdentificacion;\nform.primernombre = $data.formInput.notificaciones.primernombre;\nform.segundonombre = $data.formInput.notificaciones.segundonombre;\nform.primerapellido = $data.formInput.notificaciones.primerapellido;\nform.segundoapellido = $data.formInput.notificaciones.segundoapellido;\nform.correoElectronico = $data.formInput.notificaciones.correoElectronico;\nform.programa = $data.formInput.notificaciones.programa;\nform.cargo = $data.formInput.notificaciones.cargo;\nform.departamento = $data.formInput.notificaciones.departamento;\nform.fechaExamen = $data.formInput.notificaciones.fechaExamen;\nform.resultado = $data.formInput.notificaciones.resultado;\nform.observacion = $data.formInput.notificaciones.observacion;\nform.extranjero = $data.formInput.notificaciones.extranjero;\n\nform.departamentoDireccion = $data.formInput.notificaciones.departamentoDireccion;\nform.pais = $data.formInput.notificaciones.pais;\nform.lugarNacimiento = $data.formInput.notificaciones.lugarNacimiento;\nform.nacimiento = $data.formInput.notificaciones.nacimiento;\nform.direccion = $data.formInput.notificaciones.direccion;\nform.celular = $data.formInput.notificaciones.celular;\nform.telefono = $data.formInput.notificaciones.telefono;\nform.sexo = $data.formInput.notificaciones.sexo;\nform.estadoCivil = $data.formInput.notificaciones.estadoCivil;\n\nform.nivelEstudio = $data.formInput.notificaciones.nivelEstudio;\n\nvar fecha1=form.fechaSolicitud;\n\n\nfecha1 =fecha1.split(\"T\",1);\n\nif(form.fechaExamen){\nvar parts =form.fechaExamen.toISOString(); //.split(\"T\",1);\nvar fecha2 = parts.split(\"T\",1);\nform.fechaExamen = fecha2[0];\n\n}\nform.fechaSolicitud = fecha1[0];\n\nres.push(form);\n\nreturn res;\n\n",
+      "exposed" : false
+    },
+    "precargaDatos" : {
+      "type" : "expression",
+      "value" : "var res=[]; \nvar form = {};\n\nform.fechaSolicitud = $data.formInput.notificaciones.fechaSolicitud;\nfor(var i=0; i <= $data.ConsultaTipoId.length;i++){\n    if($data.ConsultaTipoId[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoIdentificacion = $data.ConsultaTipoId[i].nombre;\n        break;\n    }\n}\nform.tipoVinculacion = $data.formInput.notificaciones.tipoVinculacion;\nfor(var i=0; i <= $data.consultaVinculacion.length;i++){\n    if($data.consultaVinculacion[i].id===$data.formInput.notificaciones.tipoIdentificacion){\n        form.tipoVinculacion = $data.consultaVinculacion[i].nombre;\n        break;\n    }\n}\nform.numeroIdentificacion = $data.formInput.notificaciones.numeroIdentificacion;\nform.primernombre = $data.formInput.notificaciones.primernombre;\nform.segundonombre = $data.formInput.notificaciones.segundonombre;\nform.primerapellido = $data.formInput.notificaciones.primerapellido;\nform.segundoapellido = $data.formInput.notificaciones.segundoapellido;\nform.correoElectronico = $data.formInput.notificaciones.correoElectronico;\nform.programa = $data.formInput.notificaciones.programa;\nform.cargo = $data.formInput.notificaciones.cargo;\nform.departamento = $data.formInput.notificaciones.departamento;\nform.fechaExamen = $data.formInput.notificaciones.fechaExamen;\nform.resultado = $data.formInput.notificaciones.resultado;\nform.observacion = $data.formInput.notificaciones.observacion;\nform.extranjero = $data.formInput.notificaciones.extranjero;\n\nform.departamentoDireccion = $data.formInput.notificaciones.departamentoDireccion;\nform.pais = $data.formInput.notificaciones.pais;\nform.lugarNacimiento = $data.formInput.notificaciones.lugarNacimiento;\nform.nacimiento = $data.formInput.notificaciones.nacimiento;\nform.direccion = $data.formInput.notificaciones.direccion;\nform.celular = $data.formInput.notificaciones.celular;\nform.telefono = $data.formInput.notificaciones.telefono;\nform.sexo = $data.formInput.notificaciones.sexo;\nform.estadoCivil = $data.formInput.notificaciones.estadoCivil;\n\nform.nivelEstudio = $data.formInput.notificaciones.nivelEstudio;\n\nvar fecha1=form.fechaSolicitud;\n\n\nfecha1 =fecha1.split(\"T\",1);\n\nif(form.fechaExamen){\nvar parts =form.fechaExamen.toISOString(); //.split(\"T\",1);\nvar fecha2 = parts.split(\"T\",1);\nform.fechaExamen = fecha2[0];\n\n}\nform.fechaSolicitud = fecha1[0];\n\nres.push(form);\n\nreturn res;\n\n",
+      "exposed" : false
+    },
+    "ConsultaTipoId" : {
+      "type" : "json",
+      "value" : "[\n    {\n        \"id\":1,\n        \"nombre\":\"C.C\"\n    },\n    {\n        \"id\":2,\n        \"nombre\":\"C.E\"\n    }\n]",
+      "exposed" : false
+    },
+    "consultaVinculacion" : {
+      "type" : "json",
+      "value" : "[\n    {\n        \"id\":1,\n        \"nombre\":\"Si\"\n    },\n    {\n        \"id\":2,\n        \"nombre\":\"No\"\n    }\n]",
+      "exposed" : false
+    },
+    "context" : {
+      "type" : "url",
+      "value" : "../API/bdm/businessData/com.javeriana.model.PChoraCatedra/{{codigoActividad.id}}",
+      "exposed" : false
+    },
+    "codigoActividad" : {
+      "type" : "expression",
+      "value" : "var actividad = $data.idActividad;\nvar codigo;\nfor(var i=0;i<actividad.value.length;i++){\n    if(actividad.value[i].nombre === \"Radicacion\"){\n        codigo = actividad.value[i];\n    }else if(actividad.value[i].nombre ===\"Asignar carga académica\"){\n        codigo = actividad.value[i];\n    }\n}    \nreturn codigo;",
+      "exposed" : false
+    },
+    "idActividad" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processVar&id={{infoAct.rootCaseId}}&resource=actividades",
+      "exposed" : false
+    },
+    "infoAct" : {
+      "type" : "url",
+      "value" : "../API/bpm/userTask/{{taskId}}",
+      "exposed" : false
+    },
+    "taskId" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    },
+    "setKeyValue" : {
+      "type" : "expression",
+      "value" : "return function setKeyValue(){\n   //cambiar esta variable por lo que se va enviar\n   var p = $data.formOutput;\n   \n   var rtn = [];\n   \n   for (var key in p) {\n       if (p.hasOwnProperty(key)) {\n           rtn.push({\"clave\": key.toString() , \"valor\": JSON.stringify(p[key])});\n       }\n   }\n\n   return {\"items\": rtn} \n    \n}",
+      "exposed" : false
+    },
+    "returnCargaAcademica" : {
+      "type" : "json",
+      "value" : "[\n    {\n        \"clase\":\"Individuo, Organización y Sociedad\",\n        \"grupo\":1\n    },\n    {\n        \"clase\":\"Análisis de Procesos Grupales\",\n        \"grupo\":1\n    },\n    {\n        \"clase\":\"Salud Laboral y Factores Psicosociales\",\n        \"grupo\":2\n    },\n    {\n        \"clase\":\"Consultoría en Desarrollo Organizacional\",\n        \"grupo\":2\n    }\n]",
+      "exposed" : false
+    },
+    "precargaCargaA" : {
+      "type" : "expression",
+      "value" : "var lista=[];\r\nfor(var t=0;t<$data.returnCargaAcademica.length ; t++){\r\n    lista[t] = $data.returnCargaAcademica[t]\r\n}\r\n//var lista = $data.cargaAcademica;\r\nvar bandera;\r\n\r\nif($data.formInput.cargaAcademica){\r\nfor(var i=0; i < $data.returnCargaAcademica.length;i++){\r\n        for(var j=0; j < $data.formInput.cargaAcademica.length;j++){\r\n            if($data.returnCargaAcademica[i].clase === $data.formInput.cargaAcademica[j].clase){\r\n            lista[i] = ($data.formInput.cargaAcademica[j]);\r\n            }\r\n        }\r\n\r\n    }\r\n\r\n\r\n\r\nfor(var j=0; j < $data.formInput.cargaAcademica.length;j++){\r\n\t\tbandera=0;\r\n\t\tfor(var i=0; i < $data.returnCargaAcademica.length;i++){\r\n\t\t\tif($data.returnCargaAcademica[i].clase !== $data.formInput.cargaAcademica[j].clase){\r\n\t\t\t\tbandera++;\r\n\t\t\t}\r\n\t\t}\r\n\t\t\r\n\t\tif (bandera===$data.returnCargaAcademica.length){\r\n\t\t\tlista[i] = ($data.formInput.cargaAcademica[j])\r\n\t\t}\r\n    }\r\n    \r\n     lista = angular.copy(lista);\r\n\r\n}\r\n\r\n//var carga = removeDuplicates(lista, \"clase\");\r\n\r\nconsole.log(lista);\r\nreturn lista;\r\n\r\n\r\n/*function removeDuplicates(originalArray, prop) {\r\n    \r\n     var newArray = [];\r\n     var lookupObject  = {};\r\n\r\n     for(var i in originalArray) {\r\n        lookupObject[originalArray[i][prop]] = originalArray[i];\r\n     }\r\n\r\n     for(i in lookupObject) {\r\n         newArray.push(lookupObject[i]);\r\n     }\r\n      return newArray;\r\n }*/      \t",
+      "exposed" : false
+    },
+    "QuitarClase" : {
+      "type" : "expression",
+      "value" : "return function QuitarClase(){\n            $data.fechaInicial =\"\";\n             $data.fechaFinal =\"\";\n             $data.horasTotales =\"\"; \n             $data.tarifa =\"\"; \n             $data.seleccionaClase.fechaInicio=\"\";\n             $data.seleccionaClase.fechaFinal=\"\";\n             $data.seleccionaClase.fechaInicioReal=\"\";\n             $data.seleccionaClase.fechaFinalReal=\"\";\n             $data.seleccionaClase.horasTotales=\"\";\n             $data.seleccionaClase.tarifa=\"\";\n             $data.seleccionaClase.valorTotal=\"\";\n             $data.seleccionaClase.valorTotalshow=\"\";\n}",
+      "exposed" : false
+    },
+    "hayDatos" : {
+      "type" : "expression",
+      "value" : "if($data.seleccionaClase.valorTotal&&$data.seleccionaClase.fechaFinalReal){\nreturn false;\n}else{\n    return true;\n}\n\n/*            $data.seleccionaClase.fechaInicio=\"\";\n             $data.seleccionaClase.fechaFinal=\"\";\n             $data.seleccionaClase.fechaInicioReal=\"\";\n             $data.seleccionaClase.fechaFinalReal=\"\";\n             $data.seleccionaClase.horasTotales=\"\";\n             $data.seleccionaClase.tarifa=\"\";\n             $data.seleccionaClase.valorTotal=\"\";\n             $data.seleccionaClase.valorTotalshow=\"\";*/",
+      "exposed" : false
+    }
+  },
+  "uuid" : "44314c63-8c35-4be6-90dd-9aa56f854893",
+  "type" : "form"
+}

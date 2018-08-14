@@ -1,0 +1,26 @@
+.imagenPanel{
+	margin-left: 16px;
+	margin-right: 16px;
+	background: #eaeaea;
+}
+
+.textPanel{
+	color:#000000; 
+}
+
+.backgroundTitlle{
+	background: #0078d2;
+	color:#ffffff;
+}
+
+.validator{
+	color:#c4126c;
+}
+.backgroundTitlleAux{
+	background: #0c94e7;
+	color:#ffffff;
+}
+
+.fondo{
+	background:#ecf2f9;
+}

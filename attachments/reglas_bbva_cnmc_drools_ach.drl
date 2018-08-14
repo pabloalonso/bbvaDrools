@@ -1,0 +1,85 @@
+import com.bbva.cnmc.drools.reglas.validacion.dto.BaseAchDTO
+import com.bbva.cnmc.drools.reglas.validacion.dto.reglas.ReglaNegocioDTO
+import com.bbva.cnmc.drools.reglas.validacion.dto.reglas.response.RespuestaEjecucionReglaDTO
+
+rule "Tipo planilla es igual a CORRECCION"	
+    when
+    	baseAchDTO : BaseAchDTO(tipoPlanilla == "CORRECCION")
+    then
+    	// Información detallada de la regla.
+    	ReglaNegocioDTO $reglaNegocio = new ReglaNegocioDTO();
+		$reglaNegocio.setNumeroRegla("1.0");
+		$reglaNegocio.setNombreRegla("Tipo planilla es igual a CORRECCION");
+		$reglaNegocio.setClasificacion("Operativa");
+		$reglaNegocio.setOrdenEjecucion("1");
+		$reglaNegocio.setOrigenInformacion("Base ACH");
+		$reglaNegocio.setDato("Tipo de planilla");
+		$reglaNegocio.setCondicion("Igual a ");
+		$reglaNegocio.setValor("Corrección");
+
+    	// Información de la $respuesta.
+        RespuestaEjecucionReglaDTO $respuesta = new RespuestaEjecucionReglaDTO();
+        $respuesta.setRespuesta(true);
+        $respuesta.setMensajeRespuesta("Ninguno");
+        $respuesta.setAccion("Si en los últimos 3 meses registra este tipo de planilla, no deberá tomar información y direccionar a consula Aportes en Línea.");
+        $respuesta.setNombreServicio("Base ACH");
+
+		$reglaNegocio.setRespuestaObtenida($respuesta);
+		baseAchDTO.getReglasNegocioDTO().add($reglaNegocio);
+end
+
+rule "Tipo planilla es diferente a CORRECCION"	
+
+	
+    when
+    	baseAchDTO : BaseAchDTO(tipoPlanilla != "CORRECCION")
+    then
+    	// Información detallada de la regla.
+    	ReglaNegocioDTO $reglaNegocio = new ReglaNegocioDTO();
+		$reglaNegocio.setNumeroRegla("1.1");
+		$reglaNegocio.setNombreRegla("Tipo planilla es diferente a CORRECCION");
+		$reglaNegocio.setClasificacion("Operativa");
+		$reglaNegocio.setOrdenEjecucion("16");
+		$reglaNegocio.setOrigenInformacion("Base ACH");
+		$reglaNegocio.setDato("Tipo de planilla");
+		$reglaNegocio.setCondicion("Diferente de ");
+		$reglaNegocio.setValor("CORRECCION");
+
+    	// Información de la $respuesta.
+        RespuestaEjecucionReglaDTO $respuesta = new RespuestaEjecucionReglaDTO();
+        $respuesta.setRespuesta(false);
+        $respuesta.setMensajeRespuesta("Ninguno");
+        $respuesta.setAccion("Si en los últimos 3 meses registra este tipo de planilla, no deberá tomar información y direccionar a consula Aportes en Línea.");
+        $respuesta.setNombreServicio("Base ACH");
+
+		$reglaNegocio.setRespuestaObtenida($respuesta);
+		baseAchDTO.getReglasNegocioDTO().add($reglaNegocio);
+end
+
+
+rule "cantidadNitsAportantes es mayor a 5"	
+    when
+    	baseAchDTO : BaseAchDTO( cantidadNitsAportantes  > 5)
+    then
+    	// Información detallada de la regla.
+    	ReglaNegocioDTO $reglaNegocio = new ReglaNegocioDTO();
+		$reglaNegocio.setNumeroRegla("2");
+		$reglaNegocio.setNombreRegla("es mayor a 5 ");
+		$reglaNegocio.setClasificacion("Operativa");
+		$reglaNegocio.setOrdenEjecucion("16");
+		$reglaNegocio.setOrigenInformacion("Base ACH");
+		$reglaNegocio.setDato("Tipo de planilla");
+		$reglaNegocio.setCondicion("Mayor a");
+		$reglaNegocio.setValor("5");
+
+    	// Información de la $respuesta.
+        RespuestaEjecucionReglaDTO $respuesta = new RespuestaEjecucionReglaDTO();
+        $respuesta.setRespuesta(true);
+        $respuesta.setMensajeRespuesta("Cumple > 5");
+        $respuesta.setAccion("");
+        $respuesta.setNombreServicio("Base ACH");
+		$reglaNegocio.setRespuestaObtenida($respuesta);
+		
+		$reglaNegocio.setRespuestaObtenida($respuesta);
+		baseAchDTO.getReglasNegocioDTO().add($reglaNegocio);
+end

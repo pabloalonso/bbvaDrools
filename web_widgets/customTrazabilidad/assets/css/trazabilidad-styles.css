@@ -1,0 +1,36 @@
+.item-list {
+	/*border: 1px solid #ddd;*/
+}
+
+.item-list > .item {
+	border: 1px solid #ccc; 
+	margin-bottom: 5px;
+	border-radius: 4px 4px 4px 4px;
+}
+
+.item-list > .item > .head {
+	padding: 6px;
+	cursor: pointer;
+}
+
+.item-list > .item > .head:hover {	
+	background-color: #ddd;
+}
+
+.item-list > .item.expanded > .head {
+	background-color: #ddd;
+}
+
+.item-list > .item > .head > .date {
+	font-weight: bold;
+}
+
+.item-list > .item > .head > .subtitle {
+	font-size: 12px;
+}
+
+.item-list > .item > .body {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}

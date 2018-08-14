@@ -1,0 +1,157 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.4.34",
+  "id" : "1bf33c4d-dcc9-47a0-b92e-353e8e039d07",
+  "name" : "ResumenClienteFixed",
+  "lastUpdate" : 1534255973655,
+  "rows" : [ [ {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 2,
+      "md" : 2,
+      "lg" : 2
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : "border-right"
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "955e45e5-cd06-46c6-92c9-45f36e77ffb5",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<span class=\"etapa\">Etapa</span> <br>\n<span class=\"fase\">{{etapa}}</span>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "center"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "40240a3c-34fd-4b11-93b0-b0242f955717",
+      "id" : "pbText"
+    } ] ]
+  }, {
+    "type" : "container",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 10,
+      "md" : 10,
+      "lg" : 10
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "constant",
+        "value" : false
+      },
+      "repeatedCollection" : {
+        "type" : "variable"
+      }
+    },
+    "reference" : "99ca0f39-9ceb-4709-bfee-90ac58eb9fa6",
+    "id" : "pbContainer",
+    "rows" : [ [ {
+      "type" : "component",
+      "dimension" : {
+        "xs" : 12,
+        "sm" : 12,
+        "md" : 12,
+        "lg" : 12
+      },
+      "propertyValues" : {
+        "cssClasses" : {
+          "type" : "constant",
+          "value" : ""
+        },
+        "hidden" : {
+          "type" : "constant",
+          "value" : false
+        },
+        "text" : {
+          "type" : "interpolation",
+          "value" : "<div class=\"row resumen\">\n    <div class=\"col-md-3 col-xs-6 col-sm-6\">\n        <p class=\"rtitulo\">Nombre</p>\n            <p class=\"rdato\">{{nombre}}</p>\n    </div>\n    <div class=\"col-md-3 col-xs-6 col-sm-6\">\n        <p class=\"rtitulo\">Identificaci&oacute;n</p>\n        <p class=\"rdato\">{{identificacion}}</p>\n    </div>\n    <div class=\"col-md-2 col-xs-6 col-sm-3\">\n        <p class=\"rtitulo\">Segmento</p>\n        <p class=\"rdato\">{{segmento}}</p>\n    </div>\n    <div class=\"col-md-2 col-xs-6 col-sm-3\"> \n        <p class=\"rtitulo\">{{nombreBuro}}</p>\n        <p class=\"rdato\">{{buro}}</p>\n    </div>\n    <div class=\"col-md-2 col-xs-6 col-sm-3\">\n        <p class=\"rtitulo\">Antigüedad</p>\n        <p class=\"rdato\">{{antiguedad}}</p>\n    </div>\n</div>"
+        },
+        "alignment" : {
+          "type" : "constant",
+          "value" : "left"
+        },
+        "allowHTML" : {
+          "type" : "constant",
+          "value" : true
+        }
+      },
+      "reference" : "90c25ee0-d079-47cf-8ff9-18068d37e94e",
+      "id" : "pbText"
+    } ] ]
+  } ] ],
+  "assets" : [ ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "nombre" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "identificacion" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "segmento" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "buro" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "antiguedad" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "producto" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "etapa" : {
+      "type" : "constant",
+      "exposed" : true
+    },
+    "nombreBuro" : {
+      "type" : "constant",
+      "exposed" : true
+    }
+  },
+  "type" : "fragment"
+}

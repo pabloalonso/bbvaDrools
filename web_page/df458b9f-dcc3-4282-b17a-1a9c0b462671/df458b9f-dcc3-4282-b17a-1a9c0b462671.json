@@ -1,0 +1,4303 @@
+{
+  "designerVersion" : "1.7.25",
+  "previousDesignerVersion" : "1.2.19",
+  "id" : "df458b9f-dcc3-4282-b17a-1a9c0b462671",
+  "name" : "radicacionUnicaSFin1",
+  "lastUpdate" : 1534255972767,
+  "rows" : [ [ {
+    "type" : "formContainer",
+    "dimension" : {
+      "xs" : 12,
+      "sm" : 12,
+      "md" : 12,
+      "lg" : 12
+    },
+    "propertyValues" : {
+      "cssClasses" : {
+        "type" : "constant",
+        "value" : ""
+      },
+      "hidden" : {
+        "type" : "expression"
+      }
+    },
+    "reference" : "068c4efc-b3a8-4ba4-94f3-95bbc6fd9028",
+    "id" : "pbFormContainer",
+    "container" : {
+      "type" : "container",
+      "dimension" : {
+        "xs" : 12
+      },
+      "propertyValues" : { },
+      "reference" : "5319d00f-a985-4418-8e2b-5c5531d45ad2",
+      "id" : "pbContainer",
+      "rows" : [ [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "hiddenVariablesList" : {
+            "type" : "variable",
+            "value" : "containersVisibility"
+          },
+          "labelsList" : {
+            "type" : "constant",
+            "value" : [ "CONSULTA ÚNICA", "INFORMACIÓN COMERCIAL - CLIENTE", "PRODUCTOS" ]
+          }
+        },
+        "reference" : "362c363b-f323-4961-8b87-2ea8d82a48fb",
+        "id" : "customLineaTiempo"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "75fa61b4-0960-4db7-823e-94040d488978",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "eaad7e87-e986-4658-8536-57e037538355",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "containersVisibility[0]"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "cef03933-e93e-4ecd-b67f-1155f4c67e13",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "ef2333f7-ca9d-4dd7-a2ac-1c197541c3d8",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "repeatedCollection" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "6935bcac-6b06-43fd-84e8-348c9ee544c1",
+            "id" : "pbContainer",
+            "rows" : [ [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "backgroundTitlle"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "RADICACIÓN ÚNICA"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 4"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "094cdc72-892a-4fca-b722-7ebb552cd278",
+              "id" : "pbTitle"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "readOnly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "minLength" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "maxLength" : {
+                  "type" : "constant",
+                  "value" : 500
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Observaciones"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.observacion"
+                }
+              },
+              "reference" : "bf225cbb-e857-4290-9bc7-d0a79b322980",
+              "id" : "pbTextarea"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Producto Principal"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaProducto"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.productoPrincipal"
+                }
+              },
+              "reference" : "a282b9d2-a13b-4cf8-9976-09fb4f9e98b1",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "<pre>parametroBD{{parametroBD|json}}</pre>\n<pre>version{{version}}</pre>\n<pre>idActividad{{idActividad}}</pre>\n<pre>versionProceso{{versionProceso}}</pre>"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "0ee5a25a-ab2e-49e3-985b-10d52af172ed",
+              "id" : "pbText"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Fuerza de Venta"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaFuerzaVenta"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.fuerzaVenta"
+                }
+              },
+              "reference" : "050ac66e-054a-440f-b0d6-d9356f69b73d",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Actividad Cliente"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaActividadCliente"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.actividadCliente"
+                }
+              },
+              "reference" : "ca8efb69-5da8-4d4b-9b31-9cdffbb3c037",
+              "id" : "pbSelect"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Tipo Cliente"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaTipoCliente"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.tipoCliente"
+                }
+              },
+              "reference" : "f5cdb814-6ffe-4fd4-b1ac-3263be79b229",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "expression",
+                  "value" : "esLibranza"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Destino"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaDestino"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.destino"
+                }
+              },
+              "reference" : "43d0fb87-6927-401e-9e56-187a55daf83d",
+              "id" : "pbSelect"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "expression",
+                  "value" : "!esLibranza"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Segmento"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaSegmento"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.segmentoPrincipal"
+                }
+              },
+              "reference" : "3f1eaf5c-9dae-4721-b106-c0accd0d64b3",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "expression",
+                  "value" : "!esLibranza"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Convenio"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaConvenio"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.convenioPrincipal"
+                }
+              },
+              "reference" : "7ba640f9-8851-4688-ba74-73fbca7b7eba",
+              "id" : "pbSelect"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "expression",
+                  "value" : "!esLibranza"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Destino Libranza"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaDestinoLibranza"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.infoconvenioPrincipal"
+                }
+              },
+              "reference" : "57cb07b0-ffdd-4fe4-a29f-6bb289c8101b",
+              "id" : "pbSelect"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : ""
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "1822c98b-559f-4369-b32d-a0ffb97aa6f4",
+              "id" : "pbText"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "backgroundTitlleAux"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "CONSULTA CARPETA ÚNICA"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 5"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "8fef0ec6-a8a8-4fc7-9811-e66339ce2635",
+              "id" : "pbTitle"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : ""
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "left"
+                },
+                "allowHTML" : {
+                  "type" : "constant",
+                  "value" : true
+                }
+              },
+              "reference" : "1eefe345-1e43-4529-a937-6e105aebb836",
+              "id" : "pbText"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Tipo Documento"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "listaTipoDocumento"
+                },
+                "displayedKey" : {
+                  "type" : "constant",
+                  "value" : "nombre"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.tipoDocumento"
+                }
+              },
+              "reference" : "3c210956-12ab-4ee8-a4bf-404bca888e82",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "text"
+                },
+                "name" : {
+                  "type" : "constant",
+                  "value" : "Identificacion"
+                },
+                "label" : {
+                  "type" : "constant",
+                  "value" : "Identificación"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "max" : {
+                  "type" : "constant",
+                  "value" : 10
+                },
+                "min" : {
+                  "type" : "constant",
+                  "value" : 7
+                },
+                "maxlength" : {
+                  "type" : "constant",
+                  "value" : 10
+                },
+                "minlength" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "pattern" : {
+                  "type" : "constant",
+                  "value" : "[0-9]"
+                },
+                "readonly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.identificacion"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                }
+              },
+              "reference" : "8505a61d-fc27-4aba-9b62-75bff0e95783",
+              "id" : "customInput"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "labelHidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "Envio Correo?"
+                },
+                "labelPosition" : {
+                  "type" : "constant",
+                  "value" : "top"
+                },
+                "labelWidth" : {
+                  "type" : "constant",
+                  "value" : 4
+                },
+                "placeholder" : {
+                  "type" : "interpolation",
+                  "value" : "Select an option"
+                },
+                "availableValues" : {
+                  "type" : "expression",
+                  "value" : "Si,No"
+                },
+                "displayedKey" : {
+                  "type" : "constant"
+                },
+                "returnedKey" : {
+                  "type" : "constant"
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.envioCorreo"
+                }
+              },
+              "reference" : "d894639b-4151-49c5-ab29-989729716553",
+              "id" : "pbSelect"
+            }, {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 6,
+                "lg" : 6
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : true
+                },
+                "type" : {
+                  "type" : "constant",
+                  "value" : "email"
+                },
+                "name" : {
+                  "type" : "constant",
+                  "value" : "correo"
+                },
+                "label" : {
+                  "type" : "constant",
+                  "value" : "Correo"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "max" : {
+                  "type" : "constant"
+                },
+                "min" : {
+                  "type" : "constant"
+                },
+                "maxlength" : {
+                  "type" : "constant"
+                },
+                "minlength" : {
+                  "type" : "constant"
+                },
+                "pattern" : {
+                  "type" : "constant",
+                  "value" : "."
+                },
+                "readonly" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "required" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "value" : {
+                  "type" : "variable",
+                  "value" : "formInput.radicacion.correo"
+                },
+                "placeholder" : {
+                  "type" : "constant"
+                }
+              },
+              "reference" : "773c193d-7e16-4a86-9742-9674771c27f7",
+              "id" : "customInput"
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : "validator"
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "text" : {
+                  "type" : "interpolation",
+                  "value" : "{{validadorPrimerFormulario}}"
+                },
+                "level" : {
+                  "type" : "constant",
+                  "value" : "Level 5"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "center"
+                }
+              },
+              "reference" : "1c8b5b19-967f-49ac-905b-71abc2613e9e",
+              "id" : "pbTitle"
+            } ] ]
+          } ] ]
+        } ] ]
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "containersVisibility[1]"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "dc10f0ed-01f2-4d3a-a83d-390d4a73c3f3",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "35b5f1a6-ff53-4178-a084-9da37279a5bd",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "backgroundTitlle"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "INFORMACIÓN COMERCIAL"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 4"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "54887268-c3da-43c0-b089-4990acd5ae46",
+            "id" : "pbTitle"
+          } ], [ {
+            "type" : "fragment",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "10f0ea24-e618-4d48-aece-cbe96797cb9c",
+            "id" : "8b3d9161-5bfc-4a64-a0a0-1de2b961abe5",
+            "binding" : {
+              "comercial" : "formInput",
+              "listaOficinaCiudadTerrirtorial" : "listaOficinaCiudadTerrirtorial",
+              "consultaGerenteGestor" : "consultaGerenteGestor",
+              "parametroBD" : "parametroBD",
+              "listaCoordinador" : "listaCoordinador"
+            }
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "e9d11f54-2f66-4960-b441-3ceeb65079e0",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "backgroundTitlle"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "INFORMACIÓN CLIENTES"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 4"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "05c3f85c-e02e-42a4-bea6-9cb43483b8cf",
+            "id" : "pbTitle"
+          } ], [ {
+            "type" : "fragment",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "47b961ab-9421-49a4-a1b7-c48763b330af",
+            "id" : "76caa3ce-94af-42f2-99be-26e0de04b6ed",
+            "binding" : {
+              "cliente" : "formInput",
+              "listaTipoDocumento" : "listaTipoDocumento",
+              "listaTipoCliente" : "listaTipoCliente",
+              "esClienteVIP" : "esClienteVIP",
+              "consultaCliente" : "esConsultaCliente",
+              "esConsultaCliente" : "esConsultaCliente",
+              "listaConsultaClientes" : "listaConsultaClientes",
+              "validarGrupoAvalista" : "validarGrupoAvalista",
+              "formInput" : "",
+              "parametroBDM" : "parametroBDM.value"
+            }
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "validator"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "{{validadorSegundoFormulario}}"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 5"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "53d286e8-697c-487c-9013-e51137d2de7f",
+            "id" : "pbTitle"
+          } ] ]
+        } ] ]
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "containersVisibility[2]"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "a155b956-4458-423f-8ee2-fff539cddeed",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 12,
+            "lg" : 12
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "expression",
+              "value" : ""
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "867571ab-f3a5-4117-950b-e750dc01e49e",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "backgroundTitlle"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "PRODUCTOS SOLICITADOS"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 4"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "7cfba6fa-a11e-48d9-b3f3-64efeba1bedb",
+            "id" : "pbTitle"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "bafecd86-cc11-4049-b40e-1d14e63701dc",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 2,
+              "lg" : 2
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Producto"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.productoPrincipal.nombre"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "step" : {
+                "type" : "constant",
+                "value" : 1
+              }
+            },
+            "reference" : "4f66609e-3ce6-48c2-b5af-ee550eb76f7e",
+            "id" : "pbInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Subproducto"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Select an option"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaSubProductoPrincipal"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.subProductoPrincipal"
+              }
+            },
+            "reference" : "8a398b66-fa7d-4fae-a9d5-ebca864db9de",
+            "id" : "pbSelect"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "name" : {
+                "type" : "constant",
+                "value" : "montoPP"
+              },
+              "label" : {
+                "type" : "constant",
+                "value" : "Monto"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "min" : {
+                "type" : "constant",
+                "value" : 99999
+              },
+              "maxlength" : {
+                "type" : "constant",
+                "value" : 15
+              },
+              "minlength" : {
+                "type" : "constant"
+              },
+              "readonly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.montoPrincipal"
+              },
+              "placeholder" : {
+                "type" : "constant"
+              },
+              "symbol" : {
+                "type" : "constant",
+                "value" : "$"
+              }
+            },
+            "reference" : "19281098-1ac4-4d6f-b545-f51d8d773b9e",
+            "id" : "customCurrency"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 1,
+              "lg" : 1
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "esTarjetaCredito"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "name" : {
+                "type" : "constant",
+                "value" : "plazoPP"
+              },
+              "label" : {
+                "type" : "constant",
+                "value" : "Plazo"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "maxlength" : {
+                "type" : "constant",
+                "value" : 3
+              },
+              "minlength" : {
+                "type" : "constant",
+                "value" : 1
+              },
+              "pattern" : {
+                "type" : "constant",
+                "value" : "[0-9]"
+              },
+              "readonly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.plazoPrincipal"
+              },
+              "placeholder" : {
+                "type" : "constant",
+                "value" : "meses"
+              }
+            },
+            "reference" : "376e31d0-be0e-4f02-8d0e-91871752f143",
+            "id" : "customInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esAtibucion"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "name" : {
+                "type" : "constant",
+                "value" : "scoringPP"
+              },
+              "label" : {
+                "type" : "constant",
+                "value" : "Scoring"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "maxlength" : {
+                "type" : "constant",
+                "value" : 20
+              },
+              "minlength" : {
+                "type" : "constant",
+                "value" : 20
+              },
+              "pattern" : {
+                "type" : "constant",
+                "value" : "[0-9]"
+              },
+              "readonly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.scoringPrincipal"
+              },
+              "placeholder" : {
+                "type" : "constant"
+              }
+            },
+            "reference" : "d96376f6-ad5e-4d94-b409-3bc709bd05b8",
+            "id" : "customInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "<pre>Ao:{{esAtibucion|json}}</pre>"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "c5f093ea-2527-4f4f-9fd8-a52817eb5f8d",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esLibranza"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Segmento"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.segmentoPrincipal.nombre"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              }
+            },
+            "reference" : "61f767a9-21b8-449a-9f4a-ab805abbb356",
+            "id" : "pbInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esLibranza"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Convenio"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.convenioPrincipal.nombre"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              }
+            },
+            "reference" : "aaedca29-ec41-4384-b269-f106d5c17248",
+            "id" : "pbInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esLibranza"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Destino"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.infoconvenioPrincipal.nombre"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              }
+            },
+            "reference" : "4cd12b84-193f-45cb-a684-81f0d342c8a1",
+            "id" : "pbInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esDocumentos"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Documentos?"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Select an option"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaReqDocumentos"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.documentos"
+              }
+            },
+            "reference" : "6f65c4fa-ccd8-4284-9bbf-6ae4c342bc4a",
+            "id" : "pbSelect"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 6,
+              "lg" : 6
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Productos Adicionales"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 2
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Select an option"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaProductoAdicional"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.productoAdicional"
+              }
+            },
+            "reference" : "720f6ca5-563a-4ea8-9556-f156412b1834",
+            "id" : "pbSelect"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "a34f63b0-dab6-4085-b90d-cbaa31ab6154",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "backgroundTitlleAux"
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esProductoAdicional"
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "OTROS PRODUCTOS"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 5"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "2f82e2d9-1f19-4f07-aeb0-1d7e84afa90b",
+            "id" : "pbTitle"
+          } ], [ {
+            "type" : "container",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esProductoAdicional"
+              },
+              "repeatedCollection" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.otrosProductos"
+              }
+            },
+            "reference" : "03c67858-d49b-4bb9-a7b7-331927f2c723",
+            "id" : "pbContainer",
+            "rows" : [ [ {
+              "type" : "fragment",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "constant",
+                  "value" : false
+                }
+              },
+              "reference" : "c8c23ebe-6f85-4d9d-baa5-0f2d683c8580",
+              "id" : "7ce28523-8c2c-42ef-9691-46102a2ec913",
+              "binding" : {
+                "subProducto" : "$item",
+                "obtenerIdUsuario" : "obtenerIdUsuario",
+                "idUsuario" : "idUsuario",
+                "obtenerUserName" : "obtenerUserName",
+                "esAtibucion" : "esAtibucion",
+                "fuerzaVenta" : "formInput",
+                "esLibaranza" : "esLibranza",
+                "parametroBD" : "parametroBD.value"
+              }
+            } ], [ {
+              "type" : "component",
+              "dimension" : {
+                "xs" : 12,
+                "sm" : 12,
+                "md" : 12,
+                "lg" : 12
+              },
+              "propertyValues" : {
+                "cssClasses" : {
+                  "type" : "constant",
+                  "value" : ""
+                },
+                "hidden" : {
+                  "type" : "expression",
+                  "value" : "minimoOtrosProductos"
+                },
+                "disabled" : {
+                  "type" : "constant",
+                  "value" : false
+                },
+                "label" : {
+                  "type" : "interpolation",
+                  "value" : "x"
+                },
+                "alignment" : {
+                  "type" : "constant",
+                  "value" : "right"
+                },
+                "buttonStyle" : {
+                  "type" : "constant",
+                  "value" : "danger"
+                },
+                "action" : {
+                  "type" : "constant",
+                  "value" : "Remove from collection"
+                },
+                "url" : {
+                  "type" : "interpolation"
+                },
+                "dataToSend" : {
+                  "type" : "constant"
+                },
+                "dataFromSuccess" : {
+                  "type" : "variable"
+                },
+                "dataFromError" : {
+                  "type" : "variable"
+                },
+                "targetUrlOnSuccess" : {
+                  "type" : "interpolation"
+                },
+                "collectionToModify" : {
+                  "type" : "variable",
+                  "value" : "$collection"
+                },
+                "collectionPosition" : {
+                  "type" : "constant",
+                  "value" : "Item"
+                },
+                "valueToAdd" : {
+                  "type" : "constant"
+                },
+                "removeItem" : {
+                  "type" : "variable",
+                  "value" : "$item"
+                }
+              },
+              "reference" : "86e729fb-445e-4a3e-9c21-4e92d64ec95d",
+              "id" : "pbButton"
+            } ] ]
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esProductoAdicional||maximoOtrosProductos"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "+"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "right"
+              },
+              "buttonStyle" : {
+                "type" : "constant",
+                "value" : "primary"
+              },
+              "action" : {
+                "type" : "constant",
+                "value" : "Add to collection"
+              },
+              "url" : {
+                "type" : "interpolation"
+              },
+              "dataToSend" : {
+                "type" : "constant"
+              },
+              "dataFromSuccess" : {
+                "type" : "variable"
+              },
+              "dataFromError" : {
+                "type" : "variable"
+              },
+              "targetUrlOnSuccess" : {
+                "type" : "interpolation"
+              },
+              "collectionToModify" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.otrosProductos"
+              },
+              "collectionPosition" : {
+                "type" : "constant",
+                "value" : "Last"
+              },
+              "valueToAdd" : {
+                "type" : "expression",
+                "value" : "{{\"otroProducto\": \"val\":\"\", \"key\":\"\"},{\"otroSubProducto\": \"val\":\"\", \"key\":\"\"}}"
+              },
+              "removeItem" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "007319dc-20d2-4ebe-bbb2-f1c120d1fcee",
+            "id" : "pbButton"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "729f4da0-2d13-43a4-a803-792ebf4bfdc1",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esPreaprobado||esPreaprobadoTarjeta"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "text"
+              },
+              "name" : {
+                "type" : "constant",
+                "value" : "numeroCuentaDesembolso"
+              },
+              "label" : {
+                "type" : "constant",
+                "value" : "Número de Cuenta de Desembolso"
+              },
+              "disabled" : {
+                "type" : "constant"
+              },
+              "max" : {
+                "type" : "constant"
+              },
+              "min" : {
+                "type" : "constant"
+              },
+              "maxlength" : {
+                "type" : "constant",
+                "value" : 20
+              },
+              "minlength" : {
+                "type" : "constant",
+                "value" : 20
+              },
+              "pattern" : {
+                "type" : "constant",
+                "value" : "[0-9]"
+              },
+              "readonly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.cuentaDesembolso"
+              },
+              "placeholder" : {
+                "type" : "constant"
+              }
+            },
+            "reference" : "0d9ea10a-3daa-483b-a612-54e76b61325d",
+            "id" : "customInput"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esPreaprobado"
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Canal de vinculación"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Select an option"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaCanalVinculacion"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.canalVinculacion"
+              }
+            },
+            "reference" : "2a26d7e5-a9b8-414e-a73e-a8e8240af38e",
+            "id" : "pbSelect"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "expression",
+                "value" : "!esPreaprobado"
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "minLength" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "maxLength" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "readOnly" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Código oficina a segmentar"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "4 digitos"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.oficinaSegmentar"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "number"
+              },
+              "min" : {
+                "type" : "constant",
+                "value" : 0
+              },
+              "max" : {
+                "type" : "constant",
+                "value" : 9999
+              },
+              "step" : {
+                "type" : "constant",
+                "value" : 1
+              }
+            },
+            "reference" : "d1d691d7-f5b3-4346-a563-ec4b10456bd5",
+            "id" : "pbInput"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 6,
+              "lg" : 6
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "required" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "labelHidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Campaña"
+              },
+              "labelPosition" : {
+                "type" : "constant",
+                "value" : "top"
+              },
+              "labelWidth" : {
+                "type" : "constant",
+                "value" : 4
+              },
+              "placeholder" : {
+                "type" : "interpolation",
+                "value" : "Select an option"
+              },
+              "availableValues" : {
+                "type" : "expression",
+                "value" : "listaCampanaOficina"
+              },
+              "displayedKey" : {
+                "type" : "constant",
+                "value" : "nombre"
+              },
+              "returnedKey" : {
+                "type" : "constant"
+              },
+              "value" : {
+                "type" : "variable",
+                "value" : "formInput.radicacion.campana"
+              }
+            },
+            "reference" : "b53e658d-5a17-4d1c-b026-1105c6904ee2",
+            "id" : "pbSelect"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "validator"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "Máximo 500 caracteres."
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "right"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "fe7e60d3-67ea-4060-b568-d331004177f8",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : true
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "<pre>productoRadicacion:\n {{productoRadicacion}}</pre>"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "ae3ede15-24f5-44e4-ac56-056a27a458f0",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "formContainer",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              }
+            },
+            "reference" : "6609c1bf-378d-442e-a412-df0451ff1f93",
+            "id" : "pbFormContainer",
+            "container" : {
+              "type" : "container",
+              "dimension" : {
+                "xs" : 12
+              },
+              "propertyValues" : { },
+              "reference" : "4648066d-96c3-4a9b-b03c-779e7a3cf9c6",
+              "id" : "pbContainer",
+              "rows" : [ [ {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "targetUrl" : {
+                    "type" : "expression",
+                    "value" : "parametro.value"
+                  },
+                  "taskId" : {
+                    "type" : "constant"
+                  },
+                  "accept" : {
+                    "type" : "constant"
+                  },
+                  "maxSize" : {
+                    "type" : "constant",
+                    "value" : 20
+                  },
+                  "selectedFiles" : {
+                    "type" : "variable",
+                    "value" : "archivos[0]"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "preloadIds" : {
+                    "type" : "constant"
+                  },
+                  "identification" : {
+                    "type" : "expression",
+                    "value" : "formInput.radicacion.identificacion"
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "filesQuantity" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "label" : {
+                    "type" : "constant",
+                    "value" : "Adjunto 1"
+                  },
+                  "required" : {
+                    "type" : "constant",
+                    "value" : true
+                  },
+                  "businessCaseId" : {
+                    "type" : "constant",
+                    "value" : "123"
+                  },
+                  "createdBy" : {
+                    "type" : "constant",
+                    "value" : "BBVA"
+                  }
+                },
+                "reference" : "ec38a453-feb5-402b-8aa1-76b17e0c9437",
+                "id" : "customAdjuntos"
+              }, {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "targetUrl" : {
+                    "type" : "expression",
+                    "value" : "parametro.value"
+                  },
+                  "taskId" : {
+                    "type" : "constant"
+                  },
+                  "accept" : {
+                    "type" : "constant"
+                  },
+                  "maxSize" : {
+                    "type" : "constant",
+                    "value" : 20
+                  },
+                  "selectedFiles" : {
+                    "type" : "variable",
+                    "value" : "archivos[1]"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "preloadIds" : {
+                    "type" : "constant"
+                  },
+                  "identification" : {
+                    "type" : "expression",
+                    "value" : "formInput.radicacion.identificacion"
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "filesQuantity" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "label" : {
+                    "type" : "constant",
+                    "value" : "Adjunto 2"
+                  },
+                  "required" : {
+                    "type" : "constant"
+                  },
+                  "businessCaseId" : {
+                    "type" : "constant",
+                    "value" : "123"
+                  },
+                  "createdBy" : {
+                    "type" : "constant",
+                    "value" : "BBVA"
+                  }
+                },
+                "reference" : "335ce1c1-75c7-4036-91c4-9833173bc5ee",
+                "id" : "customAdjuntos"
+              }, {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "targetUrl" : {
+                    "type" : "expression",
+                    "value" : "parametro.value"
+                  },
+                  "taskId" : {
+                    "type" : "constant"
+                  },
+                  "accept" : {
+                    "type" : "constant"
+                  },
+                  "maxSize" : {
+                    "type" : "constant",
+                    "value" : 20
+                  },
+                  "selectedFiles" : {
+                    "type" : "variable",
+                    "value" : "archivos[2]"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "preloadIds" : {
+                    "type" : "constant"
+                  },
+                  "identification" : {
+                    "type" : "expression",
+                    "value" : "formInput.radicacion.identificacion"
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "filesQuantity" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "label" : {
+                    "type" : "constant",
+                    "value" : "Adjunto 3"
+                  },
+                  "required" : {
+                    "type" : "constant"
+                  },
+                  "businessCaseId" : {
+                    "type" : "constant",
+                    "value" : "123"
+                  },
+                  "createdBy" : {
+                    "type" : "constant",
+                    "value" : "BBVA"
+                  }
+                },
+                "reference" : "f564becd-83e8-4faf-a434-e130ec56efa9",
+                "id" : "customAdjuntos"
+              } ], [ {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!productoRadicacion"
+                  },
+                  "targetUrl" : {
+                    "type" : "expression",
+                    "value" : "parametro.value"
+                  },
+                  "taskId" : {
+                    "type" : "constant"
+                  },
+                  "accept" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "maxSize" : {
+                    "type" : "constant",
+                    "value" : 20
+                  },
+                  "selectedFiles" : {
+                    "type" : "variable",
+                    "value" : "archivos[3]"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "preloadIds" : {
+                    "type" : "constant"
+                  },
+                  "identification" : {
+                    "type" : "expression",
+                    "value" : "formInput.radicacion.identificacion"
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "filesQuantity" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "label" : {
+                    "type" : "constant",
+                    "value" : "Adjunto 4"
+                  },
+                  "required" : {
+                    "type" : "constant"
+                  },
+                  "businessCaseId" : {
+                    "type" : "constant",
+                    "value" : "123"
+                  },
+                  "createdBy" : {
+                    "type" : "constant",
+                    "value" : "BBVA"
+                  }
+                },
+                "reference" : "9feccf34-b658-4603-ab7c-5952d5a4d140",
+                "id" : "customAdjuntos"
+              }, {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "expression",
+                    "value" : "!productoRadicacion"
+                  },
+                  "targetUrl" : {
+                    "type" : "expression",
+                    "value" : "parametro.value"
+                  },
+                  "taskId" : {
+                    "type" : "constant"
+                  },
+                  "accept" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "maxSize" : {
+                    "type" : "constant",
+                    "value" : 20
+                  },
+                  "selectedFiles" : {
+                    "type" : "variable",
+                    "value" : "archivos[4]"
+                  },
+                  "type" : {
+                    "type" : "constant",
+                    "value" : "ArchivoAdjunto"
+                  },
+                  "preloadIds" : {
+                    "type" : "constant"
+                  },
+                  "identification" : {
+                    "type" : "expression",
+                    "value" : "formInput.radicacion.identificacion"
+                  },
+                  "readOnly" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "filesQuantity" : {
+                    "type" : "constant",
+                    "value" : 1
+                  },
+                  "label" : {
+                    "type" : "constant",
+                    "value" : "Adjunto 5"
+                  },
+                  "required" : {
+                    "type" : "constant"
+                  },
+                  "businessCaseId" : {
+                    "type" : "constant",
+                    "value" : "123"
+                  },
+                  "createdBy" : {
+                    "type" : "constant",
+                    "value" : "BBVA"
+                  }
+                },
+                "reference" : "e910433e-2957-41f2-9d1e-8008428c0cae",
+                "id" : "customAdjuntos"
+              }, {
+                "type" : "container",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 4,
+                  "lg" : 4
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : ""
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "repeatedCollection" : {
+                    "type" : "variable"
+                  }
+                },
+                "reference" : "24a7cc8a-ea45-4298-8b7a-c3d9290ec790",
+                "id" : "pbContainer",
+                "rows" : [ [ ] ]
+              } ], [ {
+                "type" : "component",
+                "dimension" : {
+                  "xs" : 12,
+                  "sm" : 12,
+                  "md" : 12,
+                  "lg" : 12
+                },
+                "propertyValues" : {
+                  "cssClasses" : {
+                    "type" : "constant",
+                    "value" : "text-danger"
+                  },
+                  "hidden" : {
+                    "type" : "constant",
+                    "value" : false
+                  },
+                  "text" : {
+                    "type" : "interpolation",
+                    "value" : "{{validadorAdjunto}}"
+                  },
+                  "level" : {
+                    "type" : "constant",
+                    "value" : "Level 4"
+                  },
+                  "alignment" : {
+                    "type" : "constant",
+                    "value" : "center"
+                  }
+                },
+                "reference" : "0ebd9e5d-8e9b-49ef-b45f-42ce57fe787b",
+                "id" : "pbTitle"
+              } ] ]
+            }
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "disabled" : {
+                "type" : "expression",
+                "value" : "filtroValidador || esClienteVIP"
+              },
+              "label" : {
+                "type" : "interpolation",
+                "value" : "Enviar"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              },
+              "buttonStyle" : {
+                "type" : "constant",
+                "value" : "primary"
+              },
+              "action" : {
+                "type" : "constant",
+                "value" : "Start process"
+              },
+              "url" : {
+                "type" : "interpolation"
+              },
+              "dataToSend" : {
+                "type" : "expression",
+                "value" : "formOutput"
+              },
+              "dataFromSuccess" : {
+                "type" : "variable",
+                "value" : "caso"
+              },
+              "dataFromError" : {
+                "type" : "variable",
+                "value" : "succes"
+              },
+              "targetUrlOnSuccess" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "collectionToModify" : {
+                "type" : "variable"
+              },
+              "collectionPosition" : {
+                "type" : "constant",
+                "value" : "Last"
+              },
+              "valueToAdd" : {
+                "type" : "constant"
+              },
+              "removeItem" : {
+                "type" : "variable"
+              }
+            },
+            "reference" : "cc6d9403-0e53-45db-a480-0f4142d45c99",
+            "id" : "customButtonRedirectNextTask"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "validator"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "{{validadorTercerFormulario}}"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 5"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "e89e233a-8196-4e2f-8bff-18e2ff962787",
+            "id" : "pbTitle"
+          } ] ]
+        } ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "$form.$invalid || containersVisibility[2] == false"
+          },
+          "hiddenVariablesList" : {
+            "type" : "variable",
+            "value" : "containersVisibility"
+          }
+        },
+        "reference" : "f38a4eac-7c3d-49e4-b8e8-8f3ad315d577",
+        "id" : "customBotonSiguienteAtras"
+      } ], [ {
+        "type" : "container",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : "Modal-overlay"
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "!dataNoCaso"
+          },
+          "repeatedCollection" : {
+            "type" : "variable"
+          }
+        },
+        "reference" : "3ebe1657-9939-4338-a749-aa5c3cb1aa1e",
+        "id" : "pbContainer",
+        "rows" : [ [ {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "633237d7-e6af-4392-8935-f0f2141fa502",
+          "id" : "pbText"
+        }, {
+          "type" : "container",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 6,
+            "lg" : 8
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : "Modal-content"
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "repeatedCollection" : {
+              "type" : "variable"
+            }
+          },
+          "reference" : "4e2fde4c-0401-4291-bbb6-a11b9b007187",
+          "id" : "pbContainer",
+          "rows" : [ [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : "backgroundTitlle"
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "Número de Caso"
+              },
+              "level" : {
+                "type" : "constant",
+                "value" : "Level 4"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              }
+            },
+            "reference" : "6b9aba50-eeec-48b0-b112-cec77af53eeb",
+            "id" : "pbTitle"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 12,
+              "lg" : 12
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "59d660a8-d818-4e2f-a52c-a8fe98f176bb",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "737f327d-a159-4539-871d-198e54c150e6",
+            "id" : "pbText"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 5,
+              "lg" : 6
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "</br></br><div class=\"alert alert-info\" role=\"alert\">\n<center><h1><p><span class=\"glyphicon glyphicon-ok-sign\" ></span></h1><center>\n <h2><center> <strong>{{dataNoCaso.noCasoNegocio}}</strong></h2><center>\n</div>"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "a5d70f92-4c1b-483a-b7b1-ca5c27569f4e",
+            "id" : "pbText"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 3,
+              "lg" : 3
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "c66041ad-e162-4e5d-b454-8c869ce33f98",
+            "id" : "pbText"
+          } ], [ {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "8b3acd38-269e-41e1-920d-1923a544cc4f",
+            "id" : "pbText"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : "Aceptar"
+              },
+              "type" : {
+                "type" : "constant",
+                "value" : "URL"
+              },
+              "targetUrl" : {
+                "type" : "constant",
+                "value" : "/bonita"
+              },
+              "pageToken" : {
+                "type" : "constant"
+              },
+              "processName" : {
+                "type" : "constant"
+              },
+              "processVersion" : {
+                "type" : "constant"
+              },
+              "taskId" : {
+                "type" : "constant"
+              },
+              "caseId" : {
+                "type" : "constant"
+              },
+              "target" : {
+                "type" : "constant",
+                "value" : "_top"
+              },
+              "appToken" : {
+                "type" : "constant"
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "center"
+              },
+              "buttonStyle" : {
+                "type" : "constant",
+                "value" : "primary"
+              }
+            },
+            "reference" : "8c99c372-8d38-4e3b-8636-51c93fb38c66",
+            "id" : "pbLink"
+          }, {
+            "type" : "component",
+            "dimension" : {
+              "xs" : 12,
+              "sm" : 12,
+              "md" : 4,
+              "lg" : 4
+            },
+            "propertyValues" : {
+              "cssClasses" : {
+                "type" : "constant",
+                "value" : ""
+              },
+              "hidden" : {
+                "type" : "constant",
+                "value" : false
+              },
+              "text" : {
+                "type" : "interpolation",
+                "value" : ""
+              },
+              "alignment" : {
+                "type" : "constant",
+                "value" : "left"
+              },
+              "allowHTML" : {
+                "type" : "constant",
+                "value" : true
+              }
+            },
+            "reference" : "30f7a783-fbdb-4597-aa1b-13ca4d2344c2",
+            "id" : "pbText"
+          } ] ]
+        }, {
+          "type" : "component",
+          "dimension" : {
+            "xs" : 12,
+            "sm" : 12,
+            "md" : 3,
+            "lg" : 2
+          },
+          "propertyValues" : {
+            "cssClasses" : {
+              "type" : "constant",
+              "value" : ""
+            },
+            "hidden" : {
+              "type" : "constant",
+              "value" : false
+            },
+            "text" : {
+              "type" : "interpolation",
+              "value" : ""
+            },
+            "alignment" : {
+              "type" : "constant",
+              "value" : "left"
+            },
+            "allowHTML" : {
+              "type" : "constant",
+              "value" : true
+            }
+          },
+          "reference" : "6103bd93-7d00-4bd9-8820-36a429cee5a9",
+          "id" : "pbText"
+        } ] ]
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 6,
+          "lg" : 6
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "expression",
+            "value" : "containersVisibility[2] == true || validadorBtnSiguienteAtras3 && filtroValidador"
+          },
+          "hiddenVariablesList" : {
+            "type" : "variable",
+            "value" : "containersVisibility"
+          }
+        },
+        "reference" : "5ac9a4be-f1f9-451b-9cfd-bc14db1898fd",
+        "id" : "customBotonSiguienteAtras"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : true
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : "<pre>formOutput : {{formOutput | json}}</pre>"
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "8f8976db-5ee9-4803-b6f7-9da2d752f247",
+        "id" : "pbText"
+      } ], [ {
+        "type" : "component",
+        "dimension" : {
+          "xs" : 12,
+          "sm" : 12,
+          "md" : 12,
+          "lg" : 12
+        },
+        "propertyValues" : {
+          "cssClasses" : {
+            "type" : "constant",
+            "value" : ""
+          },
+          "hidden" : {
+            "type" : "constant",
+            "value" : false
+          },
+          "text" : {
+            "type" : "interpolation",
+            "value" : ""
+          },
+          "alignment" : {
+            "type" : "constant",
+            "value" : "left"
+          },
+          "allowHTML" : {
+            "type" : "constant",
+            "value" : true
+          }
+        },
+        "reference" : "9aaad9de-a7da-4349-8d18-0ed29870baa6",
+        "id" : "pbText"
+      } ] ]
+    }
+  } ] ],
+  "assets" : [ {
+    "id" : "f4d84e92-1ae8-4d87-9e46-e0fc2d20f160",
+    "name" : "localization.json",
+    "type" : "json",
+    "order" : 0,
+    "external" : false
+  }, {
+    "id" : "de892fc9-f82a-4423-a154-7a8c2a80f2ce",
+    "name" : "ui-bootstrap-tpls-0.13.0.min.js",
+    "type" : "js",
+    "order" : 26,
+    "external" : false
+  }, {
+    "id" : "9f21872f-b69d-4d45-a610-404a9ec950f9",
+    "name" : "styleRadicacion.css",
+    "type" : "css",
+    "order" : 23,
+    "external" : false
+  }, {
+    "id" : "21bea643-9170-466a-83b0-0be383142d5d",
+    "name" : "style.css",
+    "type" : "css",
+    "order" : 25,
+    "external" : false
+  }, {
+    "id" : "cfd8770a-d958-4687-bec5-26acf3effd84",
+    "name" : "modal.css",
+    "type" : "css",
+    "order" : 24,
+    "external" : false
+  } ],
+  "inactiveAssets" : [ ],
+  "data" : {
+    "formOutput" : {
+      "type" : "expression",
+      "value" : "var salida={};\n\nif ($data.formInput.radicacion.fuerzaVenta.id === 4){\n    salida.radicacion=$data.formInput.radicacion;\n    salida.radicacion.oficina=$data.listaOficinaCiudadTerrirtorial[0].nombreO;\n    salida.radicacion.ciudad=$data.listaOficinaCiudadTerrirtorial[0].nombreC;\n    salida.radicacion.territorial=$data.listaOficinaCiudadTerrirtorial[0].nombreT;\n    salida.radicacion.zona=$data.listaOficinaCiudadTerrirtorial[0].nombreZ;\n    salida.radicacion.archivos=$data.filtroArchivos;\n}\n    else{\n        salida.radicacion=$data.formInput.radicacion;\n        salida.radicacion.archivos=$data.filtroArchivos;\n        salida.radicacion.oficina=\"N/A\";\n        salida.radicacion.ciudad=\"N/A\";\n        salida.radicacion.territorial=\"N/A\";\n        salida.radicacion.zona=\"N/A\";\n    }\nreturn salida;",
+      "exposed" : false
+    },
+    "formInput" : {
+      "type" : "json",
+      "value" : "{\r\n\"radicacion\":{\r\n    \"fuerzaVenta\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"productoPrincipal\":{\r\n        \"idCircuito\":\"\",\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"subProductoPrincipal\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n\t\"montoPrincipal\" : \"\",\r\n\t\"plazoPrincipal\": \"\",\r\n\t\"scoringPrincipal\": \"\",\r\n\t\"documentos\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"actividadCliente\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"tipoCliente\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"segmentoPrincipal\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"convenioPrincipal\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n\r\n    \"productoAdicional\": {\r\n        \"id\": \"\",\r\n        \"nombre\": \"\"\r\n    },\r\n    \"otrosProductos\" : [\r\n               {\r\n                       \"producto\": {\r\n                            \"idCircuito\":\"\",\r\n                               \"id\" : \"\",\r\n                               \"nombre\" : \"\"\r\n                                },\r\n                       \"subProducto\": {\r\n                               \"id\" : \" \",\r\n                               \"nombre\" : \" \"\r\n                       },\r\n                       \"monto\" : \"\",\r\n                       \"plazo\": \"\",\r\n                       \"scoring\": \"\",\r\n                       \"segmento\":{\r\n                                \"id\" : \" \",\r\n                                \"nombre\" : \" \"\r\n                       },\r\n                       \"convenio\": {\r\n                               \"id\" : \" \",\r\n                               \"nombre\" : \" \"\r\n                       }\r\n               }\r\n       ],\r\n    \"identificacion\": \"\",\r\n    \"nombreApellido\": \"\",\r\n    \"tieneEmail\":\"\",\r\n    \"email\": \"\",\r\n    \"titular\": \"\",\r\n\t\"avalistas\" : [\r\n\t\t{\r\n\t\t\t\"nombreApellido\" : \"\",\r\n\t\t\t\"tipoDocumento\": {\r\n\t\t\t\t\"id\" : \" \",\r\n\t\t\t\t\"nombre\" : \" \"\r\n\t\t\t\t\t\t\t},\r\n\t\t\t\"numeroIdentificacion\": \"\",\r\n\t\t\t\"tipoCliente\": {\r\n\t\t\t\t\"id\" : \" \",\r\n\t\t\t\t\"nombre\" : \" \"\r\n\t\t\t}\r\n\t\t}\r\n\t],\r\n    \"cedulaCoordinador\": {\r\n        \"id\": \"\",\r\n        \"nombre\": \"\",\r\n        \"regional\": \"\"\r\n    },\r\n    \"codigoOficina\" : \"\",\r\n    \"identificacionGestor\": \"\",\r\n    \"cuentaDesembolso\": \"\",\r\n    \"canalVinculacion\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"oficinaSegmentar\": \"\",\r\n    \"campana\":{\r\n        \"id\":\"\",\r\n        \"nombre\":\"\"\r\n    },\r\n    \"observacion\":\"\"\r\n    \r\n    }\r\n   \r\n}",
+      "exposed" : false
+    },
+    "listaFuerzaVenta" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/fuerzaVenta?&p=0&c=100&f=ID={{formInput.radicacion.productoPrincipal.id}}",
+      "exposed" : false
+    },
+    "listaActividadCliente" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/actividadCliente?p=0&c=100&f=ID=1",
+      "exposed" : false
+    },
+    "listaTipoCliente" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/tipoCliente?p=0&c=100&f=ID=1",
+      "exposed" : false
+    },
+    "listaTipoDocumento" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/tipoDocumento?p=0&c=100",
+      "exposed" : false
+    },
+    "listaDestino" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/destino?p=0&c=100&f=PROD={{formInput.radicacion.productoPrincipal.id}}",
+      "exposed" : false
+    },
+    "listaProducto" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/productoPrincipal?p=0&c=100",
+      "exposed" : false
+    },
+    "listaProductoAdicional" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/productoAdicinal?p=0&c=100",
+      "exposed" : false
+    },
+    "esProductoAdicional" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoAdicional.id == 1 ||\n$data.formInput.radicacion.productoAdicional.id == 2;",
+      "exposed" : false
+    },
+    "listaSubProductoPrincipal" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/subProducto?p=0&c=100&f=PROD={{formInput.radicacion.productoPrincipal.id}}&f=FV={{formInput.radicacion.fuerzaVenta.id}}&f=ID=1",
+      "exposed" : false
+    },
+    "observador" : {
+      "type" : "expression",
+      "value" : "try{\r\nif($data.formInput.radicacion.productoAdicional.id === 3){\r\n\r\n    $data.formInput.radicacion.otrosProductos = [{producto:{\r\n                                                            idCircuito:0,\r\n                                                            id: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t            nombre: \"N/A\"\r\n                                                            },\r\n\t\t\t\t\t\t\t\t\t\t\t\t  subProducto:{id:0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t   nombre: \"N/A\"},\r\n\t\t\t\t\t\t\t\t\t\t\t\t  monto: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t  plazo: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t  scoring: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t  segmento:{id : 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tnombre : \"N/A\"},\r\n\t\t\t\t\t\t\t\t\t\t\t\t  convenio: {\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tid : 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tnombre : \"N/A\"},\r\n\t\t\t\t\t\t\t\t\t\t\t\t  infoConvenio: {\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  marca: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_destino: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_responsable: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  id_tipo_desembolso: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  codigo_usuario: \"N/A\",\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  nombre: \"N/A\",\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  VoBo: 0,\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t  verificacion_contrato: 0\r\n\t\t\t\t\t\t\t\t\t\t\t\t\t} \r\n    }];}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.titular === \"No\"){\r\n    $data.formInput.radicacion.avalistas = [{nombreApellido: \"N/A\", \r\n                                             tipoDocumento: {id: 0,\r\n                                                             nombre: \"N/A\"},\r\n                                             numeroIdentificacion: 0,\r\n                                             tipoCliente: {id: 0,\r\n                                                           nombre: \"N/A\"}}];}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.tieneEmail === \"No\"){\r\n    $data.formInput.radicacion.email = \"no@gmail.com\";\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.productoPrincipal.id === 4||$data.formInput.radicacion.productoPrincipal.id === 2||\r\n    $data.formInput.radicacion.productoPrincipal.id === 38||$data.formInput.radicacion.productoPrincipal.id === 39){\r\n    $data.formInput.radicacion.plazoPrincipal = 0;\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif ($data.esAtibucion===false){\r\n    $data.formInput.radicacion.scoringPrincipal = 0;\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.fuerzaVenta.id === 4){\r\n    $data.formInput.radicacion.cedulaCoordinador ={id: 0,\r\n                                                   nombre: \"N/A\",\r\n                                                   regional: \"N/A\"};\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.productoPrincipal.id !== 3){\r\n    $data.formInput.radicacion.segmentoPrincipal= {id : 0,\r\n                                  nombre : \"N/A\"};\r\n    $data.formInput.radicacion.convenioPrincipal= {id : 0,\r\n                                  nombre : \"N/A\"};\r\n    $data.formInput.radicacion.infoconvenioPrincipal= {\r\n      marca: 0,\r\n      id_destino: 0,\r\n      id_responsable: 0,\r\n      id_tipo_desembolso: 0,\r\n      codigo_usuario: \"N/A\",\r\n      nombre: \"N/A\",\r\n      VoBo: 0,\r\n      verificacion_contrato: 0\r\n    }                             \r\n\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.productoPrincipal.id === 3){\r\n        $data.formInput.radicacion.destino= {id : $data.formInput.radicacion.infoconvenioPrincipal.id_destino,\r\n                                  nombre : $data.formInput.radicacion.infoconvenioPrincipal.nombre};\r\n\r\n}\r\n}catch(Err){}\r\n\r\ntry{\r\nif($data.formInput.radicacion.productoPrincipal.idCircuito !== 6){\r\n\r\n    $data.formInput.radicacion.documentos = {id : 0,\r\n                                  nombre : \"N/A\"};\r\n    $data.formInput.radicacion.canalVinculacion= {id : 0,\r\n                                  nombre : \"N/A\"};\r\n    $data.formInput.radicacion.cuentaDesembolso = 0;\r\n    $data.formInput.radicacion.oficinaSegmentar = 0;\r\n}\r\n}catch(Err){}\r\n\r\n/*try{\r\nif ($data.formInput.radicacion.campana.id === 4){\r\n    $data.formInput.radicacion.campana ={id: 4,\r\n                                         nombre: \"N/A\"};\r\n}\r\n}catch(Err){}*/\r\n",
+      "exposed" : false
+    },
+    "containersVisibility" : {
+      "type" : "expression",
+      "value" : "return [false, true, true];",
+      "exposed" : false
+    },
+    "obtenerIdUsuario" : {
+      "type" : "url",
+      "value" : "../API/system/session/unusedid",
+      "exposed" : false
+    },
+    "idUsuario" : {
+      "type" : "expression",
+      "value" : "return $data.obtenerIdUsuario.user_id;",
+      "exposed" : false
+    },
+    "obtenerUserName" : {
+      "type" : "url",
+      "value" : "../API/identity/user/{{idUsuario}}",
+      "exposed" : false
+    },
+    "succes" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "validadorPrimerFormulario" : {
+      "type" : "expression",
+      "value" : "var lista = [];\n\ntry{\n    if ($data.formInput.radicacion.productoPrincipal === undefined){\n        lista.push('El campo producto principal es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.fuerzaVenta === undefined){\n        lista.push('El campo fuerza de venta es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.actividadCliente === undefined){\n        lista.push('El campo actividad cliente es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.tipoCliente === undefined){\n        lista.push('El campo tipo cliente es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.productoPrincipal.id !== 3 && $data.formInput.radicacion.destino === undefined){\n        lista.push('El campo destino es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.productoPrincipal.id === 3){\n        if($data.formInput.radicacion.segmentoPrincipal ===undefined)\n        {lista.push('El campo segmento es obligatorio');}\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.productoPrincipal.id === 3){\n        if($data.formInput.radicacion.convenioPrincipal ===undefined)\n        {lista.push('El campo convenio es obligatorio');}\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.productoPrincipal.id === 3){\n        if($data.formInput.radicacion.infoconvenioPrincipal ===undefined)\n        {lista.push('El campo destino es obligatorio');}\n    }\n}catch(Err){}\n\n/*try{\n    if ($data.formInput.radicacion.tipoDocumento === undefined){\n        lista.push('El campo tipo documento es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.identificacion === \"\"){\n        lista.push('El campo identifiacción es obligatorio');\n    }\n}catch(Err){}*/\n\nreturn lista[0];",
+      "exposed" : false
+    },
+    "validadorSegundoFormulario" : {
+      "type" : "expression",
+      "value" : "var lista = [];\n\ntry{\n    if ($data.formInput.radicacion.fuerzaVenta.id !== 4 &&\n        $data.formInput.radicacion.cedulaCoordinador === undefined){\n        lista.push('La cédula del coordinador/proveedor es obligatoria');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.fuerzaVenta.id === 4 && \n        $data.formInput.radicacion.codigoOficina === \"\"){\n        lista.push('El código de la oficina es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.identificacionGestor === \"\"){\n        lista.push('La identificación del gestor es obligatoria');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.identificacion === \"\"){\n        lista.push('El número de identificación del cliente es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.tipoDocumentoCliente === undefined){\n        lista.push('El tipo de documento del cliente es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.nombreApellido === \"\"){\n        lista.push('El nombre y apellido del cliente son obligatorios');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.tieneEmail === \"\"){\n        lista.push('El campo tiene email es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.tieneEmail === \"Si\" && \n        $data.formInput.radicacion.email === \"\"){\n        lista.push('El campo email es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if ($data.formInput.radicacion.titular === undefined){\n        lista.push('El campo otros titulares y/o avalistas es obligatorio');\n    }\n}catch(Err){}\n\ntry{\n    if($data.formInput.radicacion.titular === 'Si'){\n        console.log('Entro');\n        $data.formInput.radicacion.avalistas.forEach(function(element, index, array){\n        console.log('Recorrer');\n        if((element.nombreApellido === \"\" || element.tipoDocumento === undefined) || \n        (element.numeroIdentificacion === \"\" || element.tipoCliente === undefined)){\n            console.log('Agregar');\n            lista.push('Faltan campos por diligenciar en la línea del grupo de otros titulares y/o avalistas');\n            }\n        } );\n    }\n}catch(Err){}\n\ntry{\n    if ($data.consultaGerenteGestor.nombre === \"\"){\n        lista.push('EL gerente gestor no existe');\n    }\n}catch(Err){}\n\nreturn lista [0];",
+      "exposed" : false
+    },
+    "validadorTercerFormulario" : {
+      "type" : "expression",
+      "value" : "var lista = [];\r\n\r\ntry{\r\n    if (!$data.formInput.radicacion.subProductoPrincipal ){\r\n        lista.push('El campo sub - producto del producto principal es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.montoPrincipal === \"\"){\r\n        lista.push('El campo monto del producto principal es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.plazoPrincipal === \"\" && !($data.esTarjetaCredito)){\r\n        lista.push('El campo plazo del producto principal es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\nconsole.log('CantidadScoring: ' + $data.formInput.radicacion.scoringPrincipal.length);\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.scoringPrincipal === \"\" || \r\n        $data.formInput.radicacion.scoringPrincipal.length < 20){\r\n        lista.push('El campo scoring del producto principal es obligatorio y debe tener un valor igual a 20 caracteres');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if (!$data.formInput.radicacion.productoAdicional ){\r\n        lista.push('El campo producto adicional es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if($data.esProductoAdicional){\r\n        $data.formInput.radicacion.otrosProductos.forEach(function(element, index, array){\r\n        if(!element.producto  || !element.subProducto  || \r\n            !element.monto || (!element.plazo && (element.producto.id != 2 && element.producto.id != 4)) || (!element.scoring && ($data.esAtibucion))){\r\n            lista.push('Faltan campos por diligenciar en el grupo de otros productos');\r\n            }\r\n        } );\r\n    }\r\n}catch(Err){}\r\n\r\n\r\n/*try{\r\n    if ($data.formInput.radicacion.cuentaDesembolso === \"\"){\r\n        lista.push('El campo cuenta desembolso es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.canalVinculacion === undefined){\r\n        lista.push('El campo canal de vinculación es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.oficinaSegmentar === \"\"){\r\n        lista.push('El campo oficina a segmentar es obligatorio');\r\n    }\r\n}catch(Err){}*/\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.productoPrincipal.idCircuito === 6 &&\r\n        $data.formInput.radicacion.fuerzaVenta.id === 1){\r\n        if($data.formInput.radicacion.documentos.id ===0)\r\n        {lista.push('El campo Documentos es obligatorio');}\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.productoPrincipal.idCircuito === 6 && $data.esPreaprobadoTarjeta === false){\r\n        if($data.formInput.radicacion.cuentaDesembolso ===0)\r\n        {lista.push('El campo Cuenta Desembolso es obligatorio');}\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.productoPrincipal.idCircuito === 6){\r\n        if($data.formInput.radicacion.canalVinculacion === undefined)\r\n        {lista.push('El campo Canal de Vinculación es obligatorio');}\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.formInput.radicacion.productoPrincipal.idCircuito === 6){\r\n        if($data.formInput.radicacion.oficinaSegmentar ===0)\r\n        {lista.push('El campo Código de oficina a Segmentar es obligatorio');}\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if (!$data.formInput.radicacion.campana){\r\n        lista.push('El campo campaña es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if (!$data.formInput.radicacion.observacion){\r\n        lista.push('El campo observaciones es obligatorio');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if (!$data.consultaGerenteGestor.nombre){\r\n        lista.push('EL gerente gestor no existe');\r\n    }\r\n}catch(Err){}\r\n\r\ntry{\r\n    if ($data.consultaGerenteGestor.nombre === \"\" || $data.consultaGerenteGestor.mail === \"\"  || $data.consultaGerenteGestor.mail === null){\r\n        lista.push('EL gerente gestor no existe ó falta el correo del gestor');\r\n    }\r\n}catch(Err){}\r\n\r\nreturn lista [0];\r\n",
+      "exposed" : false
+    },
+    "listaOficinaCiudadTerrirtorial" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/oficinaCiudadTerrirtorial?p=0&c=100&f=ID={{formInput.radicacion.codigoOficina}}",
+      "exposed" : false
+    },
+    "esAtibucion" : {
+      "type" : "expression",
+      "value" : "if($data.formInput.radicacion.fuerzaVenta.id === 4 && $data.formInput.radicacion.productoPrincipal.idCircuito !== 5 && $data.formInput.radicacion.productoPrincipal.idCircuito !== 3){\r\n\t    if($data.listaOficinaCiudadTerrirtorial[0].atribucion === 1){\r\n\t\t    return true;\r\n\t    }\r\n    }\r\n\r\nelse \r\n\r\n    /*if($data.esProductoAdicional){\r\n        $data.formInput.radicacion.otrosProductos.forEach(function(element, index, array){\r\n            if(element.producto.idCircuito === 3 && element.infoConvenio.verificacion_contrato === -1){\r\n                return true;\r\n            }\r\n        });\r\n    }\r\n    \r\n    else*/\r\n    \r\n        if ($data.formInput.radicacion.productoPrincipal.idCircuito === 3 && $data.formInput.radicacion.infoconvenioPrincipal.verificacion_contrato === -1){\r\n        return true;\r\n        }\r\n        \r\n        else\r\n        \r\nreturn false;",
+      "exposed" : false
+    },
+    "listaAtribucion" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/atribucion?p=0&c=100",
+      "exposed" : false
+    },
+    "listaclienteVIP" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/vip?p=0&c=100&f=ID={{formInput.radicacion.identificacion}}",
+      "exposed" : false
+    },
+    "esClienteVIP" : {
+      "type" : "expression",
+      "value" : "var lista = [];\n\ntry{\n    if (($data.formInput.radicacion.tipoCliente.id === 1 ||\n        $data.formInput.radicacion.tipoCliente.id === 2) &&\n        $data.listaclienteVIP.length === 0){\n        lista.push('El cliente no es usuario V.I.P');\n    }\n}catch(Err){}\n\nreturn lista [0];",
+      "exposed" : false
+    },
+    "esTarjetaCredito" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoPrincipal.id === 4 || $data.formInput.radicacion.productoPrincipal.id === 2 ||\n        $data.formInput.radicacion.productoPrincipal.id === 38 || $data.formInput.radicacion.productoPrincipal.id === 39;",
+      "exposed" : false
+    },
+    "listaCampanaOficina" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/campana?p=0&c=100&f=PROD={{esCampana}}",
+      "exposed" : false
+    },
+    "consultaGerenteGestor" : {
+      "type" : "url",
+      "value" : "../API/extension/consultaGestor?cedula={{formInput.radicacion.identificacionGestor}}",
+      "exposed" : false
+    },
+    "esCampana" : {
+      "type" : "expression",
+      "value" : "var lol = \"\";\r\n\r\nif ($data.formInput.radicacion.fuerzaVenta.id === 4){\r\n   lol = parseInt($data.formInput.radicacion.productoPrincipal.id) + \"&f=ID=\" + parseInt($data.formInput.radicacion.codigoOficina)}\r\n   else{\r\n   lol = parseInt($data.formInput.radicacion.productoPrincipal.id) + \"&f=ID=\" + -1}\r\n   \r\nreturn lol;",
+      "exposed" : false
+    },
+    "esGestor" : {
+      "type" : "expression",
+      "value" : "return $data.consultaGerenteGestor.nombre;",
+      "exposed" : false
+    },
+    "archivos" : {
+      "type" : "expression",
+      "value" : "return [null,null,null,null,null];",
+      "exposed" : false
+    },
+    "versionProceso" : {
+      "type" : "url",
+      "value" : "../API/bpm/process?name=ContratacionPN&s=2.1.7&f=displayName=ContratacionPN",
+      "exposed" : false
+    },
+    "idActividad" : {
+      "type" : "expression",
+      "value" : "return $data.versionProceso[0].id;",
+      "exposed" : false
+    },
+    "URL" : {
+      "type" : "expression",
+      "value" : "return $data.parametro.value + \"/document-svc\";",
+      "exposed" : false
+    },
+    "productoRadicacion" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoPrincipal.idCircuito === 8;",
+      "exposed" : false
+    },
+    "parametroBD" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{idActividad}}&resource=dbaccessURL",
+      "exposed" : false
+    },
+    "minimoOtrosProductos" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.otrosProductos.length === 1;",
+      "exposed" : false
+    },
+    "maximoOtrosProductos" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.otrosProductos.length === 4;",
+      "exposed" : false
+    },
+    "listaCoordinador" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/coordinador?p=0&c=100&f=ID={{formInput.radicacion.fuerzaVenta.id}}",
+      "exposed" : false
+    },
+    "esLibranza" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoPrincipal.id === 3;",
+      "exposed" : false
+    },
+    "listaSegmento" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/segmento?p=0&c=100",
+      "exposed" : false
+    },
+    "listaConvenio" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/convenio?p=0&c=1000&f=SEG={{formInput.radicacion.segmentoPrincipal.id}}",
+      "exposed" : false
+    },
+    "listaReqDocumentos" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/requiereDoc?&p=0&c=100",
+      "exposed" : false
+    },
+    "esPreaprobado" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoPrincipal.idCircuito === 6;",
+      "exposed" : false
+    },
+    "listaCanalVinculacion" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/canalVinculacion?&p=0&c=100",
+      "exposed" : false
+    },
+    "IdPreaprob" : {
+      "type" : "json",
+      "value" : "{\n    \"consumo\":\"\",\n    \"cupoRotativo\":\"\",\n    \"tarjetaCredito\":\"\"\n}",
+      "exposed" : false
+    },
+    "esDocumentos" : {
+      "type" : "expression",
+      "value" : "return $data.formInput.radicacion.productoPrincipal.idCircuito === 6 &&\n$data.formInput.radicacion.fuerzaVenta.id === 1;",
+      "exposed" : false
+    },
+    "listaDestinoLibranza" : {
+      "type" : "url",
+      "value" : "{{parametroBD.value}}/merData/destinoLibranzas?p=0&c=100&f=SEG={{formInput.radicacion.segmentoPrincipal.id}}&f=CON={{formInput.radicacion.convenioPrincipal.id}}",
+      "exposed" : false
+    },
+    "esDesarrollo" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{rootCase.processDefinitionId}}&resource=esDesarrollo",
+      "exposed" : false
+    },
+    "parametroBDM" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{idActividad}}&resource=dbaccessBDM",
+      "exposed" : false
+    },
+    "rootCase" : {
+      "type" : "url",
+      "value" : "../API/bpm/case/{{infoAct.rootCaseId}}",
+      "exposed" : false
+    },
+    "variable" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    },
+    "parametro" : {
+      "type" : "url",
+      "value" : "../API/extension/getProcessData?type=processParam&id={{variable}}&resource=documentParameter",
+      "exposed" : false
+    },
+    "validadorAdjunto" : {
+      "type" : "expression",
+      "value" : "var lista = [];\n\ntry{\n    if ($data.archivos[0] === null || $data.archivos[0].toString()===\"\"){\n        lista.push('El primer campo de adjuntos es obligatorio');\n    }\n}catch(Err){}\n\nreturn lista[0];",
+      "exposed" : false
+    },
+    "filtroArchivos" : {
+      "type" : "expression",
+      "value" : "var rtn = [];\r\n\r\nfor(var i = 0 ; i < $data.archivos.length ; i++){\r\n\r\n  if($data.archivos[i]!== null)\r\n   {    if(($data.archivos[i].toString()).length > 1)\r\n       rtn.push($data.archivos[i][0]);\r\n   }\r\n}\r\nreturn rtn;",
+      "exposed" : false
+    },
+    "filtroValidador" : {
+      "type" : "expression",
+      "value" : "var rtn  = false; \r\n \r\nif($data.validadorPrimerFormulario){\r\n\tif($data.validadorPrimerFormulario.length > 0){\r\n\t\trtn = true ;\r\n\t}\r\n}\r\n\r\nif($data.validadorSegundoFormulario){\r\n\tif($data.validadorSegundoFormulario.length > 0){\r\n\t\trtn = true ;\r\n\t}\r\n}\r\n\r\nif($data.validadorTercerFormulario){\r\n\tif($data.validadorTercerFormulario.length > 0){\r\n\t\trtn = true ;\r\n\t}\r\n}\r\n\r\nif($data.archivos[0] === null || $data.archivos[0].toString()===\"\"){\r\n\trtn = true ;\r\n}\r\n\r\nreturn rtn ;",
+      "exposed" : false
+    },
+    "validadorBtnSiguienteAtras3" : {
+      "type" : "expression",
+      "value" : "// boton siguiente atras 3 \r\nvar rtn  = false; \r\n\r\nif($data.validadorTercerFormulario){\r\n\tif($data.validadorTercerFormulario.length > 0){\r\n\t\trtn = true ;\r\n\t}\r\n}\r\n\r\nreturn rtn ;",
+      "exposed" : false
+    },
+    "caso" : {
+      "type" : "json",
+      "value" : "{}",
+      "exposed" : false
+    },
+    "bdmCaso" : {
+      "type" : "url",
+      "value" : "../API/bdm/businessDataReference/{{caso.caseId}}/dataNoCaso",
+      "exposed" : false
+    },
+    "dataNoCaso" : {
+      "type" : "url",
+      "value" : "../{{bdmCaso.link}}",
+      "exposed" : false
+    },
+    "esPreaprobadoTarjeta" : {
+      "type" : "expression",
+      "value" : "var tarjeta = 0;\r\n\r\ntry{\r\n    if($data.esProductoAdicional){\r\n        $data.formInput.radicacion.otrosProductos.forEach(function(element, index, array){\r\n        if(element.producto.id === 38 || element.producto.id === 39){\r\n             tarjeta = 1;\r\n            }\r\n            return tarjeta;\r\n        } );\r\n    }\r\n}catch(Err){}\r\n\r\n\r\nreturn ($data.formInput.radicacion.productoPrincipal.id === 38 || $data.formInput.radicacion.productoPrincipal.id === 39) && \r\n        (($data.formInput.radicacion.productoAdicional === undefined || $data.formInput.radicacion.productoAdicional.id === 3) ||\r\n        (($data.formInput.radicacion.productoAdicional.id === 1 || $data.formInput.radicacion.productoAdicional.id === 3) && tarjeta === 1));",
+      "exposed" : false
+    },
+    "version" : {
+      "type" : "urlparameter",
+      "value" : "id",
+      "exposed" : false
+    }
+  },
+  "uuid" : "df458b9f-dcc3-4282-b17a-1a9c0b462671",
+  "type" : "form"
+}
